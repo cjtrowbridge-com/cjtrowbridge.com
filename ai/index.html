@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <script data-ad-client="ca-pub-2644113125663800" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-49854332-1"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-49854332-1');
+    </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The world is very complicated and broken. Let's try to understand together.">
+    <meta name="author" content="CJ Trowbridge">
+    <title>CJ's AI Toolbox</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+
+    <link href="/assets/css/global.css">
+
+    <meta name="description" content="All the tools and skills you need for your AI Toolbox.">
+    <meta property="og:title" content="CJ's AI Toolbox">
+    <meta property="og:description" content="All the tools and skills you need for your AI Toolbox.">
+    <meta property="og:image" content="https://cjtrowbridge.com/assets/images/cjs-ai-toolbox.png">
+    <meta property="og:url" content="https://cjtrowbridge.com/ai/">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="cjtrowbridge.com">
+    <meta property="twitter:url" content="https://cjtrowbridge.com/ai/">
+    <meta name="twitter:title" content="CJ's AI Toolbox">
+    <meta name="twitter:description" content="All the tools and skills you need for your AI Toolbox.">
+    <meta name="twitter:image" content="https://cjtrowbridge.com/assets/images/cjs-ai-toolbox.png">
+    <meta name="twitter:image:alt" content="CJ's AI Toolbox">
+    <meta property="og:site_name" content="CJ Trowbridge">
+    <meta name="twitter:creator" content="@CJTrowbridge">
+    <meta name="twitter:site" content="@CJTrowbridge">
+    <meta name="robots" content="index, follow">
+
+    <style>
+      body{
+          font-family: Arial, sans-serif;
+          background-color: #000;
+      }
+      body, h1, h2, h1 a, h1 a:visited{
+        background-color: #000;  
+        color: #fff;
+      }
+      h1, h2, h3{
+        margin-top: 4rem;
+      }
+      img{
+        max-width: 100%; !important
+      }
+      ul.links li{
+          list-style-type: none;
+          padding: 1rem;
+          display: block;
+          border: 1px solid cyan;
+          margin-bottom: .5rem;
+          text-align: left;
+      }
+      ul.links li, ul.links li a, ul.links li a:visited{
+          color: #fff;
+      }
+      li a img{
+          height: 1rem;
+      }
+      .card{
+          background-color: #fff;
+          color: #000;
+      }
+      .header img{
+          border-radius: 10%;
+          width: 200px;
+          height: 200px;
+      }
+      .section{
+          display: none;
+      }
+
+      .socials{
+        margin-top: 1rem;
+      }
+      .btn-youtube {
+          background-color: #FF0000;
+          color: white;
+      }
+      .btn-tiktok {
+          background-color: #000000;
+          color: white;
+          border: #ffffff'
+      }
+      .btn-bluesky {
+          background-color: #1DA1F2;
+          color: white;
+      }
+      .btn-twitch {
+          background-color: #6441A4;
+          color: white;
+      }
+      .btn-gofundme{
+          background-color: #00A9E0;
+          color: white;
+      }
+      .btn-buymeacoffee{
+          background-color: #FFDD00;
+          color: black;
+      }
+      .btn-venmo{
+          background-color: #3D95CE;
+          color: white;
+      }
+      .btn-cashapp{
+          background-color: #00C300;
+          color: white;
+      }
+      .btn-paypal{
+          background-color: #003087;
+          color: white;
+      }
+      .btn-substack{
+          background-color: #FF3E00;
+          color: white;
+      }
+      .btn-crypto{
+          background-color: #3C3C3D;
+          color: green;
+      }
+      
+      .btn{
+        margin-right: 0.5rem;
+        margin-bottom: 0.5rem;
+      }
+
+      .row{
+        clear: both;
+      }
+      ul.link_tree li a {
+        display: block;
+        margin: 0 15px;
+      }
+      ul.link_tree {
+          padding: 0 0 0 1px;
+          margin: 1px 0 0 15px;    
+          list-style-type: none;
+      }
+      ul.link_tree li  {
+          border-left: 1px solid #ffffff;
+          position: relative;
+      }
+      ul.link_tree > li  {
+          padding-bottom: 10px;
+      }
+      ul.link_tree li:before {
+          content: '';
+          width: 14px;
+          position: absolute;
+          border-bottom: 1px solid #ffffff;
+          left: 0px;
+          top: 10px;
+      }
+      ul.link_tree li:last-child {
+        border-left:none;
+      }
+
+      ul.link_tree li:last-child:before {
+        border-left:1px solid #ffffff;
+        height: 10px;
+        margin-top:-10px;
+      }
+      body{
+        background-color: #000;
+      }
+  </style>
+    
+    <!-- Favicons -->
+    <link rel="icon" type="image/jpg" href="/assets/images/cjs-ai-toolbox.200.png">
+    
+  </head>
+  <body>
+
+    <div class="container">
+      
+      <div class="row">
+
+        <div class="col-12">
+          
+        </div>
+        
+        <div class="col-12 mt-4 mb-4 header">
+          <h1><a href="">CJ's AI Toolbox</a></h1>
+          <p>All the tools and skills you need for your AI Toolbox.</p>
+          <div class="socials">
+            <a class="btn btn-youtube" href="https://www.youtube.com/@cjs-ai-toolbox"><i class="fa-brands fa-youtube"></i> YouTube</a> 
+            <a class="btn btn-tiktok" href="https://www.tiktok.com/@cjs.ai.toolbox"><i class="fa-brands fa-tiktok"></i> TikTok</a> 
+            <a class="btn btn-substack" href="https://cjsaitoolbox.substack.com/"><i class="fa-solid fa-envelope"></i> Substack</a> 
+            <a class="btn btn-twitch" href="https://www.twitch.tv/cjtrowbridge"><i class="fa-brands fa-twitch"></i> Twitch</a>
+          </div>
+          <div class="socials">
+            <a class="btn btn-success" href="https://github.com/cjtrowbridge/RPi5-AI/"><i class="fa-solid fa-hammer"></i> Build Your Own AI Toolbox</a> 
+            <a class="btn btn-buymeacoffee" href="https://buymeacoffee.com/cjtrowbridge">Buy Me A Coffee</a>
+          </div>
+        </div>
+
+        <div class="col-12">
+          <h2>Contents:</h2>
+          <ul class="link_tree">
+            <li><a href="#artificial_intelligence">What Does Artificial Intelligence Really Mean?</a></li>
+            <li>
+              <a href="#machine_learning">Machine Learning <br>(A Type of Artificial Intelligence)</a>
+              <ul class="link_tree">
+                <li><a href="#supervised_learning">Supervised Learning</a></li>
+                <li><a href="#Unsupervised_learning">Unsupervised Learning</a></li>
+                <li><a href="#reinforcement_learning">Reinforcement Learning</a></li>
+              </ul>
+            </li>            
+            <li><a href="#ai_ethics">AI Ethics</a></li>
+
+
+        </div>
+
+
+        <div class="col-12" id="artificial_intelligence">
+          <h2>What Does Artificial Intelligence Really Mean?:</h2>
+          <p>Intelligence in humans is not a real thing that boils down so any single measurable dimension. In practice, measures of intelligence or aptitude in a person merely test for proximity to privilege and alignment with the goals of those in power. In humans, a lack of "intelligence" is either pathologized or criminalized. A person who lacks privilege and/or alignment with the goals of those in power is considered deviant. Being classified as useless to those in power is typically done by labeling a person with either a crime or a sickness.</p>
+          <p>It's exactly the same with artificial intelligence. The "intelligence" of artificial intelligence is the ability of software to take actions that are in alignment with the goals of those in power. <a href="https://www.theverge.com/2024/12/26/24329618/openai-microsoft-and-the-100-billion-agi-question">Sam Altman defines AGI as AI that can return $100b in profits.</a>.</p>
+          <p>Terms like Artificial General Intelligence (AGI) are therefore essentially meaningless. The question of machine intelligence is merely the question of whether the machine can make decisions that align with the goals of those in power over it.</p>
+          <p>By the way, this was the otpic of my graduate thesis if you want to read more: <a href="https://cjtrowbridge.com/The_Illusion_of_Understanding_-_Deconstructing_AI_Metaphors.pdf">my graduate thesis on this topic</a>.</p>
+          <p>When we talk about intelligent machines, we're talking about the ability of machines to make the correct decisions, as defined by those in power.</p>
+          <p>Yes this counts;
+<pre>if(){
+  if(){
+    if(){
+
+    }
+  }
+}
+</pre>
+          </p>
+          
+          <div style="clear: both;" id="machine_learning"></div>
+
+          <h2>Machine Learning (A Type of Artificial Intelligence):</h2>
+          <p>Software that can learn how to make decisions.</p>
+          <p><a href="https://developer.nvidia.com/blog/deep-learning-nutshell-history-training/">Soviet cyberneticists changed the world</a> when they invented the first ever software that could learn. The path from there to here is long with many forks and twists. Let's take a look at the major categories of modern artificial intelligence algorithms and examples of how each can become a tool in your toolbox.</p>
+          <ul>
+            <li><b>Supervised Learning:</b> Tools that learn based on being told what to learn.</li>
+            <li><b>Unsupervised Learning:</b> Tools that learn without being told what to learn.</li>
+            <li><b>Reinforcement Learning:</b> Tools that learn based on rewards and punishments over time.</li>
+          </ul>
+          
+        </div>
+      </div><!--/row-->
+        
+      
+      <div style="clear: both;" id="supervised_learning"></div>
+
+      
+      <div class="row">
+        <div class="col-12">
+
+          <h3><a href="https://en.wikipedia.org/wiki/Supervised_learning">Supervised Learning</a>:</h3>
+          <p>Remember; supervised learning means tools that learn based on being told what to learn.</p>
+          <p>If you have separate examples of what you want the AI to learn how to do and what you want it to learn not to do, then supervised learning is probably the umbrella of techniques you're looking for.</p>
+        </div><!--/col-12-->
+      </div><!--/row-->
+
+      
+      <div style="clear: both;"></div>
+      
+      
+      <div class="row" data-masonry='{"percentPosition": true }'>
+        
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <div class="card my-4">
+            <img src="https://cjtrowbridge.com/assets/images/linear-regression.png" class="card-img-top" alt="Linear Regression" width="413" height="273">
+            <div class="card-body">
+              <div class="card-text">
+                <h4>For Simple Linear Relationships:</h4>
+                <b><a href="https://en.wikipedia.org/wiki/Linear_regression">Linear Regression</a>:</b> This technique looks for a corelation and uses it to predict future data.
+  
+              </div><!--/card-text-->
+            </div><!--/card-body-->
+          </div><!--/card-->
+        </div>
+        
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <div class="card my-4">
+            <img src="https://cjtrowbridge.com/assets/images/multivariate-regression.png" class="card-img-top" alt="Multivariate Regression" width="414" height="425">
+            <div class="card-body">
+              <div class="card-text">
+                <h4>For Complex Linear Relationships</h4>
+                
+                <p>If you think you have most of the relevant data to be able to connect cause and effect, and there probably aren't a lot of significant unknowns:</p>
+                
+                <p><b><a href="https://en.wikipedia.org/wiki/Analysis_of_variance">ANOVA</a>:</b> this technique identifies the relationships between a lot of variables to find how they influence a single dependent variable.</p>
+                <p><b>Example:</b> learn to predict covid mortality rate by state based on average wealth and voting trends.</p>
+                
+                <p><b><a href="https://en.wikipedia.org/wiki/Multivariate_analysis_of_variance">MANOVA</a>:</b> this technique identifies the relationships between a lot of variables to find how they influence a group of dependent variables.</p>
+                <p><b>Example: </b> You're buying ads on Google, TikTok, and Facebook. You want to find out how much of the actual sales are coming from the money you're spending on each ad network.</p>
+
+                <p><b><a href="https://en.wikipedia.org/wiki/Multivariate_analysis_of_covariance">MANCOVA</a>:</b> this technique identifies the relationships between a lot of variables to find how they influence a group of dependent variables, while controlling for the influence of other variables.</p>
+                <p><b>Example: </b> For each state, look at the degree of racial segregation between the major racial groups plus the average amount of money someone makes, plus the rate of excess deaths, and learn to predict the amount of economic growth and the percent of people who make a living wage. Use average education level to isolate social determinants and control for education.</p>
+                
+
+                <h5>If you know there are many complex unknown factors and you want to predict a single value:</h5>
+                <p><b>Example:</b> If you want to predict changes in egg prices based on inflation, feed costs, cull rates, etc.</p>
+                <p><b><a href="https://en.wikipedia.org/wiki/Random_forest">Random Forest Regression</a>:</b> Creates many small models of relationships in the input data. These models work together to predict future results.</p>
+                
+              </div><!--/card-text-->
+            </div><!--/card-body-->
+          </div><!--/card-->
+        </div>
+
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <div class="card my-4">
+            <img src="https://cjtrowbridge.com/assets/images/random-forest.png" class="card-img-top" alt="Random Forest" width="414" height="234">
+            <div class="card-body">
+              <div class="card-text">
+                <h4>For Tabular data with labels</h4>
+                <b><a href="https://en.wikipedia.org/wiki/Random_forest">Random Forest Decision Trees</a>:</b> If your problem can be put into a spreadsheet of examples where you want to predict a missing column in a new row, based on the relationships between the same columns in past data, this is the tool for you.
+
+              </div><!--/card-text-->
+            </div><!--/card-body-->
+          </div><!--/card-->
+        </div>
+
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <div class="card my-4">
+            <img src="https://cjtrowbridge.com/assets/images/lstm.png" class="card-img-top" alt="Long Short-Term Memory" width="414" height="245">
+            <div class="card-body">
+              <div class="card-text">
+                <h4>Predict Changes Over Time</h4>
+                <p><b>Example:</b> If you want to predict end of month change in retail egg prices based on daily changes in feed costs, inflation, wholesale egg prices, cull rates, etc.</p>
+                <p><b><a href="https://en.wikipedia.org/wiki/Autoregressive_integrated_moving_average">ARIMA</a>:</b> This simple approach looks for patterns in the data related to change over time. It can be used to predict future data based on historical data.</p>
+                <p><b><a href="https://en.wikipedia.org/wiki/Long_short-term_memory">LSTM</a>:</b> This more complex approach looks for patterns in the data related to change over time. It can be used to predict future data based on historical data. This approach is more challenging, but somtimes it can give better results than ARIMA when there are many complex unknowns.</p>
+                
+
+              </div><!--/card-text-->
+            </div><!--/card-body-->
+          </div><!--/card-->
+        </div>
+
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <div class="card my-4">
+            <img src="https://cjtrowbridge.com/assets/images/cnn.png" class="card-img-top" alt="Convolutional Neural Nets" width="414" height="128">
+            <div class="card-body">
+              <div class="card-text">
+                <h4>Identify Objects In Images/Videos</h4>
+                <p><b><a href="https://en.wikipedia.org/wiki/Convolutional_neural_network">Convolutional Neural Nets (CNNs):</a></b> Convolutional Neural Nets are the only approach to machine vision.</p>
+                <p>Check out this hilarious exchange between a child on twitter and one of the world's foremost experts on artificial intelligence, Yann Lecun:</p>
+                <a href="/img/yann_cnn.png"><img src="/img/yann_cnn.png" alt="Convolutional Neural Nets" width="384"></a>
+                
+
+              </div><!--/card-text-->
+            </div><!--/card-body-->
+          </div><!--/card-->
+        </div>
+
+      </div><!--/row masonry-->
+
+
+
+      <div style="clear: both;" id="Unsupervised_learning"></div>
+
+      <div class="row">
+        <div class="col-12">
+          <h3><a href="https://en.wikipedia.org/wiki/Unsupervised_learning">Unsupervised Learning</a>:</h3>
+          <p>Remember unsupervised learning means software that learns without being told what to learn.</p>
+          <p>If you have examples that you want the AI to understand in order to make more general predictions without specific kinds of answers being right or wrong, this is what you're looking for.</p>
+        </div>
+      </div>
+
+      <div style="clear: both;"></div>
+
+
+      <div class="row" data-masonry='{"percentPosition": true }'>
+        
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <div class="card my-4">
+            <img src="https://cjtrowbridge.com/assets/images/transformers.png" class="card-img-top" alt="Transformers" width="414" height="414">
+            <div class="card-body">
+              <div class="card-text">
+                <h4>Generative: Create New Things By Understanding Examples</h4>
+                <p><b>Example:</b> You want to download the entire internet and use it to build a model that can generate art or act as a chatbot you can rent out to the world until someone makes a free alternative that works better.</p>
+                
+                <p><b><a href="https://en.wikipedia.org/wiki/Large_language_model">Large Language Models (LLMs)</a>:</b> Large language models learn from large amounts of text how to predict what word should come next. They also have some limited ability to internally represent complex ideas in order to do next-word prediction.</p>
+                <p>This is very helpful for doing your homework or tutoring people on a complex topic, but no one has yet found a way to make money with transformer models. There are some theories about how tools built on top of LLMs such as agentic systems could potentially lead to eventual profitability.</p>
+                <p>Since my days as a product tester working on ChatGPT before it was publicly available, I have felt LLMs are more likely to simply become a generic open-source tool which improves impact for people who understand how to use them, but tht they will not constitute a profitable business unto themselves.</p>
+                <p><b><a href="https://en.wikipedia.org/wiki/Diffusion_model">Diffusion Models</a>:</b> Diffusors create images and video from a prompt based on looking at many examples and their text descriptions. They can also modify or edit existing photos and videos.</p>
+              </div><!--/card-text-->
+            </div><!--/card-body-->
+          </div><!--/card-->
+        </div>
+
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <div class="card my-4">
+            <img src="https://cjtrowbridge.com/assets/images/params_vs_mmlu.png" class="card-img-top" alt="A chart showing the relationship between MMLU and Parameter county for many leading large langauge models." width="414" height="414">
+            <div class="card-body">
+              <div class="card-text">
+                <h4>Descriminative: Separating Datasets Into Clusters Or Groups Of Similar Data</h4>
+
+                <h5>Understanding Clusters</h5>
+                <p><b>Example:</b> There are a lot of large language models of radically different size and capabilities. How are they diverging into types and converging towards specific use cases?</p>
+                <p><b><a href="https://en.wikipedia.org/wiki/K-means_clustering">K-Means Clustering</a>:</b> This technique learns how to identify boundaries between groups in a dataset and separate the data into groups of related items based on distance from center points.</p>
+                <img src="https://cjtrowbridge.com/assets/images/dbscan.png" alt="Graph comparing K-Means clustering to DBSCAN" width="414" height="">
+                <p><b><a href="https://en.wikipedia.org/wiki/DBSCAN">DBSCAN</a></b>: is similar to K-Means clustering except instead of looking at the distance from a central point, it looks at the density as it spreads out, so it identifies irregular shapes better than K-Means Clustering which looks for circular shapes.</p>
+                <p>Neither approach is better or worse. Each is better in different kinds of situations.</p>
+
+              </div><!--/card-text-->
+            </div><!--/card-body-->
+          </div><!--/card-->
+        </div>
+
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <div class="card my-4">
+            <img src="https://cjtrowbridge.com/assets/images/gan.png" class="card-img-top" alt="A diagram of a generative adversarial network." width="414" height="414">
+            <div class="card-body">
+              <div class="card-text">
+                <p><b><a href="https://en.wikipedia.org/wiki/Generative_adversarial_network">Generative Adversarial Networks (GANs)</a></b></p>
+                <p>A single AI with both a generative and a descriminative side, where two internal models are forced to compete for rewards. This is an extremely effective strategy for solving problems that require devloping strategies.</p>
+                <p><b>Example:</b> GANs are extremely effective at learning how to play games. They often invent new strategies no one has ever seen.</p>
+                <p><b>Example:</b> GANs are also good at learning how to control robots and react to the environment around them.</p>
+                
+              </div><!--/card-text-->
+            </div><!--/card-body-->
+          </div><!--/card-->
+        </div>
+
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <div class="card my-4">
+            <img src="https://cjtrowbridge.com/assets/images/isolation_forest.png" class="card-img-top" alt="A diagram of a generative adversarial network." width="414" height="275">
+            <div class="card-body">
+              <div class="card-text">
+                <p><b><a href="https://en.wikipedia.org/wiki/Isolation_forest">Isolation Forest</a></b>: finds outliers in complex data. This is enormously valuable for anomaly detection, for example in order to identify credit card fraud. Isolation Forests have applications in essentially every field and business.</p>
+                
+              </div><!--/card-text-->
+            </div><!--/card-body-->
+          </div><!--/card-->
+        </div>
+
+
+        
+          
+          
+
+
+      </div><!--/row masonry-->
+
+      <div style="clear: both;" id="reinforcement_learning"></div>
+
+      <div class="row">
+        <div class="col-12">
+          <h3><a href="https://en.wikipedia.org/wiki/Reinforcement_learning">Reinforcement Learning</a>:</h3>
+          <p>Software that <b>continuously</b> learns based on rewards and punishments over time.</p>
+          <p>All the models up to this point in the list are trained and then set in stone as it were. They do not continue to learn once training is over except by repeating the training process to create a new version of the model. Reinforcement learning is an approach where the algorithm can continuously learn as it goes along and update its model in real time.</p>
+        </div>
+      </div>
+
+      <div style="clear: both;"></div>
+
+      <div class="row" data-masonry='{"percentPosition": true }'>
+        
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <div class="card my-4">
+            <img src="https://cjtrowbridge.com/assets/images/monte_carlo.png" class="card-img-top" alt="Monte Carlo" width="414" height="">
+            <div class="card-body">
+              <div class="card-text">
+                <h4>Playing The Odds</h4>
+                <p>When you know the odds of many things that are related to some set of outcomes, and you want to find the odds of one specific combination of outcomes.</p>
+                
+                <p><b><a href="https://en.wikipedia.org/wiki/Monte_Carlo_method">Monte Carlo</a></b></p>
+                <p>Think of Monte Carlo as brute forcing the combinations between sets of statistics to find some large number of possible outcomes and then judge which one is the most likely.</p>
+                <p>Nate Silver's 538 is probably the most famous example of a Monte Carlo model.</p>
+                <p>538 combines the results of many election polls, plus their sampling confidence data, plus 538's opinion about the reputation of the pollster to produce the dataset.</p>
+                <p>This dataset is put through a Monte Carlo in order to predict the outcomes of elections.</p>
+                <p>Monte Carlo, like all statistical models, is a model of the data, not a model of the world. Like with all models, the accuracy of the predictions it makes depends on the accuracy of the sample data being fed into the model.</p>
+
+                
+                
+              </div><!--/card-text-->
+            </div><!--/card-body-->
+          </div><!--/card-->
+        </div>
+
+
+
+      </div><!--/row masonry-->
+
+
+      <div style="clear: both;"></div>
+    </div><!--/container-->  
+  </body>
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+  
+  <script src="/js/global.js"></script>
+  
+  <script>
+    $(document).ready(function(){
+      $("#supervisedButton").click(function(){
+        $("#supervised").toggle();
+      });
+      $("#unsupervisedButton").click(function(){
+        $("#unsupervised").toggle();
+      });
+      $("#reinforcementButton").click(function(){
+        $("#reinforcement").toggle();
+      });
+    });
+  </script>
+  
+ 
+</html>

@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="CJ Trowbridge">
+    <meta name="author" content="CJ Trowbridge">
+
+    <title>CJ Trowbridge</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Include JQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    
+    <!-- Include Popper.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.8/umd/popper.min.js" integrity="sha512-TPh2Oxlg1zp+kz3nFA0C5vVC6leG/6mm1z9+mA81MI5eaUVqasPLO8Cuk4gMF4gUfP5etR73rgU/8PNMsSesoQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <!-- Include Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        
+    <!-- Include DataTables -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.32.0/js/jquery.tablesorter.min.js" integrity="sha512-O/JP2r8BG27p5NOtVhwqsSokAwEP5RwYgvEzU9G6AfNjLYqyt2QT8jqU1XrXCiezS50Qp1i3ZtCQWkHZIRulGA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.32.0/css/theme.ice.min.css" integrity="sha512-KNtKlElwWdbTLSi3E9U95sSnTqhnt12n7lEn1ap3sPB9oiFcIrKTUprR5E9KU2BjmqsRQWcEG5lRHWfvUIlHHA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Include Chart.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.min.js" integrity="sha512-L0Shl7nXXzIlBSUUPpxrokqq4ojqgZFQczTYlGjzONGTDAcLremjwaWv5A+EDLnxhQzY5xUZPWLOLqYRkY0Cbw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+
+    <style>
+        h1, h2, h3{
+            margin-top: 2em;
+            margin-bottom: 1em;
+        }
+        h4{
+            margin-top: 1em;
+            margin-bottom: 0.5em;
+            color: #c6c6c6;
+        }
+        .btn-youtube {
+            background-color: #FF0000;
+            color: white;
+        }
+        .btn-tiktok {
+            background-color: #000000;
+            color: white;
+        }
+        .btn-bluesky {
+            background-color: #1DA1F2;
+            color: white;
+        }
+        .btn-twitch {
+            background-color: #6441A4;
+            color: white;
+        }
+        .btn-gofundme{
+            background-color: #00A9E0;
+            color: white;
+        }
+        .btn-buymeacoffee{
+            background-color: #FFDD00;
+            color: black;
+        }
+        .btn-venmo{
+            background-color: #3D95CE;
+            color: white;
+        }
+        .btn-cashapp{
+            background-color: #00C300;
+            color: white;
+        }
+        .btn-paypal{
+            background-color: #003087;
+            color: white;
+        }
+        .btn-substack{
+            background-color: #FF3E00;
+            color: white;
+        }
+        .btn-crypto{
+            background-color: #3C3C3D;
+            color: green;
+        }
+        .card{
+            margin-bottom: 1rem;
+        }
+        .card img{
+            height: 200px;
+            object-fit: cover;
+        }
+        .socials, .callToAction{
+            margin-top: 1rem;
+        }
+        .btn{
+            margin-right: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .photo{
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            max-width: 400px;
+        }
+    </style>
+
+    
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+
+            <div class="col-12">
+                <p><a href="https://www.gofundme.com/f/cyberpony-express-free-and-offgrid-communications" class="btn btn-gofundme"><i class="fa-solid fa-hand-holding-dollar"></i> GoFundMe: Help Us Build the Cyberpony Express</a></p>
+                <p><a href="https://forms.gle/UZgQiUNzm8q1dmNfA" class="btn btn-success">✨ Apply To Receive A Free Cyberpony Express Node ✨</a></p>
+            </div>
+
+            <div class="col-12">
+                <img src="/cj.jpg" class="photo img-fluid float-lg-end w-100 w-lg-auto" alt="CJ Trowbridge">
+
+                <h1>CJ Trowbridge</h1>
+                <p>AI, Sustainability, and Resiliency; in the forest, in the desert, and on TV.</p>
+                <div class="callToAction">
+                    <h4>Support:</h4> 
+                    <a class="btn btn-buymeacoffee" href="https://buymeacoffee.com/cjtrowbridge">☕ Buy me a coffee</a>
+                    <a class="btn btn-venmo" href="https://venmo.com/u/cjtrowbridge"><i class="fa-brands fa-venmo"></i> Venmo</a>
+                    <a class="btn btn-cashapp" href="https://cash.app/$cjtrowbridge"><i class="fa-brands fa-cashapp"></i> CashApp</a>
+                    <a class="btn btn-paypal" href="https://www.paypal.com/paypalme/cjtrowbridge"><i class="fa-brands fa-paypal"></i> PayPal</a>
+                    <a class="btn btn-crypto" href="https://etherscan.io/address/0xf9988ed19214b0fff5ae539c080e83e3f3846dca">Eth Wallet</a>
+                </div>
+                <div class="socials">
+                    <h4>Connect:</h4>
+                    <a class="btn btn-tiktok" href="https://www.tiktok.com/@cjtrowbridge"><i class="fa-brands fa-tiktok"></i> TikTok</a>
+                    <a class="btn btn-bluesky" href="https://bsky.app/profile/cjtrowbridge.com"><i class="fa-brands fa-bluesky"></i> Bluesky</a>
+                    <a class="btn btn-mastodon" href="https://mastodon.social/@cjtrowbridge"><i class="fa-brands fa-mastodon"></i> Mastodon</a>
+                    <a class="btn btn-youtube" href="https://www.youtube.com/@CJTrowbridge"><i class="fa-brands fa-youtube"></i> YouTube</a>
+                    <a class="btn btn-twitch" href="https://www.twitch.tv/cjtrowbridge"><i class="fa-brands fa-twitch"></i> Twitch</a>
+                    <a class="btn btn-substack" href="https://cjtrowbridge.substack.com/"><i class="fa-brands fa-substack"></i> Substack</a>
+                    <a href="https://blog.cjtrowbridge.com" class="btn btn-primary">Blog</a>
+                </div><!--/socials-->
+                <div class="other">
+                    <ul>
+                        <li><a href="https://cjtrowbridge.com/2024-05-17_-_The_Illusion_of_Understanding_-_Deconstructing_AI_Metaphors.pdf">My graduate thesis in ethical artificial intelligence.</a></li>
+                        <li><a href="https://cjtrowbridge.com/2024-03-16_-_NVIDIA_Comprehensive_Analysis_And_Strategic_Recommendations.pdf">MBA thesis on the future of datacenter strategy around artificial intelligence.</a></li>
+                        <li><a href="https://github.com/cjtrowbridge/tiktok-backup/">Backup your favorite tiktok accounts.</a></li>
+                        <li>
+                            My Spotify Wrapped Playlists:
+                            <ul>
+                                <li><a href="https://open.spotify.com/playlist/37i9dQZF1FoC8yzta57ODa?si=a40f9062a6164353">2024</a></li>
+                                <li><a href="https://open.spotify.com/playlist/37i9dQZF1Fa4gmZHP5ndnU?si=614199c294a14536">2023</a></li>
+                                <li><a href="https://open.spotify.com/playlist/37i9dQZF1F0sijgNaJdgit?si=azUYm-ktR8-449aC4OPJvA">2022</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            Recent Longform Interviews:
+                            <ul>
+                                <li><a href="https://www.youtube.com/watch?v=S5tMgXwA6uk">Tree Interviews The High Desert Institute Team</a></li>
+                                <li><a href="https://www.youtube.com/watch?v=wquTY4jIz20">"The Morning After The Revolution," My recent interview with Tree and Julia</a></li>
+                            </ul>
+                        </li>
+                        <li>Academic Achievements:
+                            <ul>
+                                <li>Graduate Studies @ SFSU:
+                                    <ul>
+                                        <li>✔ <a href="https://cob.sfsu.edu/graduate-programs/mba">Masters in Business Administration (MBA)</a></li>
+                                        <li>✔ <a href="https://cob.sfsu.edu/management/certificate/ai-ethics">Ethical Artificial Intelligence</a></li>
+                                    </ul>
+                                </li>
+                                <li>Undergraduate Studies @ SFSU:
+                                    <ul>
+                                        <li>✔ <a href="http://bulletin.sfsu.edu/colleges/health-social-sciences/urban-studies-planning/">BA in Urban Studies and Planning</a></li>
+                                        <li>✔ <a href="http://bulletin.sfsu.edu/colleges/ethnic-studies/race-resistance-studies/minor-queer-ethnic-studies/">Minor in Queer Ethnic Studies</a></li>
+                                    </ul>
+                                </li>
+                                <li>Undergraduate Studies @ Sierra College:
+                                    <ul>
+                                        <li>✔ Computer Science</li>
+                                        <li>✔ Sociology</li>
+                                        <li>✔ Social Justice Studies</li>
+                                        <li>✔ Women's Studies</li>
+                                        <li>✔ Behavioral Science</li>
+                                        <li>✔ Natural Science (Astronomy + Physics + Chemistry)</li>
+                                        <li>✔ LGBT Studies and Queer Studies</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            See Also:
+                            <ul>
+                                <li><a href="https://cjtrowbridge.com/resume">My resume</a></li>
+                                <li><a href="https://memes.cjtrowbridge.com/">My meme library</a></li>
+                                <li><a href="https://cjtrowbridge.com/past">Other past projects</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div><!--/other-->
+
+                <h2>Current Projects</h2>
+            </div>
+        </div><!--/row-->
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+                
+            <div class="col">
+                <div class="card" id="ai">
+                    <img src="/img/cjs-ai-toolbox.png" class="card-img-top" alt="An abstract illustraion of AI tools in a toolbox, representing the things you will learn how to do from this project.">
+                    <div class="card-body">
+                        <h5 class="card-title">CJ's AI Toolbox</h5>
+                        <p class="card-text">All the tools and skills you need for your AI toolbox.</p>
+                        <div class="callToAction">
+                            <h4>Get Involved:</h4>
+                            <a class="btn btn-success" href="https://github.com/cjtrowbridge/RPi5-AI/">Build Your Own AI Toolbox!</a>
+                            <a class="btn btn-substack" href="https://cjsaitoolbox.substack.com/">Always-free Substack</a>
+                        </div><!--callToAction-->
+                        <div class="socials">
+                            <h4>Follow along:</h4>
+                            <a class="btn btn-bluesky" href="https://bsky.app/profile/cjs-ai-toolbox.bsky.social">Bluesky</a>
+                            <a class="btn btn-youtube" href="https://www.youtube.com/@cjs-ai-toolbox">Youtube</a>
+                            <a class="btn btn-tiktok" href="https://www.tiktok.com/@cjs.ai.toolbox">TikTok</a>
+                        </div><!--/socials-->
+                    </div><!--/card-body-->
+                </div><!--/card-->
+            </div><!--/col-->
+            
+            <div class="col">
+                <div class="card">
+                    <img src="/img/castro.media.jpg" class="card-img-top" alt="An illustraion of a progress pride flag emanating from a megaphone.">
+                    <div class="card-body">
+                        <h5 class="card-title">Castro Media</h5>
+                        <p class="card-text">Independent, flat media nonprofit featuring progressive, intersectional perspectives on current events.</p>
+                        <div class="">
+                            <h4>Coming Soon:</h4>
+                            <ul>
+                                <li>Weekly round table live streams about current events.</li>
+                                <li>Regular updates from a diverse set of contributors, in the same vein as Novara Media from the UK.</li>
+                                <li>A merchandise shop where 100% of proceeds go to specific charities. Submit designs, sponsor causes, drive support.</li>
+                            </ul>
+                            <a class="btn btn-substack" href="https://castromedia.substack.com/">Always-free Substack</a>
+                        </div>
+                        <div class="socials">
+                            <h4>Follow along:</h4>
+                            <a class="btn btn-bluesky" href="https://bsky.app/profile/castro.media">Bluesky</a>
+                            <a class="btn btn-youtube" href="https://www.youtube.com/@Castro-Media">Youtube</a>
+                            <a class="btn btn-tiktok" href="https://www.tiktok.com/@castromedia.org">TikTok</a>
+                        </div><!--/socials-->
+                    </div><!--/card-body-->
+                </div><!--/card-->
+            </div><!--/col-->
+            
+            <div class="col">
+                <div class="card">
+                    <img src="/img/hdi.jpg" class="card-img-top" alt="An illustraion of vast high-desert wilderness stretching to snowcapped mountains.">
+                    <div class="card-body">
+                        <h5 class="card-title">The High Desert Institute</h5>
+                        <p class="card-text">Building a foundation for the survival of humanity.</p>
+                        <div class="callToAction">
+                            <h4>Watch The Last Workshop:</h4>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/1Sw1WCDngTA?si=TFE6oZn_BeBMvQ1Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width: 100%"></iframe>
+
+                            <h4>Get Involved:</h4>
+                            <a href="https://www.gofundme.com/f/cyberpony-express-free-and-offgrid-communications" class="btn btn-gofundme"><i class="fa-solid fa-hand-holding-dollar"></i> GoFundMe: Help Us Build the Cyberpony Express</a>
+                            <a href="https://www.gofundme.com/f/build-a-foundation-for-the-survival-of-humanity" class="btn btn-gofundme"><i class="fa-solid fa-hand-holding-dollar"></i> GoFundMe: Help Us Buy Land</a>
+                            <a class="btn btn-success" href="https://discord.gg/AB3ERaaA4c"><i class="fa-brands fa-discord"></i> Join the Discord</a>
+                            <a class="btn btn-substack" href="https://highdesertinstitute.substack.com/">Always-free Substack</a>
+                        </div>
+                        <div class="socials">
+                            <h4>Follow along:</h4>
+                            <a class="btn btn-bluesky" href="https://bsky.app/profile/highdesertinstitute.org">Bluesky</a>
+                            <a class="btn btn-youtube" href=" https://www.youtube.com/@HighDesertInstitute ">Youtube</a>
+                            <a class="btn btn-tiktok" href="https://www.tiktok.com/@hdi.ngo">TikTok</a>
+                        </div><!--/socials-->
+                        <div class="other">
+                            <a href="https://highdesertinstitute.org" class="btn btn-primary">Learn more at the website</a>
+                            <p>Upcoming Workshops:</p>
+                            <a href="/img/flyer2.jpg"><img src="/img/flyer2.jpg" alt="Flyer of upcoming workshops" style="max-width: 100%; width: 100%;"></a>
+                        </div><!--/other-->
+                    </div><!--/card-body-->
+                </div><!--/card-->
+            </div><!--/col-->
+
+        
+
+            
+            <div class="col">
+                <div class="card">
+                    <img src="/img/bwbsf.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">BWB/SF</h5>
+                        <p class="card-text">Burners Without Borders in the SF Bay Area is working on disaster preparedness and response.</p>
+                        <div class="callToAction">
+                            <h4>Get Involved:</h4>
+                            <p>Several new projects being announced soon!</p>
+                        </div><!--callToAction-->
+                        <div class="socials">
+                            <h4>Follow along:</h4>
+                            <a class="btn btn-bluesky" href="https://bsky.app/profile/bwbsf.org">Bluesky</a>
+                        </div><!--/socials-->
+                    </div><!--/card-body-->
+                </div><!--/card-->
+            </div><!--/col-->
+
+        </div><!--/row-->
+    </div><!--/container-->
+
+
+
+
+</body>
+</html>
+
