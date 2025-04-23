@@ -1,4 +1,5 @@
-<!-- _includes/cj.html -->
+---
+---
 
 # CJ Trowbridge
 

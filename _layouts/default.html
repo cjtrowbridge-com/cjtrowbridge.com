@@ -45,7 +45,10 @@
             <div class="col-md-4">
                 <img src="/cj.jpg" class="photo" alt="CJ Trowbridge">
 
+                {% capture cj_content %}
                 {% include cj.html %}
+                {% endcapture %}
+                {{ cj_content | markdownify }}
 
             </div>
 
