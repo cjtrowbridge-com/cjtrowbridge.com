@@ -23,22 +23,22 @@ AI, Sustainability, and Resiliency; in the forest, in the desert, and on TV.
 
 ---
 
-## Other Links
+### Read My Theses:
 
 - [My graduate thesis in ethical artificial intelligence.](https://cjtrowbridge.com/2024-05-17_-_The_Illusion_of_Understanding_-_Deconstructing_AI_Metaphors.pdf)
 - [MBA thesis on the future of datacenter strategy around artificial intelligence.](https://cjtrowbridge.com/2024-03-16_-_NVIDIA_Comprehensive_Analysis_And_Strategic_Recommendations.pdf)
-- [Backup your favorite TikTok accounts.](https://github.com/cjtrowbridge/tiktok-backup/)
 
-- **My Spotify Wrapped Playlists:**  
+
+### My Spotify Wrapped Playlists:
   - [2024](https://open.spotify.com/playlist/37i9dQZF1FoC8yzta57ODa?si=a40f9062a6164353)  
   - [2023](https://open.spotify.com/playlist/37i9dQZF1Fa4gmZHP5ndnU?si=614199c294a14536)  
   - [2022](https://open.spotify.com/playlist/37i9dQZF1F0sijgNaJdgit?si=azUYm-ktR8-449aC4OPJvA)
 
-- **Recent Longform Interviews:**  
+### Recent Longform Interviews:
   - [Tree Interviews The High Desert Institute Team](https://www.youtube.com/watch?v=S5tMgXwA6uk)  
   - ["The Morning After The Revolution," Interview with Tree and Julia](https://www.youtube.com/watch?v=wquTY4jIz20)
 
-- **Academic Achievements:**
+### Academic Achievements:
   - **Graduate Studies @ SFSU:**  
     - ✔ [Masters in Business Administration (MBA)](https://cob.sfsu.edu/graduate-programs/mba)  
     - ✔ [Ethical Artificial Intelligence](https://cob.sfsu.edu/management/certificate/ai-ethics)
@@ -54,7 +54,9 @@ AI, Sustainability, and Resiliency; in the forest, in the desert, and on TV.
     - ✔ Natural Science (Astronomy & Physics & Chemistry)  
     - ✔ LGBT Studies and Queer Studies
 
-- **See Also:**  
+### See Also:  
   - [My resume](https://cjtrowbridge.com/resume)  
   - [My meme library](https://memes.cjtrowbridge.com/)  
-  - [Other past projects](https://cjtrowbridge.com/past)
+  - [Past projects](https://cjtrowbridge.com/projects/past/)
+  - [Future Projects](https://cjtrowbridge.com/projects/future/)
+
