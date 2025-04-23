@@ -27,6 +27,7 @@ AI, Sustainability, and Resiliency; in the forest, in the desert, and on TV.
 
 - [My graduate thesis in ethical artificial intelligence.](https://cjtrowbridge.com/2024-05-17_-_The_Illusion_of_Understanding_-_Deconstructing_AI_Metaphors.pdf)
 - [MBA thesis on the future of datacenter strategy around artificial intelligence.](https://cjtrowbridge.com/2024-03-16_-_NVIDIA_Comprehensive_Analysis_And_Strategic_Recommendations.pdf)
+- [My undergraduate thesis (Urban Planning Bachelors) on why building affordable housing isn't affordable, and how to do it anyway.](https://cjtrowbridge.com/2020-05-12-Why-Building-Affordable-Housing-Isn’t-Affordable,-And-How-To-Do-It-Anyway.pdf)
 
 
 ### My Spotify Wrapped Playlists:
