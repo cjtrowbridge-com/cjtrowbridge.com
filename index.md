@@ -6,9 +6,8 @@ title: Home
 
 ---
 
-<img src="/assets/images/cjs-ai-toolbox.png" class="photo">
-
 ### CJ's AI Toolbox
+<a href="/ai/"><img src="/assets/images/cjs-ai-toolbox.png" class="photo"></a>
 
 All the tools and skills you need for your AI toolbox.
 
@@ -23,9 +22,9 @@ All the tools and skills you need for your AI toolbox.
 
 ---
 
-<img src="/assets/images/castro.media.jpg" class="photo">
 
 ### Castro Media
+<a href="https://castromedia.org"><img src="/assets/images/castro.media.jpg" class="photo"></a>
 
 Independent, flat media nonprofit featuring progressive, intersectional perspectives on current events.
 
@@ -43,9 +42,9 @@ Independent, flat media nonprofit featuring progressive, intersectional perspect
 
 ---
 
-<img src="/assets/images/hdi.jpg" class="photo">
-
 ### The High Desert Institute
+<a href="https://highdesertinstitute.org"><img src="/assets/images/hdi.jpg" class="photo"></a>
+
 
 Building a foundation for the survival of humanity.
 
