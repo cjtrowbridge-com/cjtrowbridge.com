@@ -10,7 +10,7 @@ title: Current Projects
   {% if page.path contains "projects/current/" and page.path != "projects/current/index.md" %}
     
     <fieldset>
-    {{ page.content }}
+    {{ page.output }}
     </fieldset>
     
   {% endif %}
