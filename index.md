@@ -3,6 +3,9 @@ layout: default
 title: Home
 ---
 
+
+---
+
 <img src="/assets/images/cjs-ai-toolbox.png" class="photo">
 
 ### CJ's AI Toolbox
