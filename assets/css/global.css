@@ -1,6 +1,6 @@
 h1, h2, h3{
-    margin-top: 2em;
-    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-bottom: .5em;
 }
 h4{
     margin-top: 1em;
@@ -53,10 +53,6 @@ h4{
 }
 .card{
     margin-bottom: 1rem;
-}
-.card img{
-    height: 200px;
-    object-fit: cover;
 }
 .socials, .callToAction{
     margin-top: 1rem;
