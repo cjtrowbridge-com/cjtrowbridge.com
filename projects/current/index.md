@@ -3,6 +3,7 @@ layout: project
 title: Current Projects
 ---
 
+<div markdown="0">
 
 {% assign sorted_pages = site.pages | sort: "order" %}
 
@@ -13,3 +14,5 @@ title: Current Projects
     </fieldset>
   {% endif %}
 {% endfor %}
+
+</div>
