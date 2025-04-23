@@ -6,22 +6,22 @@
 AI, Sustainability, and Resiliency; in the forest, in the desert, and on TV.
 
 #### Support:  
-<a class="btn btn-buymeacoffee" href="https://buymeacoffee.com/cjtrowbridge">☕ Buy me a coffee</a>  
-<a class="btn btn-venmo" href="https://venmo.com/u/cjtrowbridge"><i class="fa-brands fa-venmo"></i> Venmo</a>  
-<a class="btn btn-cashapp" href="https://cash.app/$cjtrowbridge"><i class="fa-brands fa-cashapp"></i> CashApp</a>  
-<a class="btn btn-paypal" href="https://www.paypal.com/paypalme/cjtrowbridge"><i class="fa-brands fa-paypal"></i> PayPal</a>  
-<a class="btn btn-crypto" href="https://etherscan.io/address/0xf9988ed19214b0fff5ae539c080e83e3f3846dca">Eth Wallet</a>  
+<a class="btn btn-buymeacoffee" href="https://buymeacoffee.com/cjtrowbridge">☕ Buy me a coffee</a> 
+<a class="btn btn-venmo" href="https://venmo.com/u/cjtrowbridge"><i class="fa-brands fa-venmo"></i> Venmo</a> 
+<a class="btn btn-cashapp" href="https://cash.app/$cjtrowbridge"><i class="fa-brands fa-cashapp"></i> CashApp</a> 
+<a class="btn btn-paypal" href="https://www.paypal.com/paypalme/cjtrowbridge"><i class="fa-brands fa-paypal"></i> PayPal</a> 
+<a class="btn btn-crypto" href="https://etherscan.io/address/0xf9988ed19214b0fff5ae539c080e83e3f3846dca">Eth Wallet</a> 
 
 ---
 
 #### Connect:  
-<a class="btn btn-tiktok" href="https://www.tiktok.com/@cjtrowbridge"><i class="fa-brands fa-tiktok"></i> TikTok</a>  
-<a class="btn btn-bluesky" href="https://bsky.app/profile/cjtrowbridge.com"><i class="fa-brands fa-bluesky"></i> Bluesky</a>  
-<a class="btn btn-mastodon" href="https://mastodon.social/@cjtrowbridge"><i class="fa-brands fa-mastodon"></i> Mastodon</a>  
-<a class="btn btn-youtube" href="https://www.youtube.com/@CJTrowbridge"><i class="fa-brands fa-youtube"></i> YouTube</a>  
-<a class="btn btn-twitch" href="https://www.twitch.tv/cjtrowbridge"><i class="fa-brands fa-twitch"></i> Twitch</a>  
-<a class="btn btn-substack" href="https://cjtrowbridge.substack.com/"><i class="fa-brands fa-substack"></i> Substack</a>  
-<a class="btn btn-primary" href="https://blog.cjtrowbridge.com">Blog</a>  
+<a class="btn btn-tiktok" href="https://www.tiktok.com/@cjtrowbridge"><i class="fa-brands fa-tiktok"></i> TikTok</a> 
+<a class="btn btn-bluesky" href="https://bsky.app/profile/cjtrowbridge.com"><i class="fa-brands fa-bluesky"></i> Bluesky</a> 
+<a class="btn btn-mastodon" href="https://mastodon.social/@cjtrowbridge"><i class="fa-brands fa-mastodon"></i> Mastodon</a> 
+<a class="btn btn-youtube" href="https://www.youtube.com/@CJTrowbridge"><i class="fa-brands fa-youtube"></i> YouTube</a> 
+<a class="btn btn-twitch" href="https://www.twitch.tv/cjtrowbridge"><i class="fa-brands fa-twitch"></i> Twitch</a> 
+<a class="btn btn-substack" href="https://cjtrowbridge.substack.com/"><i class="fa-brands fa-substack"></i> Substack</a> 
+<a class="btn btn-primary" href="https://blog.cjtrowbridge.com">Blog</a> 
 
 ---
 
