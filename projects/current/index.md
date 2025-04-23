@@ -3,6 +3,8 @@ layout: project
 title: Current Projects
 ---
 
+## <a href="/projects/current/">Current Projects</a>
+
 <div markdown="0">
 
 {% assign sorted_pages = site.pages | sort: "order" %}
