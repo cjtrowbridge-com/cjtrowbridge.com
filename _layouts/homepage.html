@@ -54,13 +54,14 @@
             <div class="d-none d-md-block col-md-2"></div>
 
             <div class="col-md-6">
-                <h2>Current Projects</h2>
                 
-                {% capture projects_md %}
-                {% include_relative projects/current/index.md %}
-                {% endcapture %}
-                <div class="projects-list">
-                {{ projects_md | markdownify }}
+                <div markdown="0">
+                    {% capture projects_md %}
+                    {% include_relative projects/current/index.md %}
+                    {% endcapture %}
+                    <div class="projects-list">
+                    {{ projects_md | markdownify }}
+                    </div>
                 </div>
 
             </div><!--/col-->
