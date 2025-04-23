@@ -15,6 +15,7 @@ All the tools and skills you need for your AI toolbox.
 <a class="btn btn-substack" href="https://cjsaitoolbox.substack.com/">Always-free Substack</a>
 
 **Follow along:**
+<a class="btn btn-website" href="https://cjtrowbridge.com/ai/">Website</a> 
 <a class="btn btn-bluesky" href="https://bsky.app/profile/cjs-ai-toolbox.bsky.social">Bluesky</a>
 <a class="btn btn-youtube" href="https://www.youtube.com/@cjs-ai-toolbox">Youtube</a>
 <a class="btn btn-tiktok" href="https://www.tiktok.com/@cjs.ai.toolbox">TikTok</a>

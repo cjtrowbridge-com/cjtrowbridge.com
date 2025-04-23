@@ -16,6 +16,7 @@ Building a foundation for the survival of humanity.
 <a class="btn btn-substack" href="https://highdesertinstitute.substack.com/">Always-free Substack</a> 
 
 **Follow along:**
+<a class="btn btn-website" href="https://highdesertinstitute.org">Website</a> 
 <a class="btn btn-bluesky" href="https://bsky.app/profile/highdesertinstitute.org">Bluesky</a> 
 <a class="btn btn-youtube" href="https://www.youtube.com/@HighDesertInstitute">Youtube</a> 
 <a class="btn btn-tiktok" href="https://www.tiktok.com/@hdi.ngo">TikTok</a> 
