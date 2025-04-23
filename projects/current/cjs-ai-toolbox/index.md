@@ -3,8 +3,10 @@ layout: project
 order: 1
 ---
 
-### CJ's AI Toolbox
+
 <a href="/ai/"><img src="/assets/images/cjs-ai-toolbox.png" class="photo"></a>
+
+### CJ's AI Toolbox
 
 All the tools and skills you need for your AI toolbox.
 

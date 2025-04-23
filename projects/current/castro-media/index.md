@@ -3,8 +3,10 @@ layout: project
 order: 2
 ---
 
-### Castro Media
+
 <a href="https://castromedia.org"><img src="/assets/images/castro.media.jpg" class="photo"></a>
+
+### Castro Media
 
 Independent, flat media nonprofit featuring progressive, intersectional perspectives on current events.
 

@@ -3,9 +3,9 @@ layout: project
 order: 3
 ---
 
-### The High Desert Institute
 <a href="https://highdesertinstitute.org"><img src="/assets/images/hdi.jpg" class="photo"></a>
 
+### The High Desert Institute
 
 Building a foundation for the survival of humanity.
 
