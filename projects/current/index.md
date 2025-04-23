@@ -9,9 +9,11 @@ title: Current Projects
 
 {% for page in sorted_pages %}
   {% if page.path contains "projects/current/" and page.path != "projects/current/index.md" %}
-    <fieldset>
-    {{ page.content }}
-    </fieldset>
+    <div class="card">
+        <div class="card-body">
+            {{ page.content }}
+        </div>
+    </div>
   {% endif %}
 {% endfor %}
 
