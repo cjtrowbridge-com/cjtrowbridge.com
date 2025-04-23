@@ -9,7 +9,7 @@ title: Current Projects
 {% for page in sorted_pages %}
   {% if page.path contains "projects/current/" and page.path != "projects/current/index.md" %}
     <hr>
-    {{ page.contents }}
+    {{ page.content }}
     <hr>
   {% endif %}
 {% endfor %}
