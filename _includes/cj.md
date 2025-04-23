@@ -1,5 +1,3 @@
----
----
 
 # CJ Trowbridge
 
