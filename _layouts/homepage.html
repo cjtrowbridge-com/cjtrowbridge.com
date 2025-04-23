@@ -54,14 +54,23 @@
             <div class="d-none d-md-block col-md-2"></div>
 
             <div class="col-md-6">
-                
+
+                ## <a href="/projects/current/">Current Projects</a>
+
                 <div markdown="0">
-                    {% capture projects_md %}
-                    {% include_relative projects/current/index.md %}
-                    {% endcapture %}
-                    <div class="projects-list">
-                    {{ projects_md | markdownify }}
+
+                {% assign sorted_pages = site.pages | sort: "order" %}
+
+                {% for page in sorted_pages %}
+                {% if page.path contains "projects/current/" and page.path != "projects/current/index.md" %}
+                    <div class="card">
+                        <div class="card-body">
+                            {{ page.content }}
+                        </div>
                     </div>
+                {% endif %}
+                {% endfor %}
+
                 </div>
 
             </div><!--/col-->
