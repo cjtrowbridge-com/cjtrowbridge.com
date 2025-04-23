@@ -1,5 +1,5 @@
 ---
-template: Default
+template: default
 title: Home
 ---
 
