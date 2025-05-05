@@ -36,7 +36,7 @@ AI, Sustainability, and Resiliency; in the forest, in the desert, and on TV.
   - [2022](https://open.spotify.com/playlist/37i9dQZF1F0sijgNaJdgit?si=azUYm-ktR8-449aC4OPJvA)
 
 ### Recent Longform Interviews:
-  - Coming Soon: SAD FRANCISCO
+  - [Communal Comms and Land Projects - SAD FRANCISCO](https://www.youtube.com/watch?v=_j0FikDdEn4)
   - [Operational Security (OPSEC) - Artificial Intelligence and the Cyberpony Express Meshtastic Network](https://www.youtube.com/watch?v=z5k--VjGQjA)
   - [Bulletin Board System, Multi-user Dungeons, Librarian Chatbot - Cyberpony Express Meshtastic Network](https://www.youtube.com/watch?v=3gRCj5V-8wc)
   - [Siting and Outreach - Cyberpony Express Meshtastic Network](https://www.youtube.com/watch?v=zCB9deVyMq8)
