@@ -4,7 +4,8 @@ title: 2025-05-15 Notes
 ---
 
 # Ethical Artificial Intelligence
-## CJ Trowbridge, Future Inifinitive, The Real Cornpop
+*A livestream discussion featuring CJ Trowbridge, Future Inifinitive, The Real Cornpop*
+**2025-05-15 7pm (PDT)**
 
 Ethical issues in generative artificial intelligence
 
@@ -21,4 +22,4 @@ Ethical issues in generative artificial intelligence
     - Very large models are almost exclusively built/run by rent-seeking coprorations/oligarchs
 
 
-[Edit this page]()
+[Edit this page](https://github.com/cjtrowbridge-com/cjtrowbridge.com/blob/main/projects/current/2025-05-15-AI-Ethics-Notes/index.md)
