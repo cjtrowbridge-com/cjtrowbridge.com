@@ -4,10 +4,13 @@ title: 2025-05-15 Notes
 ---
 
 # [Ethical Artificial Intelligence](https://cjtrowbridge.com/projects/current/2025-05-15-AI-Ethics-Notes/)
-*A livestream discussion featuring CJ Trowbridge, Future Inifinitive, The Real Cornpop*
-**2025-05-15 7pm (PDT)**
 
-Ethical issues in generative artificial intelligence
+An upcoming livestream discussion on ethical issues in generative artificial intelligence featuring [CJ Trowbridge](https://www.tiktok.com/@cjtrowbridge/video/7196557889358564651), [Future Inifinitive](https://www.tiktok.com/@lizthedeveloper/video/7501793836335648046), and [The Real Cornpop](https://www.tiktok.com/@therealcornpop/video/7501717015967681823).  
+
+This will be streamed live on [@cjtrowbridge](https://www.tiktok.com/@cjtrowbridge) and potentially also Future Infinitive and Cornpop. The recording will be posted on Youtube. See you soon!  
+
+
+**2025-05-15 7pm (PDT)**
 
 - The practical impossibility of any real ban or limits in a post-international-law world
 - Lack of explicit consent vs fair use rights
