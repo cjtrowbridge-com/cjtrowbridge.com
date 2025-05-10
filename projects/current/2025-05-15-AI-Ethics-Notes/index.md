@@ -21,4 +21,4 @@ Ethical issues in generative artificial intelligence
     - Very large models are almost exclusively built/run by rent-seeking coprorations/oligarchs
 
 
-[Edit this page](https://github.com/cjtrowbridge-com/cjtrowbridge.com/blob/main/projects/current/cjs-ai-toolbox/2025-05-15-notes.md)
+[Edit this page]()
