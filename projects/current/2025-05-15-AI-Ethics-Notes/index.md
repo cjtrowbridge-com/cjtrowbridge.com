@@ -3,7 +3,7 @@ layout: default
 title: 2025-05-15 Notes
 ---
 
-# Ethical Artificial Intelligence
+# [Ethical Artificial Intelligence](https://cjtrowbridge.com/projects/current/2025-05-15-AI-Ethics-Notes/)
 *A livestream discussion featuring CJ Trowbridge, Future Inifinitive, The Real Cornpop*
 **2025-05-15 7pm (PDT)**
 
