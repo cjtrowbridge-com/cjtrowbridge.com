@@ -1,6 +1,6 @@
 ---
 layout: homepage
-title: Home
+title: CJ Trowbridge
 ---
 
 
