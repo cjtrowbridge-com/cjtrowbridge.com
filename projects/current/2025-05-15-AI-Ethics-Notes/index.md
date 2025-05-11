@@ -9,7 +9,7 @@ An upcoming livestream discussion on ethical issues in generative artificial int
 
 This will be streamed live on [@cjtrowbridge](https://www.tiktok.com/@cjtrowbridge) and potentially also Future Infinitive and Cornpop. The recording will be posted on Youtube. See you soon!  
 
-<img src="/assest/iamges/ai-ethics-flyer.jpg" class="photo">
+<img src="/assets/images/ai-ethics-flyer.jpg" alt="Flyer" class="photo">
 
 **2025-05-15 7pm (PDT)**
 
