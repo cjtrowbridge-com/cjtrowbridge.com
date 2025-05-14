@@ -8,7 +8,7 @@ title: "Re-Imagining a FOSS Habbo + ICQ in 2025"
 
 # Re‑Imagining a FOSS **Habbo + ICQ** in 2025
 
-### Low‑Bandwidth Graphics • Peer‑to‑Peer Networking • Zero Central Servers
+### Low‑Bandwidth Graphics • Peer‑to‑Peer Networking • Zero Central Servers
 
 ---
 
