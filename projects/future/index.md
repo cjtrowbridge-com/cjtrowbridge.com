@@ -11,7 +11,7 @@ title: Future Projects
 
 {% for page in update_pages %}
   {% assign path_parts = page.path | split: "/" %}
-  {% if page.path contains "projects/future/" and path_parts.size == 5 % and page.path != "projects/future/index.md" %}
+  {% if page.path contains "projects/future/" and path_parts.size == 4 % and page.path != "projects/future/index.md" %}
     <hr>
     <p>
       <a href="{{ page.url }}">{{ page.title }}</a><br>
@@ -19,8 +19,5 @@ title: Future Projects
     </p>
   {% endif %}
 {% endfor %}
-
-</div>
-
 
 </div>
