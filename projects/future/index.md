@@ -5,20 +5,22 @@ title: Future Projects
 
 ## <a href="/projects/future/">Future Projects</a>
 
-<div class="row" markdown="0">
+<div markdown="0">
 
-{% assign sorted_pages = site.pages | sort: "order" %}
+{% assign update_pages = site.pages | sort: "date" | reverse %}
 
-{% for page in sorted_pages %}
-  {% if page.path contains "projects/future/" and page.path != "projects/future/index.md" %}
-    <div class="col-md-6">
-      <div class="card">
-          <div class="card-body">
-              {{ page.content }}
-          </div>
-      </div>
-    </div>
+{% for page in update_pages %}
+  {% assign path_parts = page.path | split: "/" %}
+  {% if page.path contains "projects/future/" and path_parts.size == 5 % and page.path != "projects/future/index.md" %}
+    <hr>
+    <p>
+      <a href="{{ page.url }}">{{ page.title }}</a><br>
+      {% if page.blurb %}<p>{{ page.blurb }}</p>{% endif %}
+    </p>
   {% endif %}
 {% endfor %}
+
+</div>
+
 
 </div>
