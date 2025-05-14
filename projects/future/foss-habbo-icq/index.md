@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: project
 title: "Re-Imagining a FOSS Habbo + ICQ in 2025"
 ---
 
