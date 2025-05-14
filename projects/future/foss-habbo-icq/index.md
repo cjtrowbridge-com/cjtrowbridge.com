@@ -8,7 +8,7 @@ title: "Re-Imagining a FOSS Habbo + ICQ in 2025"
 
 # Re‑Imagining a FOSS **Habbo + ICQ** in 2025
 
-\### Low‑Bandwidth Graphics • Peer‑to‑Peer Networking • Zero Central Servers
+### Low‑Bandwidth Graphics • Peer‑to‑Peer Networking • Zero Central Servers
 
 ---
 
@@ -176,7 +176,3 @@ A transformative layer for this virtual world is the addition of **Factorio‑st
 * **Trigger flow**: RSS block updates → analyzer block runs NLP → output block triggers action.
 
 This elevates the platform from a space for interaction into a **fully programmable social computing environment**: community‑run, modular, and integrated with external information flows.
-
----
-
-**End of Document**
