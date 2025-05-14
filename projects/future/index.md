@@ -5,6 +5,8 @@ title: Future Projects
 
 ## <a href="/projects/future/">Future Projects</a>
 
+Projects that are not current, but either planned or else maybe someday.
+
 <div markdown="0">
 
 {% assign update_pages = site.pages | sort: "date" | reverse %}
