@@ -16,6 +16,8 @@ This will be streamed live on [@cjtrowbridge](https://www.tiktok.com/@cjtrowbrid
 - The practical impossibility of any real ban or limits in a post-international-law world
 - Lack of explicit consent vs fair use rights
 - Derivative work vs stolen work
+- Alignment
+  - Elon assumes he can force AI to act like Stephen Miller; it's more likely to act like the hundreds of thousands of administrative beurocrats who refused to go along with him.
 - Consolidation of power/ wealth
   - Epistemic Power
     - Centralized corporate/oligarch control over the social construction of truth and knowledge
