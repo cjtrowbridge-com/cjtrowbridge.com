@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: project
 title: 2025-05-15 Notes
 ---
 
