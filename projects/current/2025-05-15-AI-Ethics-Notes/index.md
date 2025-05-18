@@ -5,14 +5,11 @@ title: 2025-05-15 Notes
 
 # [Ethical Artificial Intelligence](https://cjtrowbridge.com/projects/current/2025-05-15-AI-Ethics-Notes/)
 
-An upcoming livestream discussion on ethical issues in generative artificial intelligence featuring [CJ Trowbridge](https://www.tiktok.com/@cjtrowbridge/video/7196557889358564651), [Future Inifinitive](https://www.tiktok.com/@lizthedeveloper/video/7501793836335648046), and [The Real Cornpop](https://www.tiktok.com/@therealcornpop/video/7501717015967681823).  
+A  recorded livestream discussion on ethical issues in generative artificial intelligence featuring [CJ Trowbridge](https://www.tiktok.com/@cjtrowbridge/video/7196557889358564651), [Future Inifinitive](https://www.tiktok.com/@lizthedeveloper/video/7501793836335648046), and [The Real Cornpop](https://www.tiktok.com/@therealcornpop/video/7501717015967681823).  
 
-This will be streamed live on [@cjtrowbridge](https://www.tiktok.com/@cjtrowbridge) and potentially also Future Infinitive and Cornpop. The recording will be posted on Youtube. See you soon!  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RUmM1ymH9fg?si=hJ9AfiNkYUFTnEm6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<img src="/assets/images/ai-ethics-flyer.jpg" alt="Flyer" class="photo">
-
-**2025-05-15 7pm (PDT)**
-
+**My main takeaways of the topics discussed:**
 - The practical impossibility of any real ban or limits in a post-international-law world
 - Lack of explicit consent vs fair use rights
 - Derivative work vs stolen work
