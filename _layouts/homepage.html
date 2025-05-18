@@ -41,23 +41,10 @@
                 {{ content }}
             </div>
 
-            <div class="col-md-5">
-                <div class="card">
-                    <div class="card-body">
-                        <img src="/cj.jpg" class="photo" alt="CJ Trowbridge">
+            
 
-                        {% capture cj_content %}
-                        {% include cj.md %}
-                        {% endcapture %}
-                        {{ cj_content | markdownify }}
 
-                    </div>
-                </div>
-            </div>
-
-            <div class="d-none d-md-block col-md-1"></div>
-
-            <div class="col-md-6">
+            <div class="col-md-7">
 
                 <div markdown="0">
 
@@ -78,6 +65,23 @@
                 <a href="/projects/">More...</a>
                     
             </div><!--/col-->
+
+
+
+
+            <div class="col-md-5">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="/cj.jpg" class="photo" alt="CJ Trowbridge">
+
+                        {% capture cj_content %}
+                        {% include cj.md %}
+                        {% endcapture %}
+                        {{ cj_content | markdownify }}
+
+                    </div>
+                </div>
+            </div>
 
         </div><!--/row-->
 
