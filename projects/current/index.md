@@ -11,7 +11,7 @@ title: Current Projects
 
 {% for page in sorted_pages %}
   {% if page.path contains "projects/current/" and page.path != "projects/current/index.md" %}
-    <div class="col-md-6">
+    <div class="col">
       <div class="card">
           <div class="card-body">
               {{ page.content }}
