@@ -43,3 +43,8 @@ Both servers run **Ubuntu 24 LTS** with a single, root‑based Docker daemon.
 
 ---
 
+
+## 4 Setup Scripts
+
+- [Script To Set Up AI Server](./startAI.sh)
+- [Script To Set Up Logic Server](./startLogic.sh)
