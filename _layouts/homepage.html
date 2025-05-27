@@ -46,6 +46,7 @@
 
             <div class="col-md-7">
 
+                <h2><a href="/projects/current">Current Projects</a></h2>
                 <div markdown="0">
 
                 {% assign sorted_pages = site.pages | sort: "order" %}
@@ -61,8 +62,47 @@
                 {% endfor %}
 
                 </div>
+                <a href="/projects/current">More...</a>
 
-                <a href="/projects/">More...</a>
+
+                <h2><a href="/projects/past">Past Projects</a></h2>
+                <div markdown="0">
+
+                {% assign sorted_pages = site.pages | sort: "order" %}
+
+                {% for page in sorted_pages %}
+                {% if page.path contains "projects/past/" and page.path != "projects/past/index.md" %}
+                    <div class="card">
+                        <div class="card-body">
+                            {{ page.content }}
+                        </div>
+                    </div>
+                {% endif %}
+                {% endfor %}
+
+                </div>
+                <a href="/projects/past">More...</a>
+
+
+                <h2><a href="/projects/future">Future Projects</a></h2>
+                <div markdown="0">
+
+                {% assign sorted_pages = site.pages | sort: "order" %}
+
+                {% for page in sorted_pages %}
+                {% if page.path contains "projects/future/" and page.path != "projects/future/index.md" %}
+                    <div class="card">
+                        <div class="card-body">
+                            {{ page.content }}
+                        </div>
+                    </div>
+                {% endif %}
+                {% endfor %}
+
+                </div>
+                <a href="/projects/future">More...</a>
+
+                
                     
             </div><!--/col-->
 
