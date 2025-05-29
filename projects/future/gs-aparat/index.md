@@ -16,7 +16,7 @@ The application is a web-based, visual programming environment designed around t
 a. Hierarchical Metaphor  
 
 - **World**: Represents the entire logical or computational space.  
-- Mario-style map showing simple network of routes between nodes representing regions.  
+    - Mario-style map showing simple network of routes between nodes representing regions.  
 - **Regions**: Logical groups of Towns where related logics occur.  
     - Mario-style map showing simple network of routes between nodes representing towns/cities.  
     - A desert, a forest, etc containing some number of crude settlements which can be improved into towns and cities.  
