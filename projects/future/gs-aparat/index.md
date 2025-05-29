@@ -140,39 +140,39 @@ d. Message Passing
 - Plugin architecture enabling extended functionality and integration with additional services.
 
 ### 8. Implementation Roadmap
-    1. **Project Setup**:
-        - Java/Spring backend initialization, database configuration, basic REST APIs.
-    2. **Basic Hierarchical Functionality**:
-        - Implementation of world, region, town, building, and room CRUD APIs.
-    3. **Worker and Logic Simulation**:
-        - Concurrency and asynchronous processing of workers based on whiteboard logic.
-    4. **Message Passing System**:
-        - Backend logic for efficient message handling between hierarchical components.
-    5. **Whiteboard Logic Editor**:
-        - Visual editor development for flowchart-based logic editing.
-    6. **Conditional AI Integration**:
-        - Dynamic backend integration with Ollama Docker APIs.
-    7. **Hierarchical UI Navigation**:
-        - Comprehensive interactive frontend for navigating and managing hierarchies.
-    8. **Deployment & Containerization**:
-        - Full Dockerization and simplified deployment through Docker Compose.
+1. **Project Setup**:
+    - Java/Spring backend initialization, database configuration, basic REST APIs.
+2. **Basic Hierarchical Functionality**:
+    - Implementation of world, region, town, building, and room CRUD APIs.
+3. **Worker and Logic Simulation**:
+    - Concurrency and asynchronous processing of workers based on whiteboard logic.
+4. **Message Passing System**:
+    - Backend logic for efficient message handling between hierarchical components.
+5. **Whiteboard Logic Editor**:
+    - Visual editor development for flowchart-based logic editing.
+6. **Conditional AI Integration**:
+    - Dynamic backend integration with Ollama Docker APIs.
+7. **Hierarchical UI Navigation**:
+    - Comprehensive interactive frontend for navigating and managing hierarchies.
+8. **Deployment & Containerization**:
+    - Full Dockerization and simplified deployment through Docker Compose.
 
 ### 9. Lore and Background
-    - The lore is that after the world collapsed in the early 2000s, the oligarchy built a kleptocracy. 
-    - In the 2030s, disasters mounted and chaos spread. The klept was overthrown. The proletariat killed all the oligarchs and billionaires.
-    - The new global soviet system emerged to ask everyone to do small tasks in exchange for having all their basic needs met.
-    - The New New Deal of the global Soviet Aparat is that workers enjoy cozy cottagecore and solarpunk lives of leisure, doing some small task for the global soviet aparat as needed in exchange for having all their basic needs met.
+- The lore is that after the world collapsed in the early 2000s, the oligarchy built a kleptocracy. 
+- In the 2030s, disasters mounted and chaos spread. The klept was overthrown. The proletariat killed all the oligarchs and billionaires.
+- The new global soviet system emerged to ask everyone to do small tasks in exchange for having all their basic needs met.
+- The New New Deal of the global Soviet Aparat is that workers enjoy cozy cottagecore and solarpunk lives of leisure, doing some small task for the global soviet aparat as needed in exchange for having all their basic needs met.
 
 #### Relationship Characterization
-    - Mutual Pact, not Coercion - The Apparát is seen as a benevolent caretaker; workers view small tasks as community upkeep rather than labor exploitation.
-    - Predictability = Security - Because the simulation is deterministic, NPCs trust the Apparát's schedules: no surprise shortages, no hidden quotas.
-    - Cottagecore + Solarpunk Aesthetic - Wooden textures, gardens full of pollinators, soft lighting, reclaimed-tech art pieces reinforce psychological comfort.
+- Mutual Pact, not Coercion - The Apparát is seen as a benevolent caretaker; workers view small tasks as community upkeep rather than labor exploitation.
+- Predictability = Security - Because the simulation is deterministic, NPCs trust the Apparát's schedules: no surprise shortages, no hidden quotas.
+- Cottagecore + Solarpunk Aesthetic - Wooden textures, gardens full of pollinators, soft lighting, reclaimed-tech art pieces reinforce psychological comfort.
 
 How This Enhances Gameplay
-    - Emotional Connection - Players empathize with NPCs enjoying visible perks (banya steam, cat cuddles).
-    - Clear Utility of "Useless" Buildings - Although cafés and bathhouses don't change logic throughput, witnessing their effect on NPC morale adds delight.
-    - Lore-Driven Determinism - The Central Plan justifies why every parcel route and worker routine is pre-known: it's not a limitation, it's ideological consistency.
-    - Upgrade Motivation - Unlocking new green tech (e.g., algae bioreactors) visibly improves worker well-being, giving players a satisfying feedback loop between logic progression and social prosperity.
+- Emotional Connection - Players empathize with NPCs enjoying visible perks (banya steam, cat cuddles).
+- Clear Utility of "Useless" Buildings - Although cafés and bathhouses don't change logic throughput, witnessing their effect on NPC morale adds delight.
+- Lore-Driven Determinism - The Central Plan justifies why every parcel route and worker routine is pre-known: it's not a limitation, it's ideological consistency.
+- Upgrade Motivation - Unlocking new green tech (e.g., algae bioreactors) visibly improves worker well-being, giving players a satisfying feedback loop between logic progression and social prosperity.
 
 This framing keeps the focus on what workers gain while embedding the deterministic courier-logic core inside a hopeful, post-collapse solarpunk-Soviet utopia.
 
