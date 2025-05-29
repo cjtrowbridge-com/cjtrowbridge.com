@@ -1,11 +1,13 @@
 ---
 layout: project
 title: 2025-05-15 Notes
+title: Ethical Artificial Intelligence
+blurb: "A recorded livestream discussion on ethical issues in generative artificial intelligence featuring CJ Trowbridge, Future Inifinitive, and The Real Cornpop."
 ---
 
 # [Ethical Artificial Intelligence](https://cjtrowbridge.com/projects/current/2025-05-15-AI-Ethics-Notes/)
 
-A  recorded livestream discussion on ethical issues in generative artificial intelligence featuring [CJ Trowbridge](https://www.tiktok.com/@cjtrowbridge/video/7196557889358564651), [Future Inifinitive](https://www.tiktok.com/@lizthedeveloper/video/7501793836335648046), and [The Real Cornpop](https://www.tiktok.com/@therealcornpop/video/7501717015967681823).  
+A recorded livestream discussion on ethical issues in generative artificial intelligence featuring [CJ Trowbridge](https://www.tiktok.com/@cjtrowbridge/video/7196557889358564651), [Future Inifinitive](https://www.tiktok.com/@lizthedeveloper/video/7501793836335648046), and [The Real Cornpop](https://www.tiktok.com/@therealcornpop/video/7501717015967681823).  
 
 <iframe width="400" height="200" src="https://www.youtube.com/embed/RUmM1ymH9fg?si=hJ9AfiNkYUFTnEm6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
