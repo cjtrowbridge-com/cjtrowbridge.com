@@ -10,7 +10,7 @@ title: "GS-Aparat"
 ### 1. Application Overview
   The application is a web-based, visual programming environment designed around the metaphor of "rooms" and "workers" to represent composable logic blocks. It leverages nested, hierarchical structures allowing users to create flexible logic, processes, and complex analyses visually, including optional AI-assisted tasks. The environment combines principles from functional programming and von Neumann architectures, enabling both stack-based processing and asynchronous message passing via couriers.
 ### 2. Key Concepts
-  #### a. Hierarchical Metaphor
+  a. Hierarchical Metaphor
     - **World**: Represents the entire logical or computational space.
       - Mario-style map showing simple network of routes between nodes representing regions.
     - **Regions**: Logical groups of Towns where related logics occur.
@@ -31,16 +31,16 @@ title: "GS-Aparat"
       - NPCs engage in leisure, watching tv or sleeping when they have nothing to do.
       - Animals like cats wander around, interacting with NPCs
     - **Distant Lands:** Couriers traverse the road networks, coming and going to and from distant lands off the edge of the map. These journeys represent rss feeds, emails, webhooks, api calls, search results, etc.
-  #### b. Workers (NPCs)
+  b. Workers (NPCs)
     - Perform task as defined on the whiteboards in the rooms they are in.
     - Visually represent system states (idle, busy, error).
-  #### c. Whiteboard (Flowchart Logic)
+  c. Whiteboard (Flowchart Logic)
     - All rooms have a whiteboard outlining instructions using a simple flowchart, but some rooms have different instructions available depending on the system services associated with the space.
       - A home office might have instructions for analyzing sentiment of incoming mail and sending results somewhere, leveraging LLMs. Storing and retrieving things there might be messy and slow.
       - A warehouse might have instructions for several workers to accept storage requests and put things on their many shelves, or retrieve things as requested. (This represents database or file system interactions.) These workers might store and retrieve things quickly but be unable to perform sentiment analysis using LLMs. Robotic storage and retrieval might work even faster once unlocked.
     - Each room's whiteboard flowchart nodes represent the logic governing the worker(s) in the room (conditionals, routing, AI-tasks).
     - Skills can be unlocked as tools are detected on the local network (e.g., local Ollama Docker).
-  #### d. Message Passing
+  d. Message Passing
     - Inputs and outputs represented by mail slots.
     - Couriers visually move data/messages between rooms/buildings/towns/regions/etc.
 
