@@ -83,20 +83,18 @@
 
 
                 <h2><a href="/projects/future">Future Projects</a></h2>
-                <div markdown="0">
+                <div class="row" markdown="0">
 
-                {% assign sorted_pages = site.pages | sort: "order" %}
-
+                {% assign sorted_pages = site.pages | sort: "date" | reverse %}
+                
                 {% for page in sorted_pages %}
-                {% if page.path contains "projects/future/" and page.path != "projects/future/index.md" %}
-                    <div class="card">
-                        <div class="card-body">
-                            {{ page.content }}
-                        </div>
-                    </div>
-                {% endif %}
+                  {% if page.path contains "projects/future/" and page.path != "projects/future/index.md" %}
+                    <p>
+                      <a href="{{ page.url }}">{{ page.title }}</a>
+                    </p>
+                  {% endif %}
                 {% endfor %}
-
+                
                 </div>
                 <a href="/projects/">More...</a>
 
