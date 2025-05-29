@@ -73,7 +73,8 @@
                 {% if page.path contains "projects/past/" and page.path != "projects/past/index.md" %}
                     <div class="card">
                         <div class="card-body">
-                            {{ page.content }}
+                            <a href="{{ page.url }}">{{ page.title }}</a>
+                            {% if page.blurb %}<p>{{ page.blurb }}</p>{% endif %}
                         </div>
                     </div>
                 {% endif %}
@@ -89,9 +90,12 @@
                 
                 {% for page in sorted_pages %}
                   {% if page.path contains "projects/future/" and page.path != "projects/future/index.md" %}
-                    <p>
-                      <a href="{{ page.url }}">{{ page.title }}</a>
-                    </p>
+                    <div class="card">
+                        <div class="card-body">
+                            <a href="{{ page.url }}">{{ page.title }}</a>
+                            {% if page.blurb %}<p>{{ page.blurb }}</p>{% endif %}
+                        </div>
+                    </div>
                   {% endif %}
                 {% endfor %}
                 
