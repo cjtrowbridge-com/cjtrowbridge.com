@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Analysis Lab — Hardware & Software Stack
+blurb: My new homelab architecture
 ---
 
 # Analysis Lab — Hardware & Software Stack, Methodology
