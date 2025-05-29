@@ -1,6 +1,8 @@
 ---
 layout: project
 order: 3
+title: High Desert Institute
+blurb: Building a foundation for the survival of humanity.
 ---
 
 <a href="https://highdesertinstitute.org"><img src="/assets/images/hdi.jpg" class="photo"></a>
