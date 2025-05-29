@@ -15,33 +15,37 @@ blurb: Comprehensive Specification for Web-Based Composable Logic App
 a. Hierarchical Metaphor  
     - **World**: Represents the entire logical or computational space.  
     - Mario-style map showing simple network of routes between nodes representing regions.  
+  
 - **Regions**: Logical groups of Towns where related logics occur.  
     - Mario-style map showing simple network of routes between nodes representing towns/cities.  
     - A desert, a forest, etc containing some number of crude settlements which can be improved into towns and cities.  
     - The view of the town/city/settlement should be a cluster of tiles showing each unique building type.  
         - For example, a simple settlement is just a tent surrounded by the region's landscape. A city might contain many warehouses, homes, offices, workshops, factories, and one of each unique building should be represented as tiles in a cluster around that node in the network, surrounded by the region's landscape. So a settlement is just a tent next to the node, a city is many unique tiles surrounding the node.  
- - **Towns/Cities/Settlements:** Logical groups of buildings containing rooms.  
+- **Towns/Cities/Settlements:** Logical groups of buildings containing rooms.  
     - This is more like SimCity 2000/3000; a grid of the region's landscape containing buildings and paths/roads. Buildings need access to paths/roads. Paths happen automatically to connect buildings to the regional network.  
     - Building more fancy buildings converts their route to the regional network to roads.  
- - **Buildings:** a home, an office building, a factory, a warehouse.  
+- **Buildings:** a home, an office building, a factory, a warehouse.  
     - Players start with access to basic, simple homes and unlock more complex logic in the form of factories housing complex machinery and eventually automation tools like robots.  
     - Libraries and warehouses represent memory, storing and retrieving information.  
         - SQLite3, MySQL, Postgres, file stores, etc.  
         - Advanced robotic storage and retrieval warehouses may represent H2, REDIS, etc  
         - Cities and towns also contain buildings which do not contribute to logic, but improve quality of life. For example, a cute cafe or pub on the corner to add character to the neighborhood.  
-    - **Rooms**: Basic composable logic units, each containing one or more worker NPCs.  
-        - NPCs engage in leisure, watching tv or sleeping when they have nothing to do.  
-        - Animals like cats wander around, interacting with NPCs  
-    - **Distant Lands:** Couriers traverse the road networks, coming and going to and from distant lands off the edge of the map. These journeys represent rss feeds, emails, webhooks, api calls, search results, etc.  
+- **Rooms**: Basic composable logic units, each containing one or more worker NPCs.  
+    - NPCs engage in leisure, watching tv or sleeping when they have nothing to do.  
+    - Animals like cats wander around, interacting with NPCs
+- **Distant Lands:** Couriers traverse the road networks, coming and going to and from distant lands off the edge of the map. These journeys represent rss feeds, emails, webhooks, api calls, search results, etc.  
+
 b. Workers (NPCs)  
     - Perform task as defined on the whiteboards in the rooms they are in.  
     - Visually represent system states (idle, busy, error).  
+
 c. Whiteboard (Flowchart Logic)  
     - All rooms have a whiteboard outlining instructions using a simple flowchart, but some rooms have different instructions available depending on the system services associated with the space.  
         - A home office might have instructions for analyzing sentiment of incoming mail and sending results somewhere, leveraging LLMs. Storing and retrieving things there might be messy and slow.  
         - A warehouse might have instructions for several workers to accept storage requests and put things on their many shelves, or retrieve things as requested. (This represents database or file system interactions.)   These workers might store and retrieve things quickly but be unable to perform sentiment analysis using LLMs. Robotic storage and retrieval might work even faster once unlocked.  
     - Each room's whiteboard flowchart nodes represent the logic governing the worker(s) in the room (conditionals, routing, AI-tasks).  
     - Skills can be unlocked as tools are detected on the local network (e.g., local Ollama Docker).  
+
 d. Message Passing  
     - Inputs and outputs represented by mail slots.  
     - Couriers visually move data/messages between rooms/buildings/towns/regions/etc.  
