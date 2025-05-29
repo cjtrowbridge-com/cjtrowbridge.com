@@ -9,31 +9,31 @@ blurb: Comprehensive Specification for Web-Based Composable Logic App
 *Comprehensive Specification for Web-Based Composable Logic App*
 
 ### 1. Application Overview
-  The application is a web-based, visual programming environment designed around the metaphor of "rooms" and "workers" to represent composable logic blocks. It leverages nested, hierarchical structures allowing users to create flexible logic, processes, and complex analyses visually, including optional AI-assisted tasks. The environment combines principles from functional programming and von Neumann architectures, enabling both stack-based processing and asynchronous message passing via couriers.  
+The application is a web-based, visual programming environment designed around the metaphor of "rooms" and "workers" to represent composable logic blocks. It leverages nested, hierarchical structures allowing users to create flexible logic, processes, and complex analyses visually, including optional AI-assisted tasks. The environment combines principles from functional programming and von Neumann architectures, enabling both stack-based processing and asynchronous message passing via couriers.  
+
 ### 2. Key Concepts  
 
 a. Hierarchical Metaphor  
     - **World**: Represents the entire logical or computational space.  
     - Mario-style map showing simple network of routes between nodes representing regions.  
-  
-- **Regions**: Logical groups of Towns where related logics occur.  
-    - Mario-style map showing simple network of routes between nodes representing towns/cities.  
-    - A desert, a forest, etc containing some number of crude settlements which can be improved into towns and cities.  
-    - The view of the town/city/settlement should be a cluster of tiles showing each unique building type.  
-        - For example, a simple settlement is just a tent surrounded by the region's landscape. A city might contain many warehouses, homes, offices, workshops, factories, and one of each unique building should be represented as tiles in a cluster around that node in the network, surrounded by the region's landscape. So a settlement is just a tent next to the node, a city is many unique tiles surrounding the node.  
-- **Towns/Cities/Settlements:** Logical groups of buildings containing rooms.  
-    - This is more like SimCity 2000/3000; a grid of the region's landscape containing buildings and paths/roads. Buildings need access to paths/roads. Paths happen automatically to connect buildings to the regional network.  
-    - Building more fancy buildings converts their route to the regional network to roads.  
-- **Buildings:** a home, an office building, a factory, a warehouse.  
-    - Players start with access to basic, simple homes and unlock more complex logic in the form of factories housing complex machinery and eventually automation tools like robots.  
-    - Libraries and warehouses represent memory, storing and retrieving information.  
-        - SQLite3, MySQL, Postgres, file stores, etc.  
-        - Advanced robotic storage and retrieval warehouses may represent H2, REDIS, etc  
-        - Cities and towns also contain buildings which do not contribute to logic, but improve quality of life. For example, a cute cafe or pub on the corner to add character to the neighborhood.  
-- **Rooms**: Basic composable logic units, each containing one or more worker NPCs.  
-    - NPCs engage in leisure, watching tv or sleeping when they have nothing to do.  
-    - Animals like cats wander around, interacting with NPCs
-- **Distant Lands:** Couriers traverse the road networks, coming and going to and from distant lands off the edge of the map. These journeys represent rss feeds, emails, webhooks, api calls, search results, etc.  
+    - **Regions**: Logical groups of Towns where related logics occur.  
+        - Mario-style map showing simple network of routes between nodes representing towns/cities.  
+        - A desert, a forest, etc containing some number of crude settlements which can be improved into towns and cities.  
+        - The view of the town/city/settlement should be a cluster of tiles showing each unique building type.  
+            - For example, a simple settlement is just a tent surrounded by the region's landscape. A city might contain many warehouses, homes, offices, workshops, factories, and one of each unique building should be represented as tiles in a cluster around that node in the network, surrounded by the region's landscape. So a settlement is just a tent next to the node, a city is many unique tiles surrounding the node.  
+    - **Towns/Cities/Settlements:** Logical groups of buildings containing rooms.  
+        - This is more like SimCity 2000/3000; a grid of the region's landscape containing buildings and paths/roads. Buildings need access to paths/roads. Paths happen automatically to connect buildings to the regional network.  
+        - Building more fancy buildings converts their route to the regional network to roads.  
+    - **Buildings:** a home, an office building, a factory, a warehouse.  
+        - Players start with access to basic, simple homes and unlock more complex logic in the form of factories housing complex machinery and eventually automation tools like robots.  
+        - Libraries and warehouses represent memory, storing and retrieving information.  
+            - SQLite3, MySQL, Postgres, file stores, etc.  
+            - Advanced robotic storage and retrieval warehouses may represent H2, REDIS, etc  
+            - Cities and towns also contain buildings which do not contribute to logic, but improve quality of life. For example, a cute cafe or pub on the corner to add character to the neighborhood.  
+    - **Rooms**: Basic composable logic units, each containing one or more worker NPCs.  
+        - NPCs engage in leisure, watching tv or sleeping when they have nothing to do.  
+        - Animals like cats wander around, interacting with NPCs
+    - **Distant Lands:** Couriers traverse the road networks, coming and going to and from distant lands off the edge of the map. These journeys represent rss feeds, emails, webhooks, api calls, search results, etc.  
 
 b. Workers (NPCs)  
     - Perform task as defined on the whiteboards in the rooms they are in.  
@@ -51,6 +51,7 @@ d. Message Passing
     - Couriers visually move data/messages between rooms/buildings/towns/regions/etc.  
 
 ### 3. Technology Stack
+
 - **Backend**: Java with a simple dashboard giving details about the state of the running "world" and its users and workloads.
 - **Frontend**: Web-based tile RPG with those five different level views:
     - World: mario-style network of regions
@@ -67,6 +68,7 @@ d. Message Passing
 ### 4. System Architecture
 
 #### Backend Architecture
+
 - RESTful API to handle CRUD operations for worlds, regions, towns, buildings, rooms, and logic definitions.
 - Worker process simulation using Java concurrency features.
 - Automatic detection and conditional integration with external services (e.g., local Ollama Docker API).
@@ -74,6 +76,7 @@ d. Message Passing
 - Support for hybrid functional and von Neumann computing styles (stack-based processing and courier message passing).
 
 #### Frontend Architecture
+
 - Interactive graphical web UI visualizing hierarchical levels: worlds, regions, towns/cities/settlements, buildings, and rooms.
 - Drag-and-drop functionality for constructing and editing the hierarchical structure and logic flowcharts.
 - Dynamic zoom and navigation between hierarchical levels with intuitive UI transitions.
@@ -81,6 +84,7 @@ d. Message Passing
 ### 5. Core Features
 
 #### a. Rooms as Logic Blocks
+
 - JSON representation of logic blocks stored persistently:
 
 ```json
