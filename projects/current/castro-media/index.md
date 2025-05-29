@@ -1,6 +1,8 @@
 ---
 layout: project
 order: 2
+title: Castro Media
+blurb: Independent, flat media nonprofit featuring progressive, intersectional perspectives on current events.
 ---
 
 
