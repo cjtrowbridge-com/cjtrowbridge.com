@@ -1,6 +1,6 @@
 ---
 layout: project
-order: 4
+order: 5
 title: BWB/SF
 blurb: Burners Without Borders in the SF Bay Area is working on disaster preparedness and response.
 ---
