@@ -3,6 +3,8 @@ layout: simple
 title: CJ Streams
 ---
 
+<img src="/assets/images/cj-streams.jpg" class="photo">
+
 ## <a href="/streams/">CJ Streams:</a>
 
 <p>The official calendar of all the live streams including CJ.</p>
