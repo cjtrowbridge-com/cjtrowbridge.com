@@ -1,6 +1,6 @@
 ---
 layout: project
-order: 1
+order: 5
 title: "Revamped Meme Library"
 blurb: I have completely revamped my meme library.
 ---
