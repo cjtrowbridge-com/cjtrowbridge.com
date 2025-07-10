@@ -5,9 +5,11 @@ title: CJ Streams
 
 <img src="/assets/images/cj-streams.jpg" class="photo">
 
-## <a href="/streams/">CJ Streams:</a>
+<h2><a href="/streams/">CJ Streams:</a></h2>
 
 <p>The official calendar of all the live streams including CJ.</p>
+
+---
 
 <h4>You Can Subscribe To The Calendar;</h4>
 
