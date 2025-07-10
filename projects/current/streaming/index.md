@@ -5,7 +5,7 @@ title: CJ Streams
 blurb: All the live streams including CJ
 ---
 
-<img src="/assets/images/cj-stream.jpg" class="photo">
+<img src="/assets/images/cj-streams.jpg" class="photo">
 
 ## CJ Streams
 
