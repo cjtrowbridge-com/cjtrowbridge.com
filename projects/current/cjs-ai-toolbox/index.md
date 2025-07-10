@@ -1,6 +1,6 @@
 ---
 layout: project
-order: 1
+order: 3
 title: "CJ's AI Toolbox"
 blurb: All the tools and skills you need for your AI toolbox.
 ---
