@@ -12,6 +12,9 @@ title: CJ Streams
 ---
 
 <h4>You Can Subscribe To The Calendar;</h4>
+
+
+All my streams from now on will be held on Twitch. [View The Calendar and Subscribe Here](https://www.twitch.tv/cjtrowbridge/schedule)
   
 [Subscribe via Google Calendar Link](https://calendar.google.com/calendar/u/0?cid=YThlYzczODRmZTFhMzk3M2UwMzQ0YjUwZjEzMTFiZjhmNDBjOTQ0ZDIzMzIxOTBiNmE2M2JhYTJmZTUwNjBiN0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)  
   
