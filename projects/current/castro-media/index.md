@@ -21,6 +21,7 @@ Independent, flat media nonprofit featuring progressive, intersectional perspect
 
 **Follow along:**
 <a class="btn btn-website" href="https://castromedia.org">Website</a> 
+<a class="btn twitch" href="https://www.twitch.tv/castromedia">Twitch</a>
 <a class="btn btn-bluesky" href="https://bsky.app/profile/castro.media">Bluesky</a>
 <a class="btn btn-youtube" href="https://www.youtube.com/@Castro-Media">Youtube</a>
 <a class="btn btn-tiktok" href="https://www.tiktok.com/@castromedia.org">TikTok</a>
