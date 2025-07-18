@@ -11,7 +11,7 @@ blurb: All the live streams including CJ
 
 <p>The official calendar of all the live streams including CJ.</p>
 
-All my streams from now on will be held on Twitch. [View The Calendar and Subscribe Here](https://www.twitch.tv/cjtrowbridge/schedule)  
+All my streams from now on will be held on Twitch. [View The Calendar Here](https://cjtrowbridge.com/streams)  
 
 [Subscribe via Google Calendar Link](https://calendar.google.com/calendar/u/0?cid=YThlYzczODRmZTFhMzk3M2UwMzQ0YjUwZjEzMTFiZjhmNDBjOTQ0ZDIzMzIxOTBiNmE2M2JhYTJmZTUwNjBiN0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)  
   
