@@ -37,18 +37,10 @@
     <div class="container mt-1">
         <div class="row">
             <div class="col-md-12">
+                
                 {{ content }}
-                <div class="card">
-                    <div class="card-body cj">
-                        <img src="/cj.jpg" class="photo" alt="CJ Trowbridge">
 
-                        {% capture cj_content %}
-                        {% include cj.md %}
-                        {% endcapture %}
-                        {{ cj_content | markdownify }}
-                    </div>
-                </div>
-                <hr>
+                
                 <h2><a href="/projects/current">Current Projects</a></h2>
                 <div markdown="0">
                 {% assign sorted_pages = site.pages | sort: "order" %}
