@@ -3,24 +3,6 @@ layout: homepageSingleColumn
 title: CJ Trowbridge
 ---
 
-<div class="socials">
-<a class="btn btn-twitch" title="Twitch" href="https://www.twitch.tv/cjtrowbridge"><i class="fa-brands fa-twitch"></i></a>
-<a class="btn btn-tiktok" title="TikTok" href="https://www.tiktok.com/@cjtrowbridge"><i class="fa-brands fa-tiktok"></i></a>
-<a class="btn btn-bluesky" title="Bluesky" href="https://bsky.app/profile/cjtrowbridge.com"><i class="fa-brands fa-bluesky"></i></a>
-<a class="btn btn-mastodon" title="Mastodon" href="https://mastodon.social/@cjtrowbridge"><i class="fa-brands fa-mastodon"></i></a>
-<a class="btn btn-youtube" title="YouTube" href="https://www.youtube.com/@CJTrowbridge"><i class="fa-brands fa-youtube"></i></a>
-<a class="btn btn-substack" title="Substack" href="https://cjtrowbridge.substack.com/"><i class="fa-solid fa-envelope"></i></a>
-<a class="btn btn-website" title="Blog" href="https://blog.cjtrowbridge.com/"><i class="fa-solid fa-blog"></i></a>
-</div>
-
-<hr>
-
-<p><a href="https://www.gofundme.com/f/aucfwq-support-castro-media-amplify-underrepresented-voice" class="btn btn-gofundme"><i class="fa-solid fa-hand-holding-dollar"></i> GoFundMe: Help Castro Media rent a livestream space!</a></p>
-<p><a href="https://discord.gg/PN44RjReUA" class="btn btn-gofundme"><i class="fa-brands fa-discord"></i> Join The Castro Media Discord!</a></p>
-<p><a href="https://www.gofundme.com/f/build-a-foundation-for-the-survival-of-humanity" class="btn btn-gofundme"><i class="fa-solid fa-hand-holding-dollar"></i> GoFundMe: Help Us Build An Outpost At The Grand Canyon</a></p>
-<p><a href="https://forms.gle/UZgQiUNzm8q1dmNfA" class="btn btn-success">✨ Apply To Receive A Free Cyberpony Express Node ✨</a></p>
-
-
 <img src="/cj.jpg" class="photo" alt="CJ Trowbridge">
 
 
@@ -35,15 +17,13 @@ AI, Sustainability, and Resiliency; in the forest, in the desert, and on TV.
 <a class="btn btn-paypal" href="https://www.paypal.com/paypalme/cjtrowbridge"><i class="fa-brands fa-paypal"></i> PayPal</a> 
 <a class="btn btn-crypto" href="https://etherscan.io/address/0xf9988ed19214b0fff5ae539c080e83e3f3846dca">Eth Wallet</a> 
 
----
-
 #### Connect:  
 <a class="btn btn-tiktok" href="https://www.tiktok.com/@cjtrowbridge"><i class="fa-brands fa-tiktok"></i> TikTok</a> 
 <a class="btn btn-bluesky" href="https://bsky.app/profile/cjtrowbridge.com"><i class="fa-brands fa-bluesky"></i> Bluesky</a> 
 <a class="btn btn-mastodon" href="https://mastodon.social/@cjtrowbridge"><i class="fa-brands fa-mastodon"></i> Mastodon</a> 
 <a class="btn btn-youtube" href="https://www.youtube.com/@CJTrowbridge"><i class="fa-brands fa-youtube"></i> YouTube</a> 
 <a class="btn btn-twitch" href="https://www.twitch.tv/cjtrowbridge"><i class="fa-brands fa-twitch"></i> Twitch</a> 
-<a class="btn btn-substack" href="https://cjtrowbridge.substack.com/"><i class="fa-brands fa-substack"></i> Substack</a> 
+<a class="btn btn-substack" href="https://cjtrowbridge.substack.com/"><i class="fa-solid fa-envelope"></i> Substack</a> 
 <a class="btn btn-primary" href="https://blog.cjtrowbridge.com">Blog</a> 
 
 ---
@@ -93,5 +73,12 @@ AI, Sustainability, and Resiliency; in the forest, in the desert, and on TV.
   - [Future Projects](https://cjtrowbridge.com/projects/future/)
 
 
+
+<hr>
+
+<p><a href="https://www.gofundme.com/f/aucfwq-support-castro-media-amplify-underrepresented-voice" class="btn btn-gofundme"><i class="fa-solid fa-hand-holding-dollar"></i> GoFundMe: Help Castro Media rent a livestream space!</a></p>
+<p><a href="https://discord.gg/PN44RjReUA" class="btn btn-gofundme"><i class="fa-brands fa-discord"></i> Join The Castro Media Discord!</a></p>
+<p><a href="https://www.gofundme.com/f/build-a-foundation-for-the-survival-of-humanity" class="btn btn-gofundme"><i class="fa-solid fa-hand-holding-dollar"></i> GoFundMe: Help Us Build An Outpost At The Grand Canyon</a></p>
+<p><a href="https://forms.gle/UZgQiUNzm8q1dmNfA" class="btn btn-success">✨ Apply To Receive A Free Cyberpony Express Node ✨</a></p>
 
 <hr>
