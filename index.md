@@ -9,7 +9,7 @@ title: CJ Trowbridge
 <a class="btn btn-bluesky" href="https://bsky.app/profile/cjtrowbridge.com"><i class="fa-brands fa-bluesky"></i></a>
 <a class="btn btn-mastodon" href="https://mastodon.social/@cjtrowbridge"><i class="fa-brands fa-mastodon"></i></a>
 <a class="btn btn-youtube" href="https://www.youtube.com/@CJTrowbridge"><i class="fa-brands fa-youtube"></i></a>
-<a class="btn btn-substack" href="https://cjtrowbridge.substack.com/"><i class="fa-brands fa-substack"></i></a>
+<a class="btn btn-substack" href="https://cjtrowbridge.substack.com/"><i class="fa-solid fa-envelope"></i></a>
 <a class="btn btn-website" href="https://blog.cjtrowbridge.com/"><i class="fa-solid fa-blog"></i></a>
 </div>
   
