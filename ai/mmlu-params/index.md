@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: ai
 title: Parameter Count vs MMLU Score
 ---
 # Parameter Count vs MMLU Score
