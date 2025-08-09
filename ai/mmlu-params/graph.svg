@@ -54,9 +54,9 @@
 <text x="50" y="97.65324413972914" font-size="8" text-anchor="end">10^3</text>
 <line x1="60" y1="-20.462341147027857" x2="55" y2="-20.462341147027857" stroke="black"/>
 <text x="50" y="-17.462341147027857" font-size="8" text-anchor="end">10^4</text>
-<circle cx="395.24" cy="440.0" r="3" fill="red"/>
+<circle cx="395.24" cy="440.0" r="3" fill="blue"/>
 <circle cx="244.28" cy="435.23505682142047" r="3" fill="blue"/>
-<circle cx="491.12" cy="385.0759075101942" r="3" fill="red"/>
+<circle cx="491.12" cy="385.0759075101942" r="3" fill="blue"/>
 <circle cx="485.0" cy="342.71604449906766" r="3" fill="blue"/>
 <circle cx="242.24" cy="385.0759075101942" r="3" fill="blue"/>
 <circle cx="531.9200000000001" cy="336.0402675808127" r="3" fill="blue"/>
@@ -90,9 +90,9 @@
 <circle cx="595.16" cy="148.58732282359517" r="3" fill="blue"/>
 <circle cx="579.52" cy="266.7337793013545" r="3" fill="blue"/>
 <circle cx="657.04" cy="166.41895260941976" r="3" fill="blue"/>
-<circle cx="532.5999999999999" cy="370.6935117205418" r="3" fill="red"/>
+<circle cx="532.5999999999999" cy="370.6935117205418" r="3" fill="blue"/>
 <circle cx="567.96" cy="336.0402675808127" r="3" fill="red"/>
-<circle cx="593.8000000000001" cy="308.06280035933855" r="3" fill="red"/>
+<circle cx="593.8000000000001" cy="308.06280035933855" r="3" fill="blue"/>
 <circle cx="670.64" cy="266.7337793013545" r="3" fill="red"/>
 <circle cx="639.36" cy="139.84128889374898" r="3" fill="blue"/>
 <circle cx="672.0" cy="72.42159296688541" r="3" fill="blue"/>
@@ -104,108 +104,108 @@
 <circle cx="666.5600000000001" cy="167.0531352799694" r="3" fill="blue"/>
 <circle cx="560.48" cy="290.23117057351396" r="3" fill="blue"/>
 <circle cx="599.2399999999999" cy="200.65383394397904" r="3" fill="blue"/>
-<polyline fill="none" stroke="gray" stroke-width="1" points="395.24,440.0 491.12,385.0759075101942 532.5999999999999,370.6935117205418 567.96,336.0402675808127 593.8000000000001,308.06280035933855 670.64,266.7337793013545 677.4399999999999,114.6001826474898"/>
-<text x="567.96" y="326.0402675808127" font-size="10" text-anchor="middle">Frontier</text>
-<line x1="650.24" y1="60.0" x2="120.14418604651163" y2="60.0" stroke="gray" stroke-width="0.5"/>
-<text x="65" y="66.00930232558139" font-size="7.069767441860465" text-anchor="start">Claude 3 Opus</text>
-<line x1="614.88" y1="65.26740030714538" x2="111.66046511627906" y2="68.87929125138427" stroke="gray" stroke-width="0.5"/>
-<text x="65" y="74.88859357696568" font-size="7.069767441860465" text-anchor="start">GPT-04-mini</text>
-<line x1="623.72" y1="65.26740030714538" x2="90.45116279069768" y2="77.75858250276855" stroke="gray" stroke-width="0.5"/>
-<text x="65" y="83.76788482834995" font-size="7.069767441860465" text-anchor="start">GPT-o3</text>
-<line x1="663.16" y1="65.26740030714538" x2="90.45116279069768" y2="86.63787375415282" stroke="gray" stroke-width="0.5"/>
-<text x="65" y="92.64717607973422" font-size="7.069767441860465" text-anchor="start">GPT-4o</text>
-<line x1="647.5200000000001" y1="65.26740030714538" x2="86.20930232558139" y2="95.5171650055371" stroke="gray" stroke-width="0.5"/>
-<text x="65" y="101.5264673311185" font-size="7.069767441860465" text-anchor="start">GPT-4</text>
-<line x1="672.0" y1="72.42159296688541" x2="115.90232558139536" y2="104.39645625692137" stroke="gray" stroke-width="0.5"/>
-<text x="65" y="110.40575858250277" font-size="7.069767441860465" text-anchor="start">Gemini Ultra</text>
-<line x1="639.36" y1="139.84128889374898" x2="115.90232558139536" y2="113.27574750830566" stroke="gray" stroke-width="0.5"/>
-<text x="65" y="119.28504983388706" font-size="7.069767441860465" text-anchor="start">Llama 3 405B</text>
-<line x1="595.16" y1="148.58732282359517" x2="166.80465116279072" y2="122.15503875968993" stroke="gray" stroke-width="0.5"/>
-<text x="65" y="128.16434108527133" font-size="7.069767441860465" text-anchor="start">Nemotron-4-340B-Instruct</text>
-<line x1="556.4" y1="152.5644821421958" x2="90.45116279069768" y2="131.03433001107422" stroke="gray" stroke-width="0.5"/>
-<text x="65" y="137.0436323366556" font-size="7.069767441860465" text-anchor="start">Grok-1</text>
-<line x1="657.04" y1="166.41895260941976" x2="111.66046511627906" y2="139.9136212624585" stroke="gray" stroke-width="0.5"/>
-<text x="65" y="145.92292358803988" font-size="7.069767441860465" text-anchor="start">Qwen 3-235B</text>
-<line x1="666.5600000000001" y1="167.0531352799694" x2="107.41860465116278" y2="148.79291251384277" stroke="gray" stroke-width="0.5"/>
-<text x="65" y="154.80221483942415" font-size="7.069767441860465" text-anchor="start">Qwen3-235B</text>
-<line x1="536.0" y1="184.13069249733093" x2="94.69302325581396" y2="157.67220376522704" stroke="gray" stroke-width="0.5"/>
-<text x="65" y="163.68150609080843" font-size="7.069767441860465" text-anchor="start">GPT-3.5</text>
-<line x1="599.2399999999999" y1="200.65383394397904" x2="115.90232558139536" y2="166.5514950166113" stroke="gray" stroke-width="0.5"/>
-<text x="65" y="172.5607973421927" font-size="7.069767441860465" text-anchor="start">GPT-OSS-120B</text>
-<line x1="644.8" y1="215.03622973363144" x2="120.14418604651163" y2="175.4307862679956" stroke="gray" stroke-width="0.5"/>
-<text x="65" y="181.44008859357697" font-size="7.069767441860465" text-anchor="start">Llama-3.2-90B</text>
-<line x1="645.48" y1="226.1920826012011" x2="111.66046511627906" y2="184.31007751937986" stroke="gray" stroke-width="0.5"/>
-<text x="65" y="190.31937984496125" font-size="7.069767441860465" text-anchor="start">Qwen2.5 72B</text>
-<line x1="632.5600000000001" y1="226.1920826012011" x2="103.1767441860465" y2="193.18936877076413" stroke="gray" stroke-width="0.5"/>
-<text x="65" y="199.19867109634552" font-size="7.069767441860465" text-anchor="start">Qwen2 72B</text>
-<line x1="617.6" y1="226.1920826012011" x2="107.41860465116278" y2="202.0686600221484" stroke="gray" stroke-width="0.5"/>
-<text x="65" y="208.0779623477298" font-size="7.069767441860465" text-anchor="start">NVLM-D-72B</text>
-<line x1="644.8" y1="227.60045921231068" x2="120.14418604651163" y2="210.94795127353268" stroke="gray" stroke-width="0.5"/>
-<text x="65" y="216.95725359911407" font-size="7.069767441860465" text-anchor="start">Llama 3.1 70B</text>
-<line x1="627.8" y1="227.60045921231068" x2="209.22325581395347" y2="219.82724252491695" stroke="gray" stroke-width="0.5"/>
-<text x="65" y="225.83654485049834" font-size="7.069767441860465" text-anchor="start">Llama-3.1-Nemotron-70B-Instruct-HF</text>
-<line x1="600.6" y1="227.60045921231068" x2="111.66046511627906" y2="228.70653377630123" stroke="gray" stroke-width="0.5"/>
-<text x="65" y="234.71583610188262" font-size="7.069767441860465" text-anchor="start">Llama 3 70B</text>
-<line x1="597.2" y1="227.60045921231068" x2="128.62790697674419" y2="237.5858250276855" stroke="gray" stroke-width="0.5"/>
-<text x="65" y="243.5951273532669" font-size="7.069767441860465" text-anchor="start">Claude 3 Sonnet</text>
-<line x1="534.64" y1="227.60045921231068" x2="128.62790697674419" y2="246.46511627906978" stroke="gray" stroke-width="0.5"/>
-<text x="65" y="252.47441860465116" font-size="7.069767441860465" text-anchor="start">LLaMA2-70B Base</text>
-<line x1="548.9200000000001" y1="256.84366653310053" x2="141.353488372093" y2="255.34440753045408" stroke="gray" stroke-width="0.5"/>
-<text x="65" y="261.35370985603544" font-size="7.069767441860465" text-anchor="start">Mixtral Large Base</text>
-<line x1="652.28" y1="259.47554068632655" x2="111.66046511627906" y2="264.2236987818383" stroke="gray" stroke-width="0.5"/>
-<text x="65" y="270.2330011074197" font-size="7.069767441860465" text-anchor="start">Deepseek-v3</text>
-<line x1="567.96" y1="260.8453267409302" x2="81.96744186046512" y2="273.1029900332226" stroke="gray" stroke-width="0.5"/>
-<text x="65" y="279.112292358804" font-size="7.069767441860465" text-anchor="start">DBRX</text>
-<line x1="626.4399999999999" y1="266.7337793013545" x2="111.66046511627906" y2="281.9822812846069" stroke="gray" stroke-width="0.5"/>
-<text x="65" y="287.9915836101883" font-size="7.069767441860465" text-anchor="start">Qwen2.5-32b</text>
-<line x1="591.76" y1="266.7337793013545" x2="94.69302325581396" y2="290.8615725359912" stroke="gray" stroke-width="0.5"/>
-<text x="65" y="296.87087486157253" font-size="7.069767441860465" text-anchor="start">QwQ-32B</text>
-<line x1="562.5200000000001" y1="266.7337793013545" x2="90.45116279069768" y2="299.7408637873755" stroke="gray" stroke-width="0.5"/>
-<text x="65" y="305.75016611295683" font-size="7.069767441860465" text-anchor="start">R1-32B</text>
-<line x1="579.52" y1="266.7337793013545" x2="94.69302325581396" y2="308.6201550387597" stroke="gray" stroke-width="0.5"/>
-<text x="65" y="314.6294573643411" font-size="7.069767441860465" text-anchor="start">QWQ-32B</text>
-<line x1="571.36" y1="275.2277225305826" x2="111.66046511627906" y2="317.49944629014396" stroke="gray" stroke-width="0.5"/>
-<text x="65" y="323.5087486157253" font-size="7.069767441860465" text-anchor="start">Gemma 2 27B</text>
-<line x1="501.32" y1="275.2277225305826" x2="111.66046511627906" y2="326.37873754152827" stroke="gray" stroke-width="0.5"/>
-<text x="65" y="332.3880398671096" font-size="7.069767441860465" text-anchor="start">Gemma-3-27B</text>
-<line x1="593.12" y1="287.7919520092619" x2="111.66046511627906" y2="335.2580287929125" stroke="gray" stroke-width="0.5"/>
-<text x="65" y="341.26733111849387" font-size="7.069767441860465" text-anchor="start">DeepSeek-v2</text>
-<line x1="560.48" y1="290.23117057351396" x2="111.66046511627906" y2="344.1373200442968" stroke="gray" stroke-width="0.5"/>
-<text x="65" y="350.1466223698782" font-size="7.069767441860465" text-anchor="start">GOT-OSS-20B</text>
-<line x1="424.48" y1="311.7677590229064" x2="132.86976744186046" y2="353.0166112956811" stroke="gray" stroke-width="0.5"/>
-<text x="65" y="359.0259136212625" font-size="7.069767441860465" text-anchor="start">Llama 2 Chat 13B</text>
-<line x1="556.4" y1="320.1194715346635" x2="120.14418604651163" y2="361.89590254706536" stroke="gray" stroke-width="0.5"/>
-<text x="65" y="367.9052048726467" font-size="7.069767441860465" text-anchor="start">Llama-3.2-11B</text>
-<line x1="544.8399999999999" y1="330.15181502038837" x2="107.41860465116278" y2="370.77519379844966" stroke="gray" stroke-width="0.5"/>
-<text x="65" y="376.784496124031" font-size="7.069767441860465" text-anchor="start">Gemma 2 9B</text>
-<line x1="531.9200000000001" y1="336.0402675808127" x2="115.90232558139536" y2="379.6544850498339" stroke="gray" stroke-width="0.5"/>
-<text x="65" y="385.66378737541527" font-size="7.069767441860465" text-anchor="start">Llama 3.1 8B</text>
-<line x1="512.8799999999999" y1="336.0402675808127" x2="107.41860465116278" y2="388.5337763012182" stroke="gray" stroke-width="0.5"/>
-<text x="65" y="394.54307862679957" font-size="7.069767441860465" text-anchor="start">Llama 3 8B</text>
-<line x1="497.92" y1="336.0402675808127" x2="98.93488372093023" y2="397.41306755260246" stroke="gray" stroke-width="0.5"/>
-<text x="65" y="403.4223698781838" font-size="7.069767441860465" text-anchor="start">Gemma 8B</text>
-<line x1="485.0" y1="342.71604449906766" x2="107.41860465116278" y2="406.29235880398676" stroke="gray" stroke-width="0.5"/>
-<text x="65" y="412.3016611295681" font-size="7.069767441860465" text-anchor="start">Mistral 7B</text>
-<line x1="371.44" y1="342.71604449906766" x2="128.62790697674419" y2="415.171650055371" stroke="gray" stroke-width="0.5"/>
-<text x="65" y="421.18095238095236" font-size="7.069767441860465" text-anchor="start">Llama 2 Chat 7B</text>
-<line x1="242.24" y1="385.0759075101942" x2="128.62790697674419" y2="424.0509413067553" stroke="gray" stroke-width="0.5"/>
-<text x="65" y="430.06024363233666" font-size="7.069767441860465" text-anchor="start">AppleOpenElm 3B</text>
-<line x1="244.28" y1="435.23505682142047" x2="141.353488372093" y2="432.93023255813955" stroke="gray" stroke-width="0.5"/>
-<text x="65" y="438.9395348837209" font-size="7.069767441860465" text-anchor="start">Apple OpenElm 1.1B</text>
+<polyline fill="none" stroke="gray" stroke-width="1" points="567.96,336.0402675808127 670.64,266.7337793013545 677.4399999999999,114.6001826474898"/>
+<text x="638.68" y="99.6001826474898" font-size="10" text-anchor="middle">Frontier</text>
+<line x1="650.24" y1="60.0" x2="115.45106382978723" y2="60.0" stroke="gray" stroke-width="0.5"/>
+<text x="65" y="65.49787234042553" font-size="6.468085106382979" text-anchor="start">Claude 3 Opus</text>
+<line x1="614.88" y1="65.26740030714538" x2="107.68936170212766" y2="68.12025901942646" stroke="gray" stroke-width="0.5"/>
+<text x="65" y="73.61813135985199" font-size="6.468085106382979" text-anchor="start">GPT-04-mini</text>
+<line x1="623.72" y1="65.26740030714538" x2="88.28510638297873" y2="76.24051803885291" stroke="gray" stroke-width="0.5"/>
+<text x="65" y="81.73839037927844" font-size="6.468085106382979" text-anchor="start">GPT-o3</text>
+<line x1="663.16" y1="65.26740030714538" x2="88.28510638297873" y2="84.36077705827937" stroke="gray" stroke-width="0.5"/>
+<text x="65" y="89.8586493987049" font-size="6.468085106382979" text-anchor="start">GPT-4o</text>
+<line x1="647.5200000000001" y1="65.26740030714538" x2="84.40425531914894" y2="92.48103607770582" stroke="gray" stroke-width="0.5"/>
+<text x="65" y="97.97890841813135" font-size="6.468085106382979" text-anchor="start">GPT-4</text>
+<line x1="672.0" y1="72.42159296688541" x2="111.57021276595745" y2="100.60129509713228" stroke="gray" stroke-width="0.5"/>
+<text x="65" y="106.09916743755781" font-size="6.468085106382979" text-anchor="start">Gemini Ultra</text>
+<line x1="639.36" y1="139.84128889374898" x2="111.57021276595745" y2="108.72155411655874" stroke="gray" stroke-width="0.5"/>
+<text x="65" y="114.21942645698427" font-size="6.468085106382979" text-anchor="start">Llama 3 405B</text>
+<line x1="595.16" y1="148.58732282359517" x2="158.1404255319149" y2="116.84181313598519" stroke="gray" stroke-width="0.5"/>
+<text x="65" y="122.33968547641072" font-size="6.468085106382979" text-anchor="start">Nemotron-4-340B-Instruct</text>
+<line x1="556.4" y1="152.5644821421958" x2="88.28510638297873" y2="124.96207215541166" stroke="gray" stroke-width="0.5"/>
+<text x="65" y="130.4599444958372" font-size="6.468085106382979" text-anchor="start">Grok-1</text>
+<line x1="657.04" y1="166.41895260941976" x2="107.68936170212766" y2="133.0823311748381" stroke="gray" stroke-width="0.5"/>
+<text x="65" y="138.58020351526363" font-size="6.468085106382979" text-anchor="start">Qwen 3-235B</text>
+<line x1="666.5600000000001" y1="167.0531352799694" x2="103.80851063829788" y2="141.20259019426453" stroke="gray" stroke-width="0.5"/>
+<text x="65" y="146.70046253469008" font-size="6.468085106382979" text-anchor="start">Qwen3-235B</text>
+<line x1="536.0" y1="184.13069249733093" x2="92.1659574468085" y2="149.322849213691" stroke="gray" stroke-width="0.5"/>
+<text x="65" y="154.82072155411655" font-size="6.468085106382979" text-anchor="start">GPT-3.5</text>
+<line x1="599.2399999999999" y1="200.65383394397904" x2="111.57021276595745" y2="157.44310823311747" stroke="gray" stroke-width="0.5"/>
+<text x="65" y="162.94098057354302" font-size="6.468085106382979" text-anchor="start">GPT-OSS-120B</text>
+<line x1="644.8" y1="215.03622973363144" x2="115.45106382978723" y2="165.5633672525439" stroke="gray" stroke-width="0.5"/>
+<text x="65" y="171.06123959296946" font-size="6.468085106382979" text-anchor="start">Llama-3.2-90B</text>
+<line x1="645.48" y1="226.1920826012011" x2="107.68936170212766" y2="173.68362627197035" stroke="gray" stroke-width="0.5"/>
+<text x="65" y="179.1814986123959" font-size="6.468085106382979" text-anchor="start">Qwen2.5 72B</text>
+<line x1="632.5600000000001" y1="226.1920826012011" x2="99.9276595744681" y2="181.80388529139682" stroke="gray" stroke-width="0.5"/>
+<text x="65" y="187.30175763182237" font-size="6.468085106382979" text-anchor="start">Qwen2 72B</text>
+<line x1="617.6" y1="226.1920826012011" x2="103.80851063829788" y2="189.9241443108233" stroke="gray" stroke-width="0.5"/>
+<text x="65" y="195.42201665124884" font-size="6.468085106382979" text-anchor="start">NVLM-D-72B</text>
+<line x1="644.8" y1="227.60045921231068" x2="115.45106382978723" y2="198.04440333024974" stroke="gray" stroke-width="0.5"/>
+<text x="65" y="203.54227567067528" font-size="6.468085106382979" text-anchor="start">Llama 3.1 70B</text>
+<line x1="627.8" y1="227.60045921231068" x2="196.94893617021276" y2="206.16466234967618" stroke="gray" stroke-width="0.5"/>
+<text x="65" y="211.66253469010172" font-size="6.468085106382979" text-anchor="start">Llama-3.1-Nemotron-70B-Instruct-HF</text>
+<line x1="600.6" y1="227.60045921231068" x2="107.68936170212766" y2="214.28492136910268" stroke="gray" stroke-width="0.5"/>
+<text x="65" y="219.78279370952822" font-size="6.468085106382979" text-anchor="start">Llama 3 70B</text>
+<line x1="597.2" y1="227.60045921231068" x2="123.2127659574468" y2="222.40518038852912" stroke="gray" stroke-width="0.5"/>
+<text x="65" y="227.90305272895466" font-size="6.468085106382979" text-anchor="start">Claude 3 Sonnet</text>
+<line x1="534.64" y1="227.60045921231068" x2="123.2127659574468" y2="230.52543940795556" stroke="gray" stroke-width="0.5"/>
+<text x="65" y="236.0233117483811" font-size="6.468085106382979" text-anchor="start">LLaMA2-70B Base</text>
+<line x1="548.9200000000001" y1="256.84366653310053" x2="134.8553191489362" y2="238.645698427382" stroke="gray" stroke-width="0.5"/>
+<text x="65" y="244.14357076780755" font-size="6.468085106382979" text-anchor="start">Mixtral Large Base</text>
+<line x1="652.28" y1="259.47554068632655" x2="107.68936170212766" y2="246.7659574468085" stroke="gray" stroke-width="0.5"/>
+<text x="65" y="252.26382978723404" font-size="6.468085106382979" text-anchor="start">Deepseek-v3</text>
+<line x1="567.96" y1="260.8453267409302" x2="80.52340425531915" y2="254.88621646623494" stroke="gray" stroke-width="0.5"/>
+<text x="65" y="260.3840888066605" font-size="6.468085106382979" text-anchor="start">DBRX</text>
+<line x1="626.4399999999999" y1="266.7337793013545" x2="107.68936170212766" y2="263.0064754856614" stroke="gray" stroke-width="0.5"/>
+<text x="65" y="268.5043478260869" font-size="6.468085106382979" text-anchor="start">Qwen2.5-32b</text>
+<line x1="591.76" y1="266.7337793013545" x2="92.1659574468085" y2="271.1267345050878" stroke="gray" stroke-width="0.5"/>
+<text x="65" y="276.62460684551337" font-size="6.468085106382979" text-anchor="start">QwQ-32B</text>
+<line x1="562.5200000000001" y1="266.7337793013545" x2="88.28510638297873" y2="279.2469935245143" stroke="gray" stroke-width="0.5"/>
+<text x="65" y="284.74486586493987" font-size="6.468085106382979" text-anchor="start">R1-32B</text>
+<line x1="579.52" y1="266.7337793013545" x2="92.1659574468085" y2="287.36725254394077" stroke="gray" stroke-width="0.5"/>
+<text x="65" y="292.8651248843663" font-size="6.468085106382979" text-anchor="start">QWQ-32B</text>
+<line x1="571.36" y1="275.2277225305826" x2="107.68936170212766" y2="295.4875115633672" stroke="gray" stroke-width="0.5"/>
+<text x="65" y="300.98538390379275" font-size="6.468085106382979" text-anchor="start">Gemma 2 27B</text>
+<line x1="501.32" y1="275.2277225305826" x2="107.68936170212766" y2="303.60777058279365" stroke="gray" stroke-width="0.5"/>
+<text x="65" y="309.1056429232192" font-size="6.468085106382979" text-anchor="start">Gemma-3-27B</text>
+<line x1="593.12" y1="287.7919520092619" x2="107.68936170212766" y2="311.72802960222015" stroke="gray" stroke-width="0.5"/>
+<text x="65" y="317.2259019426457" font-size="6.468085106382979" text-anchor="start">DeepSeek-v2</text>
+<line x1="560.48" y1="290.23117057351396" x2="107.68936170212766" y2="319.8482886216466" stroke="gray" stroke-width="0.5"/>
+<text x="65" y="325.34616096207213" font-size="6.468085106382979" text-anchor="start">GOT-OSS-20B</text>
+<line x1="593.8000000000001" y1="308.06280035933855" x2="99.9276595744681" y2="327.96854764107303" stroke="gray" stroke-width="0.5"/>
+<text x="65" y="333.4664199814986" font-size="6.468085106382979" text-anchor="start">Qwen3-14B</text>
+<line x1="424.48" y1="311.7677590229064" x2="127.0936170212766" y2="336.0888066604995" stroke="gray" stroke-width="0.5"/>
+<text x="65" y="341.586679000925" font-size="6.468085106382979" text-anchor="start">Llama 2 Chat 13B</text>
+<line x1="556.4" y1="320.1194715346635" x2="115.45106382978723" y2="344.20906567992597" stroke="gray" stroke-width="0.5"/>
+<text x="65" y="349.7069380203515" font-size="6.468085106382979" text-anchor="start">Llama-3.2-11B</text>
+<line x1="544.8399999999999" y1="330.15181502038837" x2="103.80851063829788" y2="352.3293246993524" stroke="gray" stroke-width="0.5"/>
+<text x="65" y="357.82719703977796" font-size="6.468085106382979" text-anchor="start">Gemma 2 9B</text>
+<line x1="531.9200000000001" y1="336.0402675808127" x2="111.57021276595745" y2="360.44958371877885" stroke="gray" stroke-width="0.5"/>
+<text x="65" y="365.9474560592044" font-size="6.468085106382979" text-anchor="start">Llama 3.1 8B</text>
+<line x1="512.8799999999999" y1="336.0402675808127" x2="103.80851063829788" y2="368.56984273820535" stroke="gray" stroke-width="0.5"/>
+<text x="65" y="374.0677150786309" font-size="6.468085106382979" text-anchor="start">Llama 3 8B</text>
+<line x1="497.92" y1="336.0402675808127" x2="96.0468085106383" y2="376.6901017576318" stroke="gray" stroke-width="0.5"/>
+<text x="65" y="382.18797409805734" font-size="6.468085106382979" text-anchor="start">Gemma 8B</text>
+<line x1="485.0" y1="342.71604449906766" x2="103.80851063829788" y2="384.81036077705824" stroke="gray" stroke-width="0.5"/>
+<text x="65" y="390.3082331174838" font-size="6.468085106382979" text-anchor="start">Mistral 7B</text>
+<line x1="371.44" y1="342.71604449906766" x2="123.2127659574468" y2="392.9306197964847" stroke="gray" stroke-width="0.5"/>
+<text x="65" y="398.4284921369102" font-size="6.468085106382979" text-anchor="start">Llama 2 Chat 7B</text>
+<line x1="532.5999999999999" y1="370.6935117205418" x2="96.0468085106383" y2="401.0508788159111" stroke="gray" stroke-width="0.5"/>
+<text x="65" y="406.54875115633666" font-size="6.468085106382979" text-anchor="start">Qwen3-4B</text>
+<line x1="491.12" y1="385.0759075101942" x2="111.57021276595745" y2="409.1711378353376" stroke="gray" stroke-width="0.5"/>
+<text x="65" y="414.66901017576316" font-size="6.468085106382979" text-anchor="start">Llama 3.2 3B</text>
+<line x1="242.24" y1="385.0759075101942" x2="123.2127659574468" y2="417.29139685476406" stroke="gray" stroke-width="0.5"/>
+<text x="65" y="422.7892691951896" font-size="6.468085106382979" text-anchor="start">AppleOpenElm 3B</text>
+<line x1="244.28" y1="435.23505682142047" x2="134.8553191489362" y2="425.4116558741905" stroke="gray" stroke-width="0.5"/>
+<text x="65" y="430.90952821461605" font-size="6.468085106382979" text-anchor="start">Apple OpenElm 1.1B</text>
+<line x1="395.24" y1="440.0" x2="111.57021276595745" y2="433.531914893617" stroke="gray" stroke-width="0.5"/>
+<text x="65" y="439.02978723404254" font-size="6.468085106382979" text-anchor="start">Llama 3.2 1B</text>
 <line x1="677.4399999999999" y1="114.6001826474898" x2="682.4399999999999" y2="114.6001826474898" stroke="gray" stroke-width="0.5"/>
 <text x="682.4399999999999" y="117.65260688991405" font-size="8.721212121212131" text-anchor="start">Deepseek-R1</text>
 <line x1="670.64" y1="266.7337793013545" x2="675.64" y2="266.7337793013545" stroke="gray" stroke-width="0.5"/>
 <text x="675.64" y="270.2337793013545" font-size="10" text-anchor="start">Qwen3-32B</text>
-<line x1="593.8000000000001" y1="308.06280035933855" x2="598.8000000000001" y2="308.06280035933855" stroke="gray" stroke-width="0.5"/>
-<text x="598.8000000000001" y="311.56280035933855" font-size="10" text-anchor="start">Qwen3-14B</text>
 <line x1="567.96" y1="336.0402675808127" x2="572.96" y2="336.0402675808127" stroke="gray" stroke-width="0.5"/>
 <text x="572.96" y="339.5402675808127" font-size="10" text-anchor="start">Qwen3-8B</text>
-<line x1="532.5999999999999" y1="370.6935117205418" x2="537.5999999999999" y2="370.6935117205418" stroke="gray" stroke-width="0.5"/>
-<text x="537.5999999999999" y="374.1935117205418" font-size="10" text-anchor="start">Qwen3-4B</text>
-<line x1="491.12" y1="385.0759075101942" x2="496.12" y2="385.0759075101942" stroke="gray" stroke-width="0.5"/>
-<text x="496.12" y="388.5759075101942" font-size="10" text-anchor="start">Llama 3.2 3B</text>
-<line x1="395.24" y1="440.0" x2="400.24" y2="440.0" stroke="gray" stroke-width="0.5"/>
-<text x="400.24" y="443.5" font-size="10" text-anchor="start">Llama 3.2 1B</text>
 <text x="400.0" y="30.0" font-size="14" text-anchor="middle" font-weight="bold">MMLU Score vs. Parameter Count</text>
 <text x="400.0" y="490" font-size="10" text-anchor="middle">MMLU Score (%25)</text>
 <text x="15" y="250.0" font-size="10" text-anchor="middle" transform="rotate(-90,15,250.0)">Parameters (log scale)</text>
