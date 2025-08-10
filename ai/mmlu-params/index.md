@@ -58,5 +58,7 @@ function renderTable(text) {
     table.append(tbody);
     $('#data-table').empty().append(table);
     $('#mmlu-table').tablesorter();
+    $('#mmlu-table').addClass('tablesorter');
+    $('#mmlu-table').addClass('tablesorter-ice');
 }
 </script>
