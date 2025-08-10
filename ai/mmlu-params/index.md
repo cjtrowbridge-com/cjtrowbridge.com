@@ -16,43 +16,47 @@ In the future, this trend will continue as agentic tooling enables smaller model
 
 <a href="graph.svg"><img src="graph.svg" alt="MMLU vs Parameters" style="width: 100%; height: 100%;"></a>
 
-<div id="table">Loading...</div>
+<div id="data-table"></div>
 
 <script>
-// Load the table data from a JSON file using the already-included datatables
+$(document).ready(function () {
+    loadCsv();
+});
 
-fetch('data.json')
-  .then(response => response.json())
-  .then(data => {
-    const table = document.createElement('table');
-    table.id = 'mmluTable';
-    table.className = 'display';
-
-    const thead = document.createElement('thead');
-    const headerRow = document.createElement('tr');
-    ['Model', 'Parameters (B)', 'MMLU Score (%)'].forEach(text => {
-      const th = document.createElement('th');
-      th.textContent = text;
-      headerRow.appendChild(th);
+function loadCsv() {
+    $.get('data.csv', function (text) {
+        renderTable(text);
     });
-    thead.appendChild(headerRow);
-    table.appendChild(thead);
+}
 
-    const tbody = document.createElement('tbody');
-    data.forEach(item => {
-      const row = document.createElement('tr');
-      row.innerHTML = `<td>${item.model}</td><td>${item.parameters}</td><td>${item.mmluScore}</td>`;
-      tbody.appendChild(row);
+function renderTable(text) {
+    const rows = text.trim().split('\n');
+    const headers = rows[0].split(',');
+    const table = $('<table id="mmlu-table" class="tablesorter"></table>');
+    const thead = $('<thead></thead>');
+    const tbody = $('<tbody></tbody>');
+    const headerRow = $('<tr></tr>');
+
+    headers.forEach(function (header) {
+        headerRow.append($('<th></th>').text(header));
     });
-    table.appendChild(tbody);
+    
+    thead.append(headerRow);
+    table.append(thead);
 
-    document.getElementById('table').appendChild(table);
+    for (let i = 1; i < rows.length; i++) {
+        const cells = rows[i].split(',');
+        const row = $('<tr></tr>');
 
-    // Initialize DataTables
-    $(document).ready(function() {
-      $('#mmluTable').DataTable();
-    });
-  })
-  .catch(error => console.error('Error loading data:', error));
+        cells.forEach(function (cell) {
+            row.append($('<td></td>').text(cell));
+        });
 
+        tbody.append(row);
+    }
+
+    table.append(tbody);
+    $('#data-table').empty().append(table);
+    $('#mmlu-table').tablesorter();
+}
 </script>
