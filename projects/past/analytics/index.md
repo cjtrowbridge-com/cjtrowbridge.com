@@ -1,6 +1,6 @@
 # Social Media Analytics
 
-Daily and weekly view comparisons for two networks.
+Daily and weekly view comparisons for two networks plotted on a logarithmic scale.
 
 ![Daily views](daily_views.svg)
 
