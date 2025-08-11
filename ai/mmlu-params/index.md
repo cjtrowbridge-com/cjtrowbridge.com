@@ -16,6 +16,8 @@ In the future, this trend will continue as agentic tooling enables smaller model
 
 <a href="graph.svg"><img src="graph.svg" alt="MMLU vs Parameters" style="width: 100%; height: 100%;"></a>
 
+[This graph](https://github.com/cjtrowbridge-com/cjtrowbridge.com/blob/main/ai/mmlu-params/graph.svg) is generated from [this csv file](https://github.com/cjtrowbridge-com/cjtrowbridge.com/blob/main/ai/mmlu-params/data.csv) by [this jupyter notebook](https://github.com/cjtrowbridge-com/cjtrowbridge.com/blob/main/ai/mmlu-params/graph.ipynb). You can download these files and run them yourself, and feel free to submit pull request to [the public repository](https://github.com/cjtrowbridge-com/cjtrowbridge.com/tree/main/ai/mmlu-params) with any additions, refinements, etc.
+
 <div id="data-table"></div>
 
 <script>
