@@ -33,25 +33,47 @@ function loadCsv() {
 
 function renderTable(text) {
     const rows = text.trim().split('\n');
-    const headers = rows[0].split(',');
+    const headers = rows[0].split(',').map(function (header) {
+        return header.trim();
+    });
+    const citationIndex = headers.indexOf('MMLU Citation');
     const table = $('<table id="mmlu-table" class="tablesorter"></table>');
     const thead = $('<thead></thead>');
     const tbody = $('<tbody></tbody>');
     const headerRow = $('<tr></tr>');
 
-    headers.forEach(function (header) {
-        headerRow.append($('<th></th>').text(header));
+    headers.forEach(function (headerText) {
+        headerRow.append($('<th></th>').text(headerText));
     });
-    
+
     thead.append(headerRow);
     table.append(thead);
 
     for (let i = 1; i < rows.length; i++) {
         const cells = rows[i].split(',');
+
+        if (cells.length < headers.length) {
+            continue;
+        }
+
         const row = $('<tr></tr>');
 
-        cells.forEach(function (cell) {
-            row.append($('<td></td>').text(cell));
+        cells.forEach(function (cell, index) {
+            const cellText = cell.trim();
+
+            if (index === citationIndex && cellText.length > 0) {
+                const link = $('<a></a>')
+                    .attr('href', cellText)
+                    .attr('target', '_blank')
+                    .attr('rel', 'noopener noreferrer')
+                    .text('Source');
+
+                row.append($('<td></td>').append(link));
+
+                return;
+            }
+
+            row.append($('<td></td>').text(cellText));
         });
 
         tbody.append(row);
