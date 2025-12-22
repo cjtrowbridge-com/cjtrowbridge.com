@@ -41,6 +41,7 @@ AI, Sustainability, and Resiliency; in the forest, in the desert, and on TV.
   - [2022](https://open.spotify.com/playlist/37i9dQZF1F0sijgNaJdgit?si=azUYm-ktR8-449aC4OPJvA)
 
 ### Recent Longform Interviews:
+  - [Intelligent Machines with Leo Laporte](https://www.youtube.com/watch?v=Bct0S0-6nrE)
   - [CastroMedia: The Bay This Week - 2025-07-23](https://www.youtube.com/watch?v=k4ZZJTkj99E)
   - [Ethical artificial Intelligence with Future Infinitive and The Real Cornpop](https://www.youtube.com/watch?v=RUmM1ymH9fg)
   - [Communal Comms and Land Projects - SAD FRANCISCO](https://www.youtube.com/watch?v=_j0FikDdEn4)
