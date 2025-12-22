@@ -34,12 +34,6 @@ AI, Sustainability, and Resiliency; in the forest, in the desert, and on TV.
 - [MBA thesis on the future of datacenter strategy around artificial intelligence.](https://cjtrowbridge.com/2024-03-16_-_NVIDIA_Comprehensive_Analysis_And_Strategic_Recommendations.pdf)
 - [My undergraduate thesis (Urban Planning Bachelors) on why building affordable housing isn't affordable, and how to do it anyway.](https://cjtrowbridge.com/2020-05-12-Why-Building-Affordable-Housing-Isn’t-Affordable,-And-How-To-Do-It-Anyway.pdf)
 
-
-### My Spotify Wrapped Playlists:
-  - [2024](https://open.spotify.com/playlist/37i9dQZF1FoC8yzta57ODa?si=a40f9062a6164353)  
-  - [2023](https://open.spotify.com/playlist/37i9dQZF1Fa4gmZHP5ndnU?si=614199c294a14536)  
-  - [2022](https://open.spotify.com/playlist/37i9dQZF1F0sijgNaJdgit?si=azUYm-ktR8-449aC4OPJvA)
-
 ### Recent Longform Interviews:
   - [Intelligent Machines with Leo Laporte](https://www.youtube.com/watch?v=Bct0S0-6nrE)
   - [CastroMedia: The Bay This Week - 2025-07-23](https://www.youtube.com/watch?v=k4ZZJTkj99E)
@@ -70,10 +64,6 @@ AI, Sustainability, and Resiliency; in the forest, in the desert, and on TV.
 
 ### See Also:  
   - [My resume](https://cjtrowbridge.com/resume)  
-  - [My meme library](https://memes.cjtrowbridge.com/)  
-  - [Past projects](https://cjtrowbridge.com/projects/past/)
-  - [Future Projects](https://cjtrowbridge.com/projects/future/)
-
 
 
 <hr>
