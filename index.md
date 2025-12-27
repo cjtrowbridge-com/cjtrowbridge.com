@@ -36,7 +36,7 @@ AI, Sustainability, and Resiliency; in the forest, in the desert, and on TV.
 
 ### Recent Longform Interviews:
   - [Intelligent Machines with Leo Laporte](https://www.youtube.com/watch?v=Bct0S0-6nrE)
-  - [The Verge: Chipwrecked](https://www.theverge.com/ai-artificial-intelligence/848988/nvidia-chip-loans-coreweave-gpu-debt-ai-neocloud)
+  - [The Verge: Chipwrecked by Elizabeth Lopatto](https://www.theverge.com/ai-artificial-intelligence/848988/nvidia-chip-loans-coreweave-gpu-debt-ai-neocloud)
   - [CastroMedia: The Bay This Week - 2025-07-23](https://www.youtube.com/watch?v=k4ZZJTkj99E)
   - [Ethical artificial Intelligence with Future Infinitive and The Real Cornpop](https://www.youtube.com/watch?v=RUmM1ymH9fg)
   - [Communal Comms and Land Projects - SAD FRANCISCO](https://www.youtube.com/watch?v=_j0FikDdEn4)
