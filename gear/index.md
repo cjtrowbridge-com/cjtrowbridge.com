@@ -47,10 +47,12 @@ Tools for locating bad actors on mesh networks, wifi, or bluetooth.
 - Simple Node (You will need at least two or three of these)
     - [ESP32-S3 (With RP-SMA Antenna Connection)](https://amzn.to/3L4TYig)
     - [Meshtastic Node (With RP-SMA Antenna Connection)](https://amzn.to/4jdWL5b)
+    - [GPS Module](https://amzn.to/4qt1XED)
     - [CC1101 Sub-GHz SDR](https://amzn.to/3L4ZUI8)
     - [ANT500 Antenna](https://amzn.to/4scfgLH)
 - Advanced Node (You ned at least one of these)
     - [Orange Pi Zero 2W 4GB](https://amzn.to/4pf7gqn) Or any good, single board computer with USB ports.
+    - [GPS Module](https://amzn.to/4qt1XED)
     - [RTL-SDR](https://amzn.to/49dSjPk)
     - [ANT500 Antenna](https://amzn.to/4scfgLH)
 
