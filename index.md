@@ -27,6 +27,8 @@ AI, Sustainability, and Resiliency; in the forest, in the desert, and on TV.
 <a class="btn btn-primary" href="https://blog.cjtrowbridge.com">Blog</a> 
 
 ---
+### Gear List:
+Check out my [Gear List](https://cjtrowbridge.com/gear) for my recommended equipment for mesh networking, amateur radio/ fox hunting, and off-grid infrastructure.
 
 ### Read My Theses:
 
