@@ -6,8 +6,11 @@ title: Gear
 ## Self-Hosted Services
 
  Self-hosting your services means you aren't paying monthly fees to rent your services from some provider who doesn't even care about what you want and only thinks of you as something to be exploited. This way you have the power to change or improve features you don't like, and you can avoid the circus of renting these services from cloud providers. - [Awesome self-hosted list of free open-source software you can run at home instead of renting from evil corporations](https://github.com/awesome-selfhosted/awesome-selfhosted)
+
+
  
 ## Current PC
+<small>(These are affiliate links)</small>
 
 - I got this [Case](https://amzn.to/3G9XFgv) because it fits in an Ikea Kallax shelf
 - [Motherboard](https://amzn.to/49YWLRR)
