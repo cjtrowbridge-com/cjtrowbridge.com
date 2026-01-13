@@ -11,11 +11,11 @@ Building a chat bot for Whisplay. This will let you create a portable AI assista
 
 You have two options, and if you start with the "Good" option you can always upgrade to the "Better" option later. It's as simple as adding the extra hardware and flashing a new image to your MicroSD card.
 
-<img src="/assets/images/whisplay-parts.jpeg" alt="Whisplay Parts" class="photo />
+<img src="/assets/images/whisplay-parts.jpeg" alt="Whisplay Parts" class="photo" />
 
 ## Good
 
-<img src="/assets/images/whisplay-basic.jpeg" alt="Whisplay Basic Setup" class="photo />
+<img src="/assets/images/whisplay-basic.jpeg" alt="Whisplay Basic Setup" class="photo" />
 
 [My video explaining the basic setup](https://www.tiktok.com/@cjtrowbridge/video/7584311527990103326?is_from_webapp=1&sender_device=pc&web_id=7583425954312898062)
 
