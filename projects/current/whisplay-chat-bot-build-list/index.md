@@ -13,7 +13,7 @@ You have two options, and if you start with the "Good" option you can always upg
 
 <a href="/assets/images/whisplay-parts.jpeg"><img src="/assets/images/whisplay-parts.jpeg" alt="Whisplay Parts" class="photo" /></a>
 
-## Good
+## The Original Setup: Pretty Good.
 
 <a href="/assets/images/whisplay-basic.jpeg"><img src="/assets/images/whisplay-basic.jpeg" alt="Whisplay Basic Setup" class="photo" /></a>
 
@@ -29,7 +29,7 @@ Here are the instructions from the manufacturer on how to set it up: [Setup Inst
 
 Here is a pre-built image from the manufacturer where everything is already set up: [Pre-built Image](https://github.com/PiSugar/whisplay-ai-chatbot/wiki/Prebuild-Image-%E2%80%90-Pi5-Offline) Simply flash it to your MicroSD card using a tool like balena etcher or rufus and you're good to go!
 
-## Better
+## The New Setup: Really Great.
 
 <a href="/assets/images/whisplay-advanced.jpeg"><img src="/assets/images/whisplay-advanced.jpeg" alt="Whisplay Advanced Setup" class="photo" /></a>
 
