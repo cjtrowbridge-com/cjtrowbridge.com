@@ -1,6 +1,6 @@
 ---
 layout: project
-order: 1
+order: 2
 title: CJ Streams
 blurb: All the live streams including CJ
 ---
