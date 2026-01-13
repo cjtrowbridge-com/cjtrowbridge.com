@@ -30,7 +30,7 @@ Here is a pre-built image from the manufacturer where everything is already set 
 
 If you want to do it all manually, here are the instructions: [Manual Setup Instructions](https://www.youtube.com/watch?v=kFmhSTh167U)
 
-## The New Setup: Really Great.
+## The New Setup: Really Great!
 
 <a href="/assets/images/whisplay-advanced.jpeg"><img src="/assets/images/whisplay-advanced.jpeg" alt="Whisplay Advanced Setup" class="photo" /></a>
 
