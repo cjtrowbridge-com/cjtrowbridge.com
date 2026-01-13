@@ -24,6 +24,7 @@ Here are the minimum required parts to make one that will work whether or not yo
 - [Big, Fast MicroSD Card](https://amzn.to/49RNw7J)
 - [It has to be this specific battery](https://amzn.to/3YyVufN)
 - [Whisplay Hat (screen/scpeaker/mic/button)](https://amzn.to/4qg9WFt)
+- [Header Spacers to make everything fit together](https://amzn.to/4qDpZxz)
 
 Here is a pre-built image from the manufacturer where everything is already set up: [Pre-built Image](https://github.com/PiSugar/whisplay-ai-chatbot/wiki/Prebuild-Image-%E2%80%90-Pi5-Offline) Simply flash it to your MicroSD card using a tool like balena etcher or rufus and you're good to go!
 
