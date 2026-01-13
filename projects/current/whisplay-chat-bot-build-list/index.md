@@ -11,11 +11,11 @@ Building a chat bot for Whisplay. This will let you create a portable AI assista
 
 You have two options, and if you start with the "Good" option you can always upgrade to the "Better" option later. It's as simple as adding the extra hardware and flashing a new image to your MicroSD card.
 
-<img src="/assets/images/whisplay-parts.jpeg" alt="Whisplay Parts" class="photo" />
+<a href="/assets/images/whisplay-parts.jpeg"><img src="/assets/images/whisplay-parts.jpeg" alt="Whisplay Parts" class="photo" /></a>
 
 ## Good
 
-<img src="/assets/images/whisplay-basic.jpeg" alt="Whisplay Basic Setup" class="photo" />
+<a href="/assets/images/whisplay-basic.jpeg"><img src="/assets/images/whisplay-basic.jpeg" alt="Whisplay Basic Setup" class="photo" /></a>
 
 [My video explaining the basic setup](https://www.tiktok.com/@cjtrowbridge/video/7584311527990103326?is_from_webapp=1&sender_device=pc&web_id=7583425954312898062)
 
@@ -31,7 +31,7 @@ Here is a pre-built image from the manufacturer where everything is already set 
 
 ## Better
 
-<img src="/assets/images/whisplay-advanced.jpeg" alt="Whisplay Advanced Setup" class="photo" />
+<a href="/assets/images/whisplay-advanced.jpeg"><img src="/assets/images/whisplay-advanced.jpeg" alt="Whisplay Advanced Setup" class="photo" /></a>
 
 [My video about the advanced setup](https://www.tiktok.com/@cjtrowbridge/video/7594217936508816671)
 
@@ -42,4 +42,3 @@ To make it much faster, you can also add these parts:
 Here's a video from the manufacturer about how to put it together with the LLM8850 [Assembly Instructions](https://www.youtube.com/watch?v=IuTD5OMaVVU)
 
 Here is a pre-built image from the manufacturer where everything is already set up: [Pre-built Image](https://github.com/PiSugar/whisplay-ai-chatbot/wiki/Prebuild-Image-%E2%80%90-LLM8850) Simply flash it to your MicroSD card using a tool like balena etcher or rufus and you're good to go!
-
