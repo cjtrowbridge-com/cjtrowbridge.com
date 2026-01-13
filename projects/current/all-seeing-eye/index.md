@@ -13,7 +13,7 @@ blurb: A distributed RF observer system for real-time spectrum mapping.
 
 The **All-Seeing Eye** is a distributed RF observer system designed to map the radio spectrum (literally put all the broadcasts on a geographic map) in real-time. By deploying multiple synchronized nodes (ESP32 + CC1101) in a grid, the system creates a "VLBI Cluster" (Very Long Baseline Interferometry) that correlates signal strength (RSSI) from many locations simultaneously.
 
-A primary goal for this project is that each node should cost just a few dollars to build, making it feasible to quickly and affordably deploy dozens or hundreds of them across a region. They can also integrate with meshtastic nodes to enable cheap and offline regional communication.
+A primary goal for this project is that each node should cost just a few dollars to build, making it feasible to quickly and affordably deploy dozens or hundreds of them across a region. They can also integrate with meshtastic nodes to enable cheap and offline regional communication and automated alterts for various undesirable behaviors the nodes may observe ocurring throughout the region.
 
 This allows the system to determine where RF broadcasts are originating from, not by having one powerful sensor, but by combining the partial views of many small, low-cost observers.
 
