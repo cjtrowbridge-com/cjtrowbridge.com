@@ -20,7 +20,7 @@ You have two options, and if you start with the "Good" option you can always upg
 [My video explaining the basic setup](https://www.tiktok.com/@cjtrowbridge/video/7584311527990103326?is_from_webapp=1&sender_device=pc&web_id=7583425954312898062)
 
 Here are the minimum required parts to make one that will work whether or not you include the upgraded parts later:
-- [Raspberry Pi 4 Model B - 16GB RAM](https://amzn.to/4sEfUSd) This kit comes with the heatsink and power supply but none of the unnecessary extras like a case that wont fit with the pieces we're adding.
+- [Raspberry Pi 5 - 16GB RAM](https://amzn.to/4sEfUSd) This kit comes with the heatsink and power supply but none of the unnecessary extras like a case that wont fit with the pieces we're adding.
 - [Big, Fast MicroSD Card](https://amzn.to/49RNw7J)
 - [It has to be this specific battery](https://amzn.to/3YyVufN)
 - [Whisplay Hat (screen/scpeaker/mic/button)](https://amzn.to/4qg9WFt)
