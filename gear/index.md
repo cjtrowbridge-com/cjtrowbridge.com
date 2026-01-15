@@ -43,6 +43,7 @@ title: Gear
 - [HackRF One](https://amzn.to/4pktt6t) I like this one that comes with the ANT500 antenna instead of the telescoping antenna (which is junk).
 - [NAnoVNA Antenna Analyzer](https://amzn.to/4qlsqEi)
 - [TinySA Spectrum Analyzer](https://amzn.to/49cos9Q)
+- [Low-Noise Amplifier](https://amzn.to/4bz9ldw)
 - [Radio Toolbox](https://amzn.to/4saXok5)
 
 ## Fox Hunting (EXPERIMENTAL)
