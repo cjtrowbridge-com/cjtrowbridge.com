@@ -8,11 +8,9 @@ title: "Stationary 3D-Printed helicone Weather Satellite Uplink"
 
 <a href="/assets/images/helicone.jpg"><img src="/assets/images/helicone.jpg" alt="Helicone" class="photo" /></a>
 
-| Field | Details |
-| --- | --- |
-| Feed type | Helicone (3D-printed) |
-| Reflector type | Parabolic dish (Aluminum Window Screen) |
-| Alignment mechanism | Stationary (fixed mount after initial pointing) |
+- ***Feed type:** Helicone (3D-printed)
+- ***Reflector type:*** Parabolic dish (Aluminum Window Screen)
+- ***Alignment mechanism:*** Stationary (fixed mount after initial pointing)
   
 This is an uplink for connecting to the [GOES](https://en.wikipedia.org/wiki/Geostationary_Operational_Environmental_Satellite) weather satellites using a 3D-printed helicone feed antenna with an integrated parabolic dish reflector and LNA. The [helical feed](https://en.wikipedia.org/wiki/Helical_antenna) is designed to be mounted on a fixed, stationary mount that is manually pointed at the satellite. This allows me to receive real-time weather forecasts, photography, and emergency alerts directly from space without needing an internet connection.
 
