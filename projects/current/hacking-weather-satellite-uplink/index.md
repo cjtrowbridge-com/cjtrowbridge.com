@@ -6,6 +6,8 @@ title: "Stationary 3D-Printed helicone Weather Satellite Uplink"
 
 # Stationary 3D-Printed helicone Weather Satellite Uplink
 
+<a href="/assets/images/helicone.jpg"><img src="/assets/images/helicone.jpg" alt="Helicone" class="photo" /></a>
+
 | Field | Details |
 | --- | --- |
 | Feed type | Helicone (3D-printed) |
