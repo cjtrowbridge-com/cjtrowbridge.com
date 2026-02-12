@@ -22,6 +22,8 @@ I wanted to try duplicating the popular open-source Helicone project as a baseli
 
 This is the [3d model](https://www.thingiverse.com/thing:6436342/files). 
 
+If you don't want to 3d print this one, you can also [buy a GOES antenna that's ready to go](https://amzn.to/4aqFSjJ), but the feed will not be as good as the 3d printed one.
+
 
 ### Here is the parts list:
 - [Solid-core 6mm^2 copper wire](https://amzn.to/4kmiW9O) for the helicone elements. I used 6mm^2 because it is the closest standard size to the ideal diameter for the GOES frequency.
