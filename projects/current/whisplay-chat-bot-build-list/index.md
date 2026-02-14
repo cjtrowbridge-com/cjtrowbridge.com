@@ -49,3 +49,7 @@ If you want to do it manually with the LLM8850, here are the manufacturer's inst
 ## Opportunities for Improvement
 - Switching to [Qwen3-ASR](https://huggingface.co/Qwen/Qwen3-ASR-0.6B) for better voice recognition. This is a new open source model from Alibaba that is much better than the current one from OpenAI, but it requires a bit more setup to get working. If integrated, it would be much faster and more accurate for voice recognition in noisy environments.
 - Switching to [Qwen3-TTS](https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice) for better voice generation. This is another new open source model from Alibaba that is much better than the current one. It comes pre-trained with many excellent voices. It also allows cloning voices, so you could have it speak in your own voice or any voice you want. It can also allow editing voices to change whatever aspects of a particular voice you want to change. Again, it requires a bit more setup to get working, but it would be a big improvement in the quality of the voice responses.
+
+## Subsequent Update From The Manufacturer
+
+[Pipeline improvements for better speed and accuracy](https://www.youtube.com/watch?v=xGzvFzdBAwc)
