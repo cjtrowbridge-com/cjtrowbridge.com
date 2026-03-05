@@ -29,7 +29,6 @@ title: Gear
 
 ## New NAS
 - [TERRAMASTER F4-424 Pro](https://amzn.to/3MNRk0W)
-    - [RAID Card](https://amzn.to/3MNReTR)
     - [SSD](https://amzn.to/40R4Pjo)
     - 3x [16TB WD Red Drives](https://amzn.to/3MRPWqZ)
  
