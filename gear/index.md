@@ -24,6 +24,9 @@ title: Gear
 - [Jeton Orin Nano Super (8gb)](https://amzn.to/4aBdyNp)
     - [3d Printed Case](https://www.thingiverse.com/search?q=jetson+orin+nano+super+case&page=1)
     - Running Ollama
+- Jetson AGX Xavier (64gb)
+    - [3d Printed Case](https://github.com/cjtrowbridge/vibe-modeling/blob/main/output/gigachad_xavier_void/holy%20gigachad.stl)
+    - Running Ollama
 - [Zimaboard 2 (1664)](https://amzn.to/4q3luvU)
     - Running OpenWebUI and Factorio Server
 
