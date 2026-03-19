@@ -28,7 +28,7 @@ AI, Sustainability, and Resiliency; in the forest, in the desert, and on TV.
 
 #### Resources:
 
-<a href="https://bibliotecamemetica/" class="btn btn-memes">My Meme Library</a>
+<a href="https://bibliotecamemetic.com/" class="btn btn-memes">My Meme Library</a>
 
 ---
 ### Gear List:
