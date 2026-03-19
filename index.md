@@ -25,6 +25,9 @@ AI, Sustainability, and Resiliency; in the forest, in the desert, and on TV.
 <a class="btn btn-twitch" href="https://www.twitch.tv/cjtrowbridge"><i class="fa-brands fa-twitch"></i> Twitch</a> 
 <a class="btn btn-substack" href="https://cjtrowbridge.substack.com/"><i class="fa-solid fa-envelope"></i> Substack</a> 
 <a class="btn btn-primary" href="https://blog.cjtrowbridge.com">Blog</a> 
+
+#### Resources:
+
 <a href="https://bibliotecamemetica/" class="btn btn-memes">My Meme Library</a>
 
 ---
