@@ -24,13 +24,15 @@ title: Gear
 - [Jeton Orin Nano Super (8gb)](https://amzn.to/4aBdyNp)
     - [3d Printed Case](https://www.thingiverse.com/search?q=jetson+orin+nano+super+case&page=1)
     - Running Ollama
-- Jetson AGX Xavier (64gb)
+- [Jetson AGX Xavier (64gb)](https://amzn.to/3PDUhTf)
     - [3d Printed Case](https://github.com/cjtrowbridge/vibe-modeling/blob/main/output/gigachad_xavier_void/holy%20gigachad.stl)
     - Running Ollama
 - [Zimaboard 2 (1664)](https://amzn.to/4q3luvU)
     - Running OpenWebUI and Factorio Server
 - <strike>[Orange Pi 6 Plus (32gb)](https://amzn.to/3OfhquI)</strike> **SOLD OUT**
     - [**Alternative:** Radxa Rock 5C (32gb)](https://amzn.to/4tr1tAx)
+    - [**Alternative:** AGX Xavier (32gb)](https://amzn.to/4suZOJz) 
+        - Available Cheaper Used
     - Running Ollama
 
 ## New NAS
