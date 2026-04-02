@@ -29,6 +29,9 @@ title: Gear
     - Running Ollama
 - [Zimaboard 2 (1664)](https://amzn.to/4q3luvU)
     - Running OpenWebUI and Factorio Server
+- <strike>[Orange Pi 6 Plus (32gb)](https://amzn.to/3OfhquI)</strike> **SOLD OUT**
+    - [**Alternative:** Radxa Rock 5C (32gb)](https://amzn.to/4tr1tAx)
+    - Running Ollama
 
 ## New NAS
 - [TERRAMASTER F4-424 Pro](https://amzn.to/3MNRk0W)
