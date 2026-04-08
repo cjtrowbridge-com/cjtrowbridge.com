@@ -23,6 +23,7 @@ AI, Sustainability, and Resiliency; in the forest, in the desert, and on TV.
 <a class="btn btn-mastodon" href="https://mastodon.social/@cjtrowbridge"><i class="fa-brands fa-mastodon"></i> Mastodon</a> 
 <a class="btn btn-youtube" href="https://www.youtube.com/@CJTrowbridge"><i class="fa-brands fa-youtube"></i> YouTube</a> 
 <a class="btn btn-twitch" href="https://www.twitch.tv/cjtrowbridge"><i class="fa-brands fa-twitch"></i> Twitch</a> 
+<a class="btn btn-facebook" href="https://www.facebook.com/profile.php?id=61586820795006">Facebook</a>
 <a class="btn btn-substack" href="https://cjtrowbridge.substack.com/"><i class="fa-solid fa-envelope"></i> Substack</a> 
 <a class="btn btn-primary" href="https://blog.cjtrowbridge.com">Blog</a> 
 
