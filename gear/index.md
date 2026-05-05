@@ -48,9 +48,10 @@ title: Gear
 - [PortaPack H4M](https://amzn.to/4jh8Bf2) **Highly Recommend**
     - [ANT500 Antenna](https://amzn.to/4scfgLH)
 - [HackRF One](https://amzn.to/4pktt6t) I like this one that comes with the ANT500 antenna instead of the telescoping antenna (which is junk).
-- [NAnoVNA Antenna Analyzer (0-1ghz)](https://amzn.to/4qlsqEi)
+- [NanoVNA Antenna Analyzer (0-1ghz)](https://amzn.to/4qlsqEi)
 - [NanoVNA Antenna Analyzer (0-3ghz)](https://amzn.to/4w92nUk)
 - [TinySA Spectrum Analyzer](https://amzn.to/49cos9Q)
+- [Pocket Radio (Shortwave/Longwave/Broadcast) (150khz-108mhz AM/FM/LSB/USB)](https://amzn.to/3R1PlYM)
 - [Low-Noise Amplifier](https://amzn.to/4bz9ldw)
 - [Radio Toolbox](https://amzn.to/4saXok5)
 
