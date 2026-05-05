@@ -42,6 +42,7 @@ Check out my [Gear List](https://cjtrowbridge.com/gear) for my recommended equip
 - [My undergraduate thesis (Urban Planning Bachelors) on why building affordable housing isn't affordable, and how to do it anyway.](https://cjtrowbridge.com/2020-05-12-Why-Building-Affordable-Housing-Isn’t-Affordable,-And-How-To-Do-It-Anyway.pdf)
 
 ### Recent Longform Interviews:
+  - [Dean Preson's PUML is Punching Up](https://sf.gazetteer.co/dean-prestons-puml-is-punching-up)
   - [Intelligent Machines with Leo Laporte](https://www.youtube.com/watch?v=Bct0S0-6nrE)
   - [The Verge: Chipwrecked by Elizabeth Lopatto](https://www.theverge.com/ai-artificial-intelligence/848988/nvidia-chip-loans-coreweave-gpu-debt-ai-neocloud)
   - [CastroMedia: The Bay This Week - 2025-07-23](https://www.youtube.com/watch?v=k4ZZJTkj99E)
