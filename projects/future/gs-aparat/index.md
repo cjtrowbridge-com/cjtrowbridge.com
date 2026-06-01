@@ -2,6 +2,8 @@
 layout: project
 title: "GS-Aparat"
 blurb: Comprehensive Specification for Web-Based Composable Logic App
+pubdate: 2025-05-29
+lastUpdated: 2025-05-29
 ---
 
 ## GS-Aparat

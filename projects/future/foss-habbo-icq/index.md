@@ -1,6 +1,8 @@
 ---
 layout: project
 title: "Re-Imagining a FOSS Habbo + ICQ in 2025"
+pubdate: 2025-05-14
+lastUpdated: 2025-05-14
 ---
 
 

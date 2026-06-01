@@ -59,3 +59,15 @@ A lightweight coding standard focused on clarity, simplicity, and vibe.
             if base_value > 0:
                 return base_value + y * z
             return None
+
+6. Project Post Governance
+    - Required Frontmatter for Project Posts
+        * Every project post at projects/current/*/index.md, projects/past/*/index.md, and projects/future/*/index.md must include:
+            + pubdate: YYYY-MM-DD
+            + lastUpdated: YYYY-MM-DD
+    - Date Field Rules
+        * pubdate is write-once and represents original publication date.
+        * lastUpdated must be updated whenever post content changes.
+        * Use ISO date format only: YYYY-MM-DD (zero-padded).
+    - Sorting Policy
+        * Project listing pages must sort by lastUpdated descending so recently updated posts appear first.

@@ -2,6 +2,8 @@
 layout: project
 order: 2
 title: "Stationary 3D-Printed helicone Weather Satellite Uplink"
+pubdate: 2026-02-11
+lastUpdated: 2026-06-01
 ---
 
 # Stationary 3D-Printed helicone Weather Satellite Uplink

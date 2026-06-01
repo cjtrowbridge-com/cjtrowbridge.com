@@ -2,6 +2,8 @@
 layout: project
 title: Analysis Lab — Hardware & Software Stack
 blurb: My new homelab architecture
+pubdate: 2025-05-26
+lastUpdated: 2025-05-29
 ---
 
 # Analysis Lab — Hardware & Software Stack, Methodology

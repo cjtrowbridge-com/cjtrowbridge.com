@@ -3,6 +3,8 @@ layout: project
 order: 3
 title: "CJ's AI Toolbox"
 blurb: All the tools and skills you need for your AI toolbox.
+pubdate: 2025-04-22
+lastUpdated: 2025-12-22
 ---
 
 

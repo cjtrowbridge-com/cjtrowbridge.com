@@ -4,6 +4,8 @@ title: 2025-05-15 Notes
 title: Ethical Artificial Intelligence
 blurb: "A recorded livestream discussion on ethical issues in generative artificial intelligence featuring CJ Trowbridge, Future Inifinitive, and The Real Cornpop."
 order: 5
+pubdate: 2025-05-10
+lastUpdated: 2025-07-10
 ---
 
 # [Ethical Artificial Intelligence](https://cjtrowbridge.com/projects/current/2025-05-15-AI-Ethics-Notes/)

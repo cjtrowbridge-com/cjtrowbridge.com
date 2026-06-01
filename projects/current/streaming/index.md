@@ -3,6 +3,8 @@ layout: project
 order: 6
 title: CJ Streams
 blurb: All the live streams including CJ
+pubdate: 2025-07-10
+lastUpdated: 2026-06-01
 ---
 
 <img src="/assets/images/cj-streams.jpg" class="photo">

@@ -7,18 +7,17 @@ title: Current Projects
 
 <div class="row" markdown="0">
 
-{% assign sorted_pages = site.pages | sort: "order" %}
+{% assign project_pages = site.pages | where_exp: "page", "page.path contains 'projects/current/' and page.path != 'projects/current/index.md'" %}
+{% assign sorted_pages = project_pages | sort: "lastUpdated" | reverse %}
 
 {% for page in sorted_pages %}
-  {% if page.path contains "projects/current/" and page.path != "projects/current/index.md" %}
-    <div class="col-12">
-      <div class="card">
-          <div class="card-body">
-              {{ page.content }}
-          </div>
-      </div>
+  <div class="col-12">
+    <div class="card">
+        <div class="card-body">
+            {{ page.content }}
+        </div>
     </div>
-  {% endif %}
+  </div>
 {% endfor %}
 
 </div>

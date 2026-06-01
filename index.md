@@ -10,12 +10,19 @@ title: CJ Trowbridge
 
 AI, Sustainability, and Resiliency; in the forest, in the desert, and on TV.
 
-#### Support:  
+#### Support Me Directly:  
 <a class="btn btn-buymeacoffee" href="https://buymeacoffee.com/cjtrowbridge">☕ Buy me a coffee</a> 
 <a class="btn btn-venmo" href="https://venmo.com/u/cjtrowbridge"><i class="fa-brands fa-venmo"></i> Venmo</a> 
 <a class="btn btn-cashapp" href="https://cash.app/$cjtrowbridge"><i class="fa-brands fa-cashapp"></i> CashApp</a> 
 <a class="btn btn-paypal" href="https://www.paypal.com/paypalme/cjtrowbridge"><i class="fa-brands fa-paypal"></i> PayPal</a> 
 <a class="btn btn-crypto" href="https://etherscan.io/address/0xf9988ed19214b0fff5ae539c080e83e3f3846dca">Eth Wallet</a> 
+
+#### Support The Projects:
+
+<a href="https://www.gofundme.com/f/build-a-foundation-for-the-survival-of-humanity" class="btn btn-gofundme"><i class="fa-solid fa-hand-holding-dollar"></i> GoFundMe: Help Us Build An Outpost At The Grand Canyon</a> 
+<a href="https://www.gofundme.com/f/indigenous-solidarity-gardens-endangered-species" class="btn btn-gofundme"><i class="fa-solid fa-hand-holding-dollar"></i> GoFundMe: Indigenous Solidarity &amp; Endangered Species Gardens</a>  
+<a href="https://www.gofundme.com/f/cyberpony-express-free-and-offgrid-communications" class="btn btn-gofundme"><i class="fa-solid fa-hand-holding-dollar"></i> GoFundMe: Help Us Build the Cyberpony Express</a>  
+
 
 #### Connect:  
 <a class="btn btn-tiktok" href="https://www.tiktok.com/@cjtrowbridge"><i class="fa-brands fa-tiktok"></i> TikTok</a> 
@@ -74,9 +81,5 @@ Check out my [Gear List](https://cjtrowbridge.com/gear) for my recommended equip
 ### See Also:  
   - [My resume](https://cjtrowbridge.com/resume)  
 
-
-<hr>
-
-<p><a href="https://www.gofundme.com/f/build-a-foundation-for-the-survival-of-humanity" class="btn btn-gofundme"><i class="fa-solid fa-hand-holding-dollar"></i> GoFundMe: Help Us Build An Outpost At The Grand Canyon</a></p>
 
 <hr>

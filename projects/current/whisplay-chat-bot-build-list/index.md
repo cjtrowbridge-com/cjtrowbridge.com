@@ -3,6 +3,8 @@ layout: project
 order: 4
 title: Whisplay Chat Bot Build List
 blurb: Building a Whisplay chat bot.
+pubdate: 2026-01-12
+lastUpdated: 2026-06-01
 ---
 
 ### Whisplay Chat Bot Build List

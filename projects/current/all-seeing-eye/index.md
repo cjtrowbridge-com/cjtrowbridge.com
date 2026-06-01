@@ -3,6 +3,8 @@ layout: project
 order: 5
 title: All Seeing Eye
 blurb: A distributed RF observer system for real-time spectrum mapping.
+pubdate: 2026-01-13
+lastUpdated: 2026-06-01
 ---
 
 ### All Seeing Eye

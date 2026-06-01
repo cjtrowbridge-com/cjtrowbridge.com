@@ -1,3 +1,8 @@
+---
+pubdate: 2025-08-11
+lastUpdated: 2025-08-11
+---
+
 # Social Media Analytics
 
 Daily and weekly view comparisons for two networks plotted on a logarithmic scale.

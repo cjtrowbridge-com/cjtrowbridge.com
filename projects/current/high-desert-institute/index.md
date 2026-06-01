@@ -3,6 +3,8 @@ layout: project
 order: 8
 title: High Desert Institute
 blurb: Building a foundation for the survival of humanity.
+pubdate: 2025-04-22
+lastUpdated: 2026-06-01
 ---
 
 <a href="https://highdesertinstitute.org"><img src="/assets/images/hdi.jpg" class="photo"></a>
