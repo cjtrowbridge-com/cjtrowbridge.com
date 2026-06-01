@@ -31,11 +31,11 @@ In the [last iteration](https://blog.cjtrowbridge.com/2020/09/11/multpurpose-apo
     - [Radiation detection (Geiger counter)](https://amzn.to/43c4Osb)
     - [Environmental sensing (temperature, humidity, pressure)](https://amzn.to/433pe6J)
 
- ## Custom Enclosure
+## Custom Enclosure
  
- I have made great progress with my [vibe modeling](https://github.com/cjtrowbridge/vibe-modeling) pipeline. This agentic framework knows how to design and iterate on 3d objects based on a chat interface. I simply explain what I want and it designs a printable 3d model. Then we discuss any issues and it designs a new one. It also learns and tracks the design history. This has been a real game changer for me, as it allows me to rapidly prototype and iterate on designs without needing to crawl through the process of using cumbersome 3d modeling software. The pipeline can simply directly use whatever software it needs to whatever process is required, with a holistic view on the overall plan and goals.  
+I have made great progress with my [vibe modeling](https://github.com/cjtrowbridge/vibe-modeling) pipeline. This agentic framework knows how to design and iterate on 3d objects based on a chat interface. I simply explain what I want and it designs a printable 3d model. Then we discuss any issues and it designs a new one. It also learns and tracks the design history. This has been a real game changer for me, as it allows me to rapidly prototype and iterate on designs without needing to crawl through the process of using cumbersome 3d modeling software. The pipeline can simply directly use whatever software it needs to whatever process is required, with a holistic view on the overall plan and goals.  
 
- This design includes two pieces which will be printed upside down. The top of the enclosure will be a simple waterproof box measuring 200mm x 200mm x 100mm. This will contain all the electronics except for the sensors. The top of this print will be open.
+This design includes two pieces which will be printed upside down. The top of the enclosure will be a simple waterproof box measuring 200mm x 200mm x 100mm. This will contain all the electronics except for the sensors. The top of this print will be open.
  
 The bottom piece will be the stevenson screen which follows the same layout as the first piece, but with recessed edges to allow the top piece to mount snugly. (Ensuring enough margin to allow it to slide together)  
 
@@ -67,3 +67,5 @@ For example, if all the models are in agreement for the next 24 hours, we can be
 
 This kind of convergence analysis can be a powerful tool for improving the accuracy and reliability of our forecasts, especially in complex and rapidly changing situations.  
 
+## Inspiration
+- I found [this Stevenson screen design](https://sketchfab.com/3d-models/stevenson-screen-for-3d-printing-9274becfe4b240b8b0217e7fe90268de) which is pretty similar to the bottom half of the design I want to build. Also, it's already in OpenSCAD so I will give it to the vibe modeling pipeline as an example of a similar project to take inspiration from.
