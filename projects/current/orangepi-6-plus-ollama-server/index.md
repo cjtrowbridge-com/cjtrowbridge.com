@@ -1,6 +1,6 @@
 ---
 layout: project
-order: -1
+order: 3
 title: 32GB-DDR5 Ollama Server Based On OrangePi 6+
 blurb: A small, quiet, 32GB DDR5 home lab LLM server running Ollama on an Orange Pi 6+.
 ---

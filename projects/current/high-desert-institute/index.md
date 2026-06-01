@@ -1,6 +1,6 @@
 ---
 layout: project
-order: 4
+order: 8
 title: High Desert Institute
 blurb: Building a foundation for the survival of humanity.
 ---

@@ -1,6 +1,6 @@
 ---
 layout: project
-order: 0
+order: 4
 title: Whisplay Chat Bot Build List
 blurb: Building a Whisplay chat bot.
 ---
