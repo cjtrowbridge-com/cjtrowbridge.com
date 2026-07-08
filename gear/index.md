@@ -25,6 +25,8 @@ title: Gear
 
 - [20w Laser Cutter](https://amzn.to/4vRu5V4)
 - [Large format, fully-enclosed, air filtered 3d printer](https://amzn.to/4gtc36S)
+    - [My favorite PLA filament](https://amzn.to/4vhwpDG)
+    - [The filament I used for the cyberdeck (sparkly indigo)](https://amzn.to/4wvHCld)
 - [Bench Power Supply](https://amzn.to/4w4eX6Q)
 
 ## Current AI Homelab
