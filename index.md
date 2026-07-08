@@ -19,7 +19,7 @@ AI, Sustainability, and Resiliency; in the forest, in the desert, and on TV.
 
 #### Support The Projects:
 
-<a href="https://www.gofundme.com/f/build-a-foundation-for-the-survival-of-humanity" class="btn btn-gofundme"><i class="fa-solid fa-hand-holding-dollar"></i> GoFundMe: Help Us Build An Outpost At The Grand Canyon</a> 
+<a href="https://www.gofundme.com/f/build-a-foundation-for-the-survival-of-humanity" class="btn btn-gofundme"><i class="fa-solid fa-hand-holding-dollar"></i> GoFundMe: Help Us Build An Outpost At The Grand Canyon</a>  
 <a href="https://www.gofundme.com/f/indigenous-solidarity-gardens-endangered-species" class="btn btn-gofundme"><i class="fa-solid fa-hand-holding-dollar"></i> GoFundMe: Indigenous Solidarity &amp; Endangered Species Gardens</a>  
 <a href="https://www.gofundme.com/f/cyberpony-express-free-and-offgrid-communications" class="btn btn-gofundme"><i class="fa-solid fa-hand-holding-dollar"></i> GoFundMe: Help Us Build the Cyberpony Express</a>  
 

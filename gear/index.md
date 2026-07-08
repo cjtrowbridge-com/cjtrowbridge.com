@@ -19,7 +19,14 @@ title: Gear
 - [SSD](https://amzn.to/3sHFOKG)
 - [Power Supply](https://amzn.to/40NeMOy)
 - [Video Card](https://amzn.to/40KEYcP)
- 
+
+## Fabrication Laboratory
+<small>Some of my favorite and most important tools for fabricating things.</small>
+
+- [20w Laser Cutter](https://amzn.to/4vRu5V4)
+- [Large format, fully-enclosed, air filtered 3d printer](https://amzn.to/4gtc36S)
+- [Bench Power Supply](https://amzn.to/4w4eX6Q)
+
 ## Current AI Homelab
 - [Jeton Orin Nano Super (8gb)](https://amzn.to/4aBdyNp)
     - [3d Printed Case](https://www.thingiverse.com/search?q=jetson+orin+nano+super+case&page=1)
