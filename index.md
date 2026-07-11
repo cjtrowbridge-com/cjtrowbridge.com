@@ -12,7 +12,7 @@ AI, Sustainability, and Resiliency; in the forest, in the desert, and on TV.
 
 #### Support Me Directly:  
 
-<a class="btn btn-etsy" href="https://www.etsy.com/shop/cjsfablab"><i class="fa-brands fa-etsy"> Check Out My Etsy Store</a>  
+<a class="btn btn-etsy" href="https://www.etsy.com/shop/cjsfablab"><i class="fa-brands fa-etsy"></i> Check Out My Etsy Store</a>  
 <div class="products">
   <a class="product" href="https://www.etsy.com/listing/4536335224/glowing-serotonin-necklace-10-per-order"><img src="/assets/images/serotonin-necklace.jpg" alt="Glow in the dark serotonin necklaces"></a>
   <a class="product" href="https://www.etsy.com/listing/4536330960/joke-coin-for-starting-conversations-20"><img src="/assets/images/shot-coins.jpg" alt="Joke coins for starting conversations"></a>
