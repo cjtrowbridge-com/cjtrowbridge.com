@@ -11,6 +11,7 @@ title: CJ Trowbridge
 AI, Sustainability, and Resiliency; in the forest, in the desert, and on TV.
 
 #### Support Me Directly:  
+<a class="btn btn-etsy" href="https://www.etsy.com/shop/cjsfablab"><i class="fa-brands fa-etsy"> Check Out My Etsy Store</a>
 <a class="btn btn-buymeacoffee" href="https://buymeacoffee.com/cjtrowbridge">☕ Buy me a coffee</a> 
 <a class="btn btn-venmo" href="https://venmo.com/u/cjtrowbridge"><i class="fa-brands fa-venmo"></i> Venmo</a> 
 <a class="btn btn-cashapp" href="https://cash.app/$cjtrowbridge"><i class="fa-brands fa-cashapp"></i> CashApp</a> 
