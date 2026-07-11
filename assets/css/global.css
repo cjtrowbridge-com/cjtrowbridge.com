@@ -19,6 +19,9 @@ h4{
     background-color: #00A2FF;
     color: white;
 }
+.products .product{
+    width: 200px;
+}
 .btn-tiktok {
     background-color: #000000;
     color: white;
