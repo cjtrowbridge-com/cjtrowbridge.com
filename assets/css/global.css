@@ -19,6 +19,9 @@ h4{
     background-color: #00A2FF;
     color: white;
 }
+.products{
+    margin-bottom: 1rem;
+}
 .product img{
     width: 200px;
     max-width: 200px;
