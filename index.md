@@ -51,20 +51,6 @@ AI, Sustainability, and Resiliency; in the forest, in the desert, and on TV.
 ### Gear List:
 Check out my [Gear List](https://cjtrowbridge.com/gear) for my recommended equipment for mesh networking, amateur radio/ fox hunting, and off-grid infrastructure.
 
-### My Cookbook: 
-**(By popular demand, I have made my cookbook public!)**
-
-<ul>
-{% assign recipes = site.pages | sort: "title" %}
-{% for recipe in recipes %}
-  {% if recipe.path contains "cookbook/" and recipe.path != "cookbook/index.md" %}
-    <li><a href="{{ recipe.url }}">{{ recipe.title }}</a></li>
-  {% endif %}
-{% endfor %}
-</ul>
-
-[Browse the cookbook](/cookbook/)
-
 ### Read My Theses:
 
 - [My graduate thesis in ethical artificial intelligence.](https://cjtrowbridge.com/2024-05-17_-_The_Illusion_of_Understanding_-_Deconstructing_AI_Metaphors.pdf)
@@ -104,5 +90,16 @@ Check out my [Gear List](https://cjtrowbridge.com/gear) for my recommended equip
 ### See Also:  
   - [My resume](https://cjtrowbridge.com/resume)  
 
+### My Cookbook: 
+**(By popular demand, I have made my cookbook public!)**
+
+<ul>
+{% assign recipes = site.pages | sort: "title" %}
+{% for recipe in recipes %}
+  {% if recipe.path contains "cookbook/" and recipe.path != "cookbook/index.md" %}
+    <li><a href="{{ recipe.url }}">{{ recipe.title }}</a></li>
+  {% endif %}
+{% endfor %}
+</ul>
 
 <hr>
