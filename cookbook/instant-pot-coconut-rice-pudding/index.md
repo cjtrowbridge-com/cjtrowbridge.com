@@ -1,5 +1,5 @@
 ---
-layout: simple
+layout: recipe
 title: Instant Pot Coconut Rice Pudding
 ---
 

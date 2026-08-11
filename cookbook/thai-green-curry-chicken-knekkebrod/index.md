@@ -1,5 +1,5 @@
 ---
-layout: simple
+layout: recipe
 title: Thai Green Curry Chicken Knekkebrød
 ---
 
