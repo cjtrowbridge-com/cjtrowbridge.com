@@ -27,7 +27,7 @@ title: Thai Green Curry Chicken Knekkebrød
 ## Special Tools
 
 - Highly recommend using a [Wire rack](https://amzn.to/3S23OEU) for cooling. This prevents the knekkebrød sheets from cracking randomly, so you can cut them into the shapes and sizes you want.
-    
+
 ## Instructions
 
 1. **Preheat the oven to 275°F (135°C).** Line two 13×18-inch rimmed baking sheets with [silicone baking sheets](https://amzn.to/4z5y8PH). (Paper will stick. Once you try these you will never go back.)
@@ -50,7 +50,7 @@ title: Thai Green Curry Chicken Knekkebrød
 
 10. **Cool completely.** Let the crackers cool briefly on the baking sheets, then transfer the parchment and crackers to wire racks. They will continue to crisp as they cool.
 
-11. **Break into rustic pieces** or cut into squares with a serrated knife.
+11. **Break into rustic pieces** or cut into squares. Cutting works best when the crackers are still slightly warm.
 
 ## Notes
 
