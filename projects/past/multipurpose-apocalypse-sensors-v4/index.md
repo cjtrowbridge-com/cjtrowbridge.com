@@ -4,7 +4,7 @@ order: 1
 title: Multipurpose Apocalypse Sensors v4
 blurb: Draft plan for a modular, off-grid sensor platform for resilience work.
 pubdate: 2026-06-01
-lastUpdated: 2026-06-01
+lastUpdated: 2026-08-11
 ---
 
 ### Multipurpose Apocalypse Sensors v4

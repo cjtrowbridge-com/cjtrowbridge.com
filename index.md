@@ -10,12 +10,15 @@ title: CJ Trowbridge
 
 AI, Sustainability, and Resiliency; in the forest, in the desert, and on TV.
 
-#### Support Me Directly:  
+#### I am making chotchkies now!
 
 <div class="products">
   <a class="product" href="https://www.etsy.com/listing/4536335224/glowing-serotonin-necklace-10-per-order"><img src="/assets/images/serotonin-necklace.jpg" alt="Glow in the dark serotonin necklaces"></a>
   <a class="product" href="https://www.etsy.com/listing/4536330960/joke-coin-for-starting-conversations-20"><img src="/assets/images/shot-coins.jpg" alt="Joke coins for starting conversations"></a>
 </div>
+
+#### Support Me Directly:  
+
 <a class="btn btn-etsy" href="https://www.etsy.com/shop/cjsfablab"><i class="fa-brands fa-etsy"></i> Check Out My Etsy Store</a>
 <a class="btn btn-buymeacoffee" href="https://buymeacoffee.com/cjtrowbridge">☕ Buy me a coffee</a> 
 <a class="btn btn-venmo" href="https://venmo.com/u/cjtrowbridge"><i class="fa-brands fa-venmo"></i> Venmo</a> 
@@ -47,6 +50,20 @@ AI, Sustainability, and Resiliency; in the forest, in the desert, and on TV.
 ---
 ### Gear List:
 Check out my [Gear List](https://cjtrowbridge.com/gear) for my recommended equipment for mesh networking, amateur radio/ fox hunting, and off-grid infrastructure.
+
+### My Cookbook: 
+**(By popular demand, I have made my cookbook public!)**
+
+<ul>
+{% assign recipes = site.pages | sort: "title" %}
+{% for recipe in recipes %}
+  {% if recipe.path contains "cookbook/" and recipe.path != "cookbook/index.md" %}
+    <li><a href="{{ recipe.url }}">{{ recipe.title }}</a></li>
+  {% endif %}
+{% endfor %}
+</ul>
+
+[Browse the cookbook](/cookbook/)
 
 ### Read My Theses:
 
