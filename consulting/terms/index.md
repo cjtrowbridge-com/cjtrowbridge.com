@@ -38,15 +38,27 @@ that you have authority to bind that organization to these Terms.
 
 Payment is due in full at the time of booking.
 
+The rate quoted for an appointment applies only to that appointment. It does not
+guarantee the rate, availability, scope, or terms of any future appointment,
+repeat consultation, ongoing project, or other service.
+
+Rates for future appointments, repeat consultations, and ongoing or expanded
+work may be higher than the initial rate. Any rate for future work will be
+provided before that work is booked or begins, and no additional work is
+required unless the Client agrees to its scope and rate in advance.
+
 Except where required by law or expressly provided in these Terms, all sales are final and all payments are non-refundable.
 
 You are purchasing the reservation and provision of my time, not any particular answer, recommendation, deliverable, solution, outcome, or result.
 
 Dissatisfaction with the consultation, disagreement with information or opinions discussed, or the fact that a problem was not resolved does not entitle you to a refund.
 
-If I cancel or decline to provide a consultation for reasons other than your
-breach of these Terms, you may choose a reasonably comparable rescheduled
-appointment or a refund of the amount paid for that consultation.
+The Consultant reserves the right to cancel and refund any appointment at any
+time for any reason.
+
+If the Consultant needs to reschedule an appointment for any reason, the Client
+may choose either a reasonably comparable rescheduled appointment or a refund
+of the amount paid for that appointment.
 
 ## 3. Rescheduling, Cancellations, and No-Shows
 
