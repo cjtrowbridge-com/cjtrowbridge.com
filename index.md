@@ -10,6 +10,10 @@ title: CJ Trowbridge
 
 AI, Sustainability, and Resiliency; in the forest, in the desert, and on TV.
 
+<a class="btn btn-calendly btn-lg" href="/consulting/">
+  <i class="fa-regular fa-calendar"></i> Book Time With Me
+</a>
+
 #### I am making chotchkies now!
 
 <div class="products">
