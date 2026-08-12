@@ -38,14 +38,20 @@ that you have authority to bind that organization to these Terms.
 
 Payment is due in full at the time of booking.
 
-The rate quoted for an appointment applies only to that appointment. It does not
-guarantee the rate, availability, scope, or terms of any future appointment,
-repeat consultation, ongoing project, or other service.
+The publicly listed prices for appointments booked through the Consultant's
+public Calendly page are introductory first-time prices. They apply only to the
+first consultation for a Client, organization, or project. A different person
+booking on behalf of, participating in, or working with the same Client,
+organization, or project is not eligible for another introductory first-time
+price.
 
 Rates for future appointments, repeat consultations, and ongoing or expanded
-work may be higher than the initial rate. Any rate for future work will be
-provided before that work is booked or begins, and no additional work is
-required unless the Client agrees to its scope and rate in advance.
+work may differ from the introductory first-time price, including being higher
+or lower. The Consultant may quote future work based on its scope, type,
+complexity, preparation required, timing, and the Client's stated ability to
+pay. The Consultant will provide the applicable rate before an appointment or
+work is booked or begins, and no additional work is required unless the Client
+agrees to its scope and rate in advance.
 
 Except where required by law or expressly provided in these Terms, all sales are final and all payments are non-refundable.
 
