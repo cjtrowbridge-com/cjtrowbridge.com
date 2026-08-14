@@ -11,7 +11,7 @@ I help people and organizations make sense of ambitious projects at the
 intersection of technology, strategy, and community impact. Bring me a new
 idea, a stubborn problem, or a project that needs a clear path forward.
 
-<a class="btn btn-calendly btn-lg" href="#book-an-appointment">
+<a class="btn btn-calendly btn-lg" href="https://calendly.com/cjtrowbridge">
   <i class="fa-regular fa-calendar"></i> Book an Appointment
 </a>
 
@@ -94,7 +94,7 @@ binding arbitration agreement.
 Choose an appointment above to get started. If you are not sure which session
 fits your needs, select the shortest introductory option.
 
-<a class="btn btn-calendly btn-lg" href="#book-an-appointment">
+<a class="btn btn-calendly btn-lg" href="https://calendly.com/cjtrowbridge">
   <i class="fa-regular fa-calendar"></i> View Appointments
 </a>
 
