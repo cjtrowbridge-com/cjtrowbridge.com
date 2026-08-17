@@ -14,7 +14,7 @@ AI, Sustainability, and Resiliency; in the forest, in the desert, and on TV.
   <i class="fa-regular fa-calendar"></i> Book Time With Me
 </a>
 
-#### I am making chotchkies now!
+#### I am making tchotchkes now!
 
 <div class="products">
   <a class="product" href="https://www.etsy.com/listing/4536335224/glowing-serotonin-necklace-10-per-order"><img src="/assets/images/serotonin-necklace.jpg" alt="Glow in the dark serotonin necklaces"></a>
