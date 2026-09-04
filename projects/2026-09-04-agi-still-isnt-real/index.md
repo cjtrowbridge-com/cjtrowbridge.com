@@ -38,8 +38,8 @@ Several things immediately jump out to me from these numbers; mainly the things 
 
 <img src="/projects/2026-09-04-agi-still-isnt-real/astra-arc-agi-3.PNG" class="photo" alt="ARC-AGI-3 chart for Astra" >
 
-First of all, OpenaI spent  $20-$50 thousand dollars in tokens for each of these results. This benchmark is primarily simple visual puzzle problems. And the humans whose score sets the 100% mark on the chart were paid $115 per 90-minute session. There is no indivation of how long these $50,000 Astra sessions took, but it's difficult to imagine a world where anyone would make the argument that the net present value of $50,000 in tokens is equivalent to $115 for 90 minutes of human labor.
+First of all, OpenAI spent  $20-$50 thousand dollars in tokens for each of these results. This benchmark is primarily simple visual puzzle problems. And the humans whose score sets the 100% mark on the chart were paid $115 per 90-minute session. There is no indication of how long these $50,000 Astra sessions took, but it's difficult to imagine a world where anyone would make a serious argument that the net present value of $50,000 in tokens is equivalent to $115 for 90 minutes of human labor.
 
-Secondly, the two separate series shown on the chart are the model's relatively unremarkable performance, and then the model with unspecified tools. The score they're talking about is not the model, it's the tools.
+Secondly, the two separate series shown on the chart are the model's 17-63% scores, and then the model's much higher scores with some unspecified tools being used. The score they're talking about is not the model, it's the tools.
 
 So the bottom line for me is that regardless of how you try to spin these results, this is not a model that is anywhere near the level of a human. (Even if you're willing to spend $50k per prompt.) It is not AGI. It is not even close.
