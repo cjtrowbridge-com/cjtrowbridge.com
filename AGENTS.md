@@ -62,12 +62,14 @@ A lightweight coding standard focused on clarity, simplicity, and vibe.
 
 6. Project Post Governance
     - Required Frontmatter for Project Posts
-        * Every project post at projects/current/*/index.md, projects/past/*/index.md, and projects/future/*/index.md must include:
+        * Every project post at projects/YYYY-MM-DD-<slug>/index.md, excluding projects/index.md, must include:
             + pubdate: YYYY-MM-DD
             + lastUpdated: YYYY-MM-DD
+            + redirect_from entries for dated and undated versions of the former current, future, and past paths
     - Date Field Rules
         * pubdate is write-once and represents original publication date.
         * lastUpdated must be updated whenever post content changes.
         * Use ISO date format only: YYYY-MM-DD (zero-padded).
+        * The project folder name must begin with the exact pubdate.
     - Sorting Policy
         * Project listing pages must sort by lastUpdated descending so recently updated posts appear first.

@@ -64,6 +64,5 @@ AI, Sustainability, and Resiliency; in the forest, in the desert, and on TV.
 ### See Also:  
   - [My resume](https://cjtrowbridge.com/resume)  
   - [My meme library](https://memes.cjtrowbridge.com/)  
-  - [Past projects](https://cjtrowbridge.com/projects/past/)
-  - [Future Projects](https://cjtrowbridge.com/projects/future/)
+  - [Project journal](https://cjtrowbridge.com/projects/)
 

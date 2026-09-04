@@ -14,6 +14,8 @@ AI, Sustainability, and Resiliency; in the forest, in the desert, and on TV.
   <i class="fa-regular fa-calendar"></i> Book Time With Me
 </a>
 
+{% include latest-projects.html %}
+
 #### I am making tchotchkes now!
 
 <div class="products">

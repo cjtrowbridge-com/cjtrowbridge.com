@@ -1,0 +1,36 @@
+---
+layout: project
+type: project
+redirect_from:
+  - /projects/current/castro-media/
+  - /projects/future/castro-media/
+  - /projects/past/castro-media/
+  - /projects/current/2025-04-22-castro-media/
+  - /projects/future/2025-04-22-castro-media/
+  - /projects/past/2025-04-22-castro-media/
+title: Castro Media
+description: >-
+  Independent, flat media nonprofit featuring progressive, intersectional
+  perspectives on current events.
+image: /assets/images/castro.media.jpg
+imageAlt: Castro Media logo
+pubdate: 2025-04-22
+lastUpdated: 2025-12-22
+---
+
+
+Independent, flat media nonprofit featuring progressive, intersectional perspectives on current events.
+
+**Coming Soon:**
+- Weekly round table live streams about current events.
+- Regular updates from a diverse set of contributors, in the same vein as Novara Media from the UK.
+- A merchandise shop where 100% of proceeds go to specific charities. Submit designs, sponsor causes, drive support.
+
+<a class="btn btn-substack" href="https://castromedia.substack.com/">Always-free Substack</a>
+
+**Follow along:**
+<a class="btn btn-website" href="https://castromedia.org">Website</a> 
+<a class="btn twitch" href="https://www.twitch.tv/castromedia">Twitch</a>
+<a class="btn btn-bluesky" href="https://bsky.app/profile/castro.media">Bluesky</a>
+<a class="btn btn-youtube" href="https://www.youtube.com/@Castro-Media">Youtube</a>
+<a class="btn btn-tiktok" href="https://www.tiktok.com/@castromedia.org">TikTok</a>

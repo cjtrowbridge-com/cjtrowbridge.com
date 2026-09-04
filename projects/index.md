@@ -1,52 +1,20 @@
 ---
 layout: simple
 title: Projects
+redirect_from:
+  - /projects/current/
+  - /projects/future/
+  - /projects/past/
 ---
 
-## <a href="/projects/">Projects:</a>
+# Projects
 
-**[Current Projects](/projects/current/)**  
-<div class="row" markdown="0">
-  {% assign sorted_pages = site.pages | sort: "date" | reverse %}
-  {% for page in sorted_pages %}
-    {% if page.path contains "projects/current/" and page.path != "projects/current/index.md" %}
-      <div class="card">
-          <div class="card-body">
-              <a href="{{ page.url }}">{{ page.title }}</a>
-              {% if page.blurb %}<p>{{ page.blurb }}</p>{% endif %}
-          </div>
-      </div>
-    {% endif %}
-  {% endfor %}
-</div>
+Builds, experiments, research, and plans from across my project journal.
 
-**[Past Projects](/projects/past/)**  
-<div class="row" markdown="0">
-  {% assign sorted_pages = site.pages | sort: "date" | reverse %}
-  {% for page in sorted_pages %}
-    {% if page.path contains "projects/past/" and page.path != "projects/past/index.md" %}
-      <div class="card">
-          <div class="card-body">
-              <a href="{{ page.url }}">{{ page.title }}</a>
-              {% if page.blurb %}<p>{{ page.blurb }}</p>{% endif %}
-          </div>
-      </div>
-    {% endif %}
-  {% endfor %}
-</div>
-
-
-**[Future Projects](/projects/future/)** 
-<div class="row" markdown="0">
-  {% assign sorted_pages = site.pages | sort: "date" | reverse %}
-  {% for page in sorted_pages %}
-    {% if page.path contains "projects/future/" and page.path != "projects/future/index.md" %}
-      <div class="card">
-          <div class="card-body">
-              <a href="{{ page.url }}">{{ page.title }}</a>
-              {% if page.blurb %}<p>{{ page.blurb }}</p>{% endif %}
-          </div>
-      </div>
-    {% endif %}
-  {% endfor %}
+<div class="project-archive" markdown="0">
+{% assign project_pages = site.pages | where: "type", "project" %}
+{% assign sorted_projects = project_pages | sort: "lastUpdated" | reverse %}
+{% for project in sorted_projects %}
+  {% include project-card.html project=project %}
+{% endfor %}
 </div>

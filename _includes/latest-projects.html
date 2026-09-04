@@ -1,0 +1,16 @@
+<section class="project-feed" aria-labelledby="latest-projects-heading">
+    <div class="section-heading">
+        <div>
+            <p class="section-kicker">Project journal</p>
+            <h2 id="latest-projects-heading">Latest Projects</h2>
+        </div>
+        <a href="/projects/">View all projects</a>
+    </div>
+
+    {% assign project_pages = site.pages | where: "type", "project" %}
+    {% assign sorted_projects = project_pages | sort: "lastUpdated" | reverse %}
+    {% for project in sorted_projects limit: 6 %}
+        {% include project-card.html project=project %}
+    {% endfor %}
+
+</section>

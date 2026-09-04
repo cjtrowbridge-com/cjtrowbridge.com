@@ -41,64 +41,7 @@
 
                 {{ content }}
 
-                <h2><a href="/projects/current">Current Projects</a></h2>
-                <div markdown="0">
-
-                {% assign sorted_pages = site.pages | sort: "order" %}
-
-                {% for page in sorted_pages %}
-                {% if page.path contains "projects/current/" and page.path != "projects/current/index.md" %}
-                    <div class="card">
-                        <div class="card-body">
-                            {{ page.content }}
-                        </div>
-                    </div>
-                {% endif %}
-                {% endfor %}
-
-                </div>
-
-
-                <h2><a href="/projects/past">Past Projects</a></h2>
-                <div markdown="0">
-
-                {% assign sorted_pages = site.pages | sort: "order" %}
-
-                {% for page in sorted_pages %}
-                {% if page.path contains "projects/past/" and page.path != "projects/past/index.md" %}
-                    <div class="card">
-                        <div class="card-body">
-                            <a href="{{ page.url }}">{{ page.title }}</a>
-                            {% if page.blurb %}<p>{{ page.blurb }}</p>{% endif %}
-                        </div>
-                    </div>
-                {% endif %}
-                {% endfor %}
-
-                </div>
-
-
-                <h2><a href="/projects/future">Future Projects</a></h2>
-                <div class="row" markdown="0">
-
-                {% assign sorted_pages = site.pages | sort: "date" | reverse %}
-                
-                {% for page in sorted_pages %}
-                  {% if page.path contains "projects/future/" and page.path != "projects/future/index.md" %}
-                    <div class="card">
-                        <div class="card-body">
-                            <a href="{{ page.url }}">{{ page.title }}</a>
-                            {% if page.blurb %}<p>{{ page.blurb }}</p>{% endif %}
-                        </div>
-                    </div>
-                  {% endif %}
-                {% endfor %}
-                
-                </div>
-                <a href="/projects/">More...</a>
-
-                
-                    
+                {% include latest-projects.html %}
             </div><!--/col-->
 
 
