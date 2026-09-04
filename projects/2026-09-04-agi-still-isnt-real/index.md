@@ -14,7 +14,7 @@ title: "AGI still isn't real."
 description: >-
   A critical look at why today's artificial intelligence systems still do not
   constitute artificial general intelligence.
-image: /projects/2026-09-04-agi-still-isnt-real/astra.png
+image: /projects/2026-09-04-agi-still-isnt-real/agi.fw.png
 imageAlt: ARC-AGI-3 chart for Astra
 pubdate: 2026-09-04
 lastUpdated: 2026-09-04
@@ -46,6 +46,16 @@ Secondly, the two separate series shown on the chart are the model's 17-63% scor
 
 So the bottom line for me is that regardless of how you try to spin these results, this is not a model that is anywhere near the level of a human. (Even if you're willing to spend $50k per prompt.) 
 
-It is not AGI. 
+### The AGI Narrative Serves Another Purpose
+
+In my graduate thesis, [*The Illusion of Understanding: Deconstructing AI
+Metaphors*](/2024-05-17_-_The_Illusion_of_Understanding_-_Deconstructing_AI_Metaphors.pdf),
+I argue that AI-industry language repeatedly and deliberately borrows human concepts such as
+intelligence, learning, attention, rewards, and punishment, then uses them to tell inaccurate stories about what's going on, not in service of understanding, but in service of marketing and for investors' sake. 
+
+These inaccurate metaphors do not make the technology easier to understand. They replace an
+explanation of what's actually going on with meaningless anthropomorphic hand-waving. It's pure chicanery. Brockman's real goal in selling this dissimulating narrative is to increase the IPO price by hyping inaccurate metaphors about the capabilities of a chat bot we've all rightly come to view with suspicion and distrust.
+
+This is not AGI.
 
 It is not even close.
