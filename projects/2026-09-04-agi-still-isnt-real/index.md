@@ -1,8 +1,8 @@
 ---
 layout: project
 type: project
-status: draft
-published: false
+status: posted
+published: true
 redirect_from:
   - /projects/current/agi-still-isnt-real/
   - /projects/future/agi-still-isnt-real/
