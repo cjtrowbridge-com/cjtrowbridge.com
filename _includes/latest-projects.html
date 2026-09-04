@@ -8,7 +8,8 @@
     </div>
 
     {% assign project_pages = site.pages | where: "type", "project" %}
-    {% assign sorted_projects = project_pages | sort: "lastUpdated" | reverse %}
+    {% assign posted_projects = project_pages | where: "status", "posted" %}
+    {% assign sorted_projects = posted_projects | sort: "lastUpdated" | reverse %}
     {% for project in sorted_projects limit: 6 %}
         {% include project-card.html project=project %}
     {% endfor %}

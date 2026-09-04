@@ -11,6 +11,8 @@ Every project post must include these fields in YAML frontmatter:
 
 - `layout: project`
 - `type: project`
+- `status`: the publication state of the article
+- `published`: whether Jekyll should render the article
 - `title`: the article title
 - `description`: a one-sentence summary used in cards and metadata
 - `redirect_from`: the legacy category URLs for the project
@@ -45,6 +47,17 @@ Optional fields include:
 
 - `tags`: a YAML list of subjects covered by the article
 - `featured`: a boolean reserved for intentionally promoted projects
+
+## Publication Status
+
+- Use `status: draft` while an article is being written.
+- Use `status: posted` when an article is ready to appear in project listings.
+- Drafts must set `published: false` so Jekyll does not generate them.
+- Posted articles must set `published: true`.
+- Only posts with `status: posted` are linked from the homepage and project
+  archive.
+- Drafts are not publicly rendered; preview them locally with Jekyll's
+  `--unpublished` option.
 
 ## Date Field Semantics
 

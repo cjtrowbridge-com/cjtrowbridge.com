@@ -65,6 +65,8 @@ A lightweight coding standard focused on clarity, simplicity, and vibe.
         * Every project post at projects/YYYY-MM-DD-<slug>/index.md, excluding projects/index.md, must include:
             + pubdate: YYYY-MM-DD
             + lastUpdated: YYYY-MM-DD
+            + status: draft or posted
+            + published: false for drafts, true for posted articles
             + redirect_from entries for dated and undated versions of the former current, future, and past paths
     - Date Field Rules
         * pubdate is write-once and represents original publication date.

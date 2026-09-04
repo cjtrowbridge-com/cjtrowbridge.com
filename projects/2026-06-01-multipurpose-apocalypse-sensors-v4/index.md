@@ -1,6 +1,8 @@
 ---
 layout: project
 type: project
+status: posted
+published: true
 redirect_from:
   - /projects/current/multipurpose-apocalypse-sensors-v4/
   - /projects/future/multipurpose-apocalypse-sensors-v4/

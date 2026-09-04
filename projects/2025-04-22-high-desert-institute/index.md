@@ -1,6 +1,8 @@
 ---
 layout: project
 type: project
+status: posted
+published: true
 redirect_from:
   - /projects/current/high-desert-institute/
   - /projects/future/high-desert-institute/

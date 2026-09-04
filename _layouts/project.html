@@ -43,6 +43,11 @@
             </p>
 
             <header class="project-article-header">
+                {% unless page.status == "posted" %}
+                    <p class="project-status-notice">
+                        {{ page.status | capitalize }}
+                    </p>
+                {% endunless %}
                 <h1>{{ page.title }}</h1>
                 <p class="project-article-description">{{ page.description }}</p>
                 <p class="project-article-dates">

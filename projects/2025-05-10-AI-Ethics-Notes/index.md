@@ -1,6 +1,8 @@
 ---
 layout: project
 type: project
+status: posted
+published: true
 redirect_from:
   - /projects/current/2025-05-15-AI-Ethics-Notes/
   - /projects/future/2025-05-15-AI-Ethics-Notes/

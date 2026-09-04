@@ -1,0 +1,626 @@
+{
+  "schema_version": "1.0",
+  "title": "Frontier model benchmark observations",
+  "scope": "Combined extraction of explicit numeric benchmark values from the three research notes in this directory. Benchmarks named without a numeric value remain in the source notes; this dataset does not fabricate missing observations.",
+  "citation_policy": "Every result has a citation_id. Citation records point to the original first-party source identified by the research notes and to the local note/section used for extraction.",
+  "budget_labels": [
+    "non-thinking",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max",
+    "unknown"
+  ],
+  "citations": {
+    "openai-gpt51": {
+      "url": "https://openai.com/index/gpt-5-1-for-developers/",
+      "local_source": "3.md",
+      "section": "OpenAI / ChatGPT"
+    },
+    "openai-gpt52": {
+      "url": "https://openai.com/index/introducing-gpt-5-2/",
+      "local_source": "deep-research-report(2).md",
+      "section": "ARC-AGI 1 & 2 Scores for OpenAI GPT-5/6 Series"
+    },
+    "openai-gpt54-mini-nano": {
+      "url": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/",
+      "local_source": "3.md",
+      "section": "GPT-5.4 Mini/Nano scaling table"
+    },
+    "openai-gpt6-astra": {
+      "url": "https://openai.com/index/gpt-6-astra/",
+      "local_source": "3.md",
+      "section": "GPT-6 Astra"
+    },
+    "arc-prize-openai": {
+      "url": null,
+      "local_source": "deep-research-report(2).md",
+      "section": "Table 1",
+      "reported_source": "ARC Prize verified table, as cited by the research note"
+    },
+    "frontier-crosstab": {
+      "url": null,
+      "local_source": "frontier-benchmark-crosstabs.md",
+      "section": "Master Dataset (excerpt)",
+      "reported_source": "Research-note crosstab; some entries are explicitly described as re-tests"
+    },
+    "google-gemini-38": {
+      "url": "https://deepmind.google/models/gemini/flash/",
+      "local_source": "3.md",
+      "section": "Gemini 3.8 Flash"
+    },
+    "anthropic-haiku-45": {
+      "url": "https://www.anthropic.com/news/claude-haiku-4-5",
+      "local_source": "3.md",
+      "section": "Claude Haiku 4.5"
+    },
+    "anthropic-sonnet-45": {
+      "url": "https://www.anthropic.com/news/claude-sonnet-4-5",
+      "local_source": "3.md",
+      "section": "Claude Sonnet 4.5"
+    },
+    "anthropic-opus-46": {
+      "url": "https://www.anthropic.com/news/claude-opus-4-6",
+      "local_source": "3.md",
+      "section": "Claude Opus 4.6"
+    },
+    "qwen-35-small": {
+      "url": "https://huggingface.co/Qwen/Qwen3.5-0.8B",
+      "local_source": "3.md",
+      "section": "Qwen3.5-0.8B and Qwen3.5-2B"
+    },
+    "qwen-35-large": {
+      "url": "https://huggingface.co/Qwen/Qwen3.5-27B",
+      "local_source": "3.md",
+      "section": "Qwen3.5-27B / 35B-A3B / 122B-A10B"
+    },
+    "deepseek-v32": {
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp",
+      "local_source": "3.md",
+      "section": "DeepSeek-V3.2-Exp"
+    },
+    "deepseek-v4": {
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash",
+      "local_source": "3.md",
+      "section": "DeepSeek V4 Flash / V4 Pro"
+    }
+  },
+  "observations": [
+    {
+      "lab": "OpenAI",
+      "series": "GPT-5.1",
+      "model": "GPT-5.1 Thinking",
+      "token_budget": "high",
+      "results": [
+        { "benchmark": "ARC-AGI-1", "value": 72.8, "unit": "percent", "citation_id": "openai-gpt52" },
+        { "benchmark": "ARC-AGI-2", "value": 17.6, "unit": "percent", "citation_id": "openai-gpt52" },
+        { "benchmark": "SWE-bench Verified", "value": 76.3, "unit": "percent", "citation_id": "openai-gpt51" },
+        { "benchmark": "GPQA Diamond", "value": 88.1, "unit": "percent", "citation_id": "openai-gpt51" },
+        { "benchmark": "AIME 2025", "value": 94.0, "unit": "percent", "citation_id": "openai-gpt51" },
+        { "benchmark": "FrontierMath", "value": 26.7, "unit": "percent", "citation_id": "openai-gpt51" },
+        { "benchmark": "MMMU", "value": 85.4, "unit": "percent", "citation_id": "openai-gpt51" },
+        { "benchmark": "tau2-bench Airline", "value": 67.0, "unit": "percent", "citation_id": "openai-gpt51" },
+        { "benchmark": "tau2-bench Telecom", "value": 95.6, "unit": "percent", "citation_id": "openai-gpt51" },
+        { "benchmark": "tau2-bench Retail", "value": 77.9, "unit": "percent", "citation_id": "openai-gpt51" },
+        { "benchmark": "BrowseComp Long Context 128K", "value": 90.0, "unit": "percent", "citation_id": "openai-gpt51" }
+      ]
+    },
+    {
+      "lab": "OpenAI",
+      "series": "GPT-5.2",
+      "model": "GPT-5.2 Thinking",
+      "token_budget": "xhigh",
+      "results": [
+        { "benchmark": "ARC-AGI-1", "value": 86.2, "unit": "percent", "citation_id": "openai-gpt52" },
+        { "benchmark": "ARC-AGI-2", "value": 52.9, "unit": "percent", "citation_id": "openai-gpt52" },
+        { "benchmark": "GPQA Diamond", "value": 92.4, "unit": "percent", "citation_id": "openai-gpt52" },
+        { "benchmark": "HellaSwag-E", "value": 34.5, "unit": "percent", "citation_id": "openai-gpt52" }
+      ]
+    },
+    {
+      "lab": "OpenAI",
+      "series": "GPT-5.2",
+      "model": "GPT-5.2 Pro",
+      "token_budget": "xhigh",
+      "results": [
+        { "benchmark": "ARC-AGI-1", "value": 90.5, "unit": "percent", "citation_id": "openai-gpt52" },
+        { "benchmark": "ARC-AGI-2", "value": 54.2, "unit": "percent", "citation_id": "openai-gpt52" }
+      ]
+    },
+    {
+      "lab": "OpenAI",
+      "series": "GPT-5.4",
+      "model": "GPT-5.4 Base",
+      "token_budget": "xhigh",
+      "results": [
+        { "benchmark": "ARC-AGI-1", "value": 93.7, "unit": "percent", "citation_id": "arc-prize-openai" },
+        { "benchmark": "ARC-AGI-2", "value": 73.3, "unit": "percent", "citation_id": "arc-prize-openai" }
+      ]
+    },
+    {
+      "lab": "OpenAI",
+      "series": "GPT-5.4",
+      "model": "GPT-5.4 Pro",
+      "token_budget": "xhigh",
+      "results": [
+        { "benchmark": "ARC-AGI-1", "value": 94.5, "unit": "percent", "citation_id": "arc-prize-openai" },
+        { "benchmark": "ARC-AGI-2", "value": 83.3, "unit": "percent", "citation_id": "arc-prize-openai" }
+      ]
+    },
+    {
+      "lab": "OpenAI",
+      "series": "GPT-5.5",
+      "model": "GPT-5.5 Base",
+      "token_budget": "xhigh",
+      "results": [
+        { "benchmark": "ARC-AGI-1", "value": 95.0, "unit": "percent", "citation_id": "arc-prize-openai" },
+        { "benchmark": "ARC-AGI-2", "value": 85.0, "unit": "percent", "citation_id": "arc-prize-openai" }
+      ]
+    },
+    {
+      "lab": "OpenAI",
+      "series": "GPT-5.6",
+      "model": "GPT-5.6 Luna",
+      "token_budget": "max",
+      "results": [
+        { "benchmark": "ARC-AGI-1", "value": 88.0, "unit": "percent", "citation_id": "arc-prize-openai" },
+        { "benchmark": "ARC-AGI-2", "value": 59.5, "unit": "percent", "citation_id": "arc-prize-openai" }
+      ]
+    },
+    {
+      "lab": "OpenAI",
+      "series": "GPT-5.6",
+      "model": "GPT-5.6 Luna",
+      "token_budget": "xhigh",
+      "results": [
+        { "benchmark": "ARC-AGI-1", "value": 87.7, "unit": "percent", "citation_id": "arc-prize-openai" },
+        { "benchmark": "ARC-AGI-2", "value": 47.6, "unit": "percent", "citation_id": "arc-prize-openai" }
+      ]
+    },
+    {
+      "lab": "OpenAI",
+      "series": "GPT-5.6",
+      "model": "GPT-5.6 Luna",
+      "token_budget": "high",
+      "results": [
+        { "benchmark": "ARC-AGI-1", "value": 76.5, "unit": "percent", "citation_id": "arc-prize-openai" },
+        { "benchmark": "ARC-AGI-2", "value": 29.3, "unit": "percent", "citation_id": "arc-prize-openai" }
+      ]
+    },
+    {
+      "lab": "OpenAI",
+      "series": "GPT-5.6",
+      "model": "GPT-5.6 Luna",
+      "token_budget": "medium",
+      "results": [
+        { "benchmark": "ARC-AGI-1", "value": 56.5, "unit": "percent", "citation_id": "arc-prize-openai" },
+        { "benchmark": "ARC-AGI-2", "value": 7.4, "unit": "percent", "citation_id": "arc-prize-openai" }
+      ]
+    },
+    {
+      "lab": "OpenAI",
+      "series": "GPT-5.6",
+      "model": "GPT-5.6 Luna",
+      "token_budget": "low",
+      "results": [
+        { "benchmark": "ARC-AGI-1", "value": 34.2, "unit": "percent", "citation_id": "arc-prize-openai" },
+        { "benchmark": "ARC-AGI-2", "value": 5.1, "unit": "percent", "citation_id": "arc-prize-openai" }
+      ]
+    },
+    {
+      "lab": "OpenAI",
+      "series": "GPT-5.6",
+      "model": "GPT-5.6 Sol",
+      "token_budget": "max",
+      "results": [
+        { "benchmark": "ARC-AGI-1", "value": 96.5, "unit": "percent", "citation_id": "arc-prize-openai" },
+        { "benchmark": "ARC-AGI-2", "value": 92.5, "unit": "percent", "citation_id": "arc-prize-openai" }
+      ]
+    },
+    {
+      "lab": "OpenAI",
+      "series": "GPT-5.6",
+      "model": "GPT-5.6 Sol",
+      "token_budget": "xhigh",
+      "results": [
+        { "benchmark": "ARC-AGI-1", "value": 97.5, "unit": "percent", "citation_id": "arc-prize-openai" },
+        { "benchmark": "ARC-AGI-2", "value": 90.0, "unit": "percent", "citation_id": "arc-prize-openai" }
+      ]
+    },
+    {
+      "lab": "OpenAI",
+      "series": "GPT-5.6",
+      "model": "GPT-5.6 Sol",
+      "token_budget": "high",
+      "results": [
+        { "benchmark": "ARC-AGI-1", "value": 97.0, "unit": "percent", "citation_id": "arc-prize-openai" },
+        { "benchmark": "ARC-AGI-2", "value": 85.4, "unit": "percent", "citation_id": "arc-prize-openai" }
+      ]
+    },
+    {
+      "lab": "OpenAI",
+      "series": "GPT-5.6",
+      "model": "GPT-5.6 Sol",
+      "token_budget": "medium",
+      "results": [
+        { "benchmark": "ARC-AGI-1", "value": 92.5, "unit": "percent", "citation_id": "arc-prize-openai" },
+        { "benchmark": "ARC-AGI-2", "value": 67.1, "unit": "percent", "citation_id": "arc-prize-openai" }
+      ]
+    },
+    {
+      "lab": "OpenAI",
+      "series": "GPT-5.6",
+      "model": "GPT-5.6 Sol",
+      "token_budget": "low",
+      "results": [
+        { "benchmark": "ARC-AGI-1", "value": 74.5, "unit": "percent", "citation_id": "arc-prize-openai" },
+        { "benchmark": "ARC-AGI-2", "value": 42.5, "unit": "percent", "citation_id": "arc-prize-openai" }
+      ]
+    },
+    {
+      "lab": "OpenAI",
+      "series": "GPT-5.4",
+      "model": "GPT-5.4 Base",
+      "token_budget": "unknown",
+      "results": [
+        { "benchmark": "SWE-Bench Pro", "value": 57.7, "unit": "percent", "citation_id": "openai-gpt54-mini-nano" },
+        { "benchmark": "Terminal-Bench", "value": 75.1, "unit": "percent", "citation_id": "openai-gpt54-mini-nano" },
+        { "benchmark": "GPQA Diamond", "value": 93.0, "unit": "percent", "citation_id": "openai-gpt54-mini-nano" },
+        { "benchmark": "OSWorld", "value": 75.0, "unit": "percent", "citation_id": "openai-gpt54-mini-nano" }
+      ]
+    },
+    {
+      "lab": "OpenAI",
+      "series": "GPT-5.4",
+      "model": "GPT-5.4 Mini",
+      "token_budget": "unknown",
+      "results": [
+        { "benchmark": "SWE-Bench Pro", "value": 54.4, "unit": "percent", "citation_id": "openai-gpt54-mini-nano" },
+        { "benchmark": "Terminal-Bench", "value": 60.0, "unit": "percent", "citation_id": "openai-gpt54-mini-nano" },
+        { "benchmark": "GPQA Diamond", "value": 88.0, "unit": "percent", "citation_id": "openai-gpt54-mini-nano" },
+        { "benchmark": "OSWorld", "value": 72.1, "unit": "percent", "citation_id": "openai-gpt54-mini-nano" }
+      ]
+    },
+    {
+      "lab": "OpenAI",
+      "series": "GPT-5.4",
+      "model": "GPT-5.4 Nano",
+      "token_budget": "unknown",
+      "results": [
+        { "benchmark": "SWE-Bench Pro", "value": 52.4, "unit": "percent", "citation_id": "openai-gpt54-mini-nano" },
+        { "benchmark": "Terminal-Bench", "value": 46.3, "unit": "percent", "citation_id": "openai-gpt54-mini-nano" },
+        { "benchmark": "GPQA Diamond", "value": 82.8, "unit": "percent", "citation_id": "openai-gpt54-mini-nano" },
+        { "benchmark": "OSWorld", "value": 39.0, "unit": "percent", "citation_id": "openai-gpt54-mini-nano" }
+      ]
+    },
+    {
+      "lab": "OpenAI",
+      "series": "GPT-6",
+      "model": "GPT-6 Astra",
+      "token_budget": "unknown",
+      "results": [
+        { "benchmark": "Agents' Last Exam", "value": 59.3, "unit": "percent", "citation_id": "openai-gpt6-astra" },
+        { "benchmark": "AutomationBench", "value": 41.4, "unit": "percent", "citation_id": "openai-gpt6-astra" },
+        { "benchmark": "BrowseComp", "value": 91.5, "unit": "percent", "citation_id": "openai-gpt6-astra" },
+        { "benchmark": "Terminal-Bench 4.0", "value": 57.9, "unit": "percent", "citation_id": "openai-gpt6-astra" },
+        { "benchmark": "FrontierMath Tier 4 v2", "value": 97.6, "unit": "percent", "citation_id": "openai-gpt6-astra" },
+        { "benchmark": "GPQA Diamond", "value": 96.0, "unit": "percent", "citation_id": "openai-gpt6-astra" }
+      ]
+    },
+    {
+      "lab": "Google",
+      "series": "Gemini 3.8",
+      "model": "Gemini 3.8 Flash",
+      "token_budget": "unknown",
+      "results": [
+        { "benchmark": "Vals Finance Agent v2", "value": 61.4, "unit": "percent", "citation_id": "google-gemini-38" },
+        { "benchmark": "Harvey's Legal Agent Benchmark", "value": 10.0, "unit": "percent", "citation_id": "google-gemini-38" },
+        { "benchmark": "HLE-Verified", "value": 54.9, "unit": "percent", "citation_id": "google-gemini-38" }
+      ]
+    },
+    {
+      "lab": "Anthropic",
+      "series": "Claude 4.5",
+      "model": "Claude Haiku 4.5",
+      "token_budget": "128K",
+      "results": [
+        { "benchmark": "SWE-bench Verified", "value": 73.3, "unit": "percent", "citation_id": "anthropic-haiku-45" }
+      ]
+    },
+    {
+      "lab": "Anthropic",
+      "series": "Claude 4.5",
+      "model": "Claude Haiku 4.5",
+      "token_budget": "non-thinking",
+      "results": [
+        { "benchmark": "Terminal-Bench", "value": 40.21, "unit": "percent", "citation_id": "anthropic-haiku-45" }
+      ]
+    },
+    {
+      "lab": "Anthropic",
+      "series": "Claude 4.5",
+      "model": "Claude Haiku 4.5",
+      "token_budget": "32K",
+      "results": [
+        { "benchmark": "Terminal-Bench", "value": 41.75, "unit": "percent", "citation_id": "anthropic-haiku-45" }
+      ]
+    },
+    {
+      "lab": "Anthropic",
+      "series": "Claude 4.5",
+      "model": "Claude Sonnet 4.5",
+      "token_budget": "200K",
+      "results": [
+        { "benchmark": "SWE-bench Verified", "value": 77.2, "unit": "percent", "citation_id": "anthropic-sonnet-45" }
+      ]
+    },
+    {
+      "lab": "Anthropic",
+      "series": "Claude 4.5",
+      "model": "Claude Sonnet 4.5",
+      "token_budget": "1M",
+      "results": [
+        { "benchmark": "SWE-bench Verified", "value": 78.2, "unit": "percent", "citation_id": "anthropic-sonnet-45" }
+      ]
+    },
+    {
+      "lab": "Anthropic",
+      "series": "Claude 4.5",
+      "model": "Claude Sonnet 4.5",
+      "token_budget": "high",
+      "results": [
+        { "benchmark": "SWE-bench Verified", "value": 82.0, "unit": "percent", "citation_id": "anthropic-sonnet-45", "notes": "parallel/high-compute configuration" }
+      ]
+    },
+    {
+      "lab": "Anthropic",
+      "series": "Claude 4.6",
+      "model": "Claude Opus 4.6",
+      "token_budget": "max",
+      "results": [
+        { "benchmark": "SWE-bench Verified", "value": 80.84, "unit": "percent", "citation_id": "anthropic-opus-46" },
+        { "benchmark": "SWE-bench Multilingual", "value": 77.83, "unit": "percent", "citation_id": "anthropic-opus-46" }
+      ]
+    },
+    {
+      "lab": "Alibaba",
+      "series": "Qwen3.5",
+      "model": "Qwen3.5-0.8B",
+      "token_budget": "non-thinking",
+      "results": [
+        { "benchmark": "MMLU-Pro", "value": 29.7, "unit": "percent", "citation_id": "qwen-35-small" }
+      ]
+    },
+    {
+      "lab": "Alibaba",
+      "series": "Qwen3.5",
+      "model": "Qwen3.5-0.8B",
+      "token_budget": "thinking",
+      "results": [
+        { "benchmark": "MMLU-Pro", "value": 42.3, "unit": "percent", "citation_id": "qwen-35-small" },
+        { "benchmark": "GPQA", "value": 11.9, "unit": "percent", "citation_id": "qwen-35-small" }
+      ]
+    },
+    {
+      "lab": "Alibaba",
+      "series": "Qwen3.5",
+      "model": "Qwen3.5-2B",
+      "token_budget": "non-thinking",
+      "results": [
+        { "benchmark": "MMLU-Pro", "value": 55.3, "unit": "percent", "citation_id": "qwen-35-small" }
+      ]
+    },
+    {
+      "lab": "Alibaba",
+      "series": "Qwen3.5",
+      "model": "Qwen3.5-2B",
+      "token_budget": "thinking",
+      "results": [
+        { "benchmark": "MMLU-Pro", "value": 66.5, "unit": "percent", "citation_id": "qwen-35-small" },
+        { "benchmark": "GPQA", "value": 51.6, "unit": "percent", "citation_id": "qwen-35-small" }
+      ]
+    },
+    {
+      "lab": "Alibaba",
+      "series": "Qwen3.5",
+      "model": "Qwen3.5-122B-A10B",
+      "token_budget": "unknown",
+      "results": [
+        { "benchmark": "MMLU-Pro", "value": 86.7, "unit": "percent", "citation_id": "qwen-35-large" },
+        { "benchmark": "SuperGPQA", "value": 67.1, "unit": "percent", "citation_id": "qwen-35-large" },
+        { "benchmark": "GPQA Diamond", "value": 86.6, "unit": "percent", "citation_id": "qwen-35-large" },
+        { "benchmark": "HLE + CoT", "value": 25.3, "unit": "percent", "citation_id": "qwen-35-large" },
+        { "benchmark": "SWE-bench Verified", "value": 72.0, "unit": "percent", "citation_id": "qwen-35-large" }
+      ]
+    },
+    {
+      "lab": "Alibaba",
+      "series": "Qwen3.5",
+      "model": "Qwen3.5-27B",
+      "token_budget": "unknown",
+      "results": [
+        { "benchmark": "MMLU-Pro", "value": 86.1, "unit": "percent", "citation_id": "qwen-35-large" },
+        { "benchmark": "SuperGPQA", "value": 65.6, "unit": "percent", "citation_id": "qwen-35-large" },
+        { "benchmark": "GPQA Diamond", "value": 85.5, "unit": "percent", "citation_id": "qwen-35-large" },
+        { "benchmark": "HLE + CoT", "value": 24.3, "unit": "percent", "citation_id": "qwen-35-large" },
+        { "benchmark": "SWE-bench Verified", "value": 72.4, "unit": "percent", "citation_id": "qwen-35-large" }
+      ]
+    },
+    {
+      "lab": "Alibaba",
+      "series": "Qwen3.5",
+      "model": "Qwen3.5-35B-A3B",
+      "token_budget": "unknown",
+      "results": [
+        { "benchmark": "MMLU-Pro", "value": 85.3, "unit": "percent", "citation_id": "qwen-35-large" },
+        { "benchmark": "SuperGPQA", "value": 63.4, "unit": "percent", "citation_id": "qwen-35-large" },
+        { "benchmark": "GPQA Diamond", "value": 84.2, "unit": "percent", "citation_id": "qwen-35-large" },
+        { "benchmark": "HLE + CoT", "value": 22.4, "unit": "percent", "citation_id": "qwen-35-large" },
+        { "benchmark": "SWE-bench Verified", "value": 69.2, "unit": "percent", "citation_id": "qwen-35-large" }
+      ]
+    },
+    {
+      "lab": "DeepSeek",
+      "series": "DeepSeek-V3.2-Exp",
+      "model": "DeepSeek-V3.2-Exp",
+      "token_budget": "reasoning-no-tools",
+      "results": [
+        { "benchmark": "MMLU-Pro", "value": 85.0, "unit": "percent", "citation_id": "deepseek-v32" },
+        { "benchmark": "GPQA Diamond", "value": 79.9, "unit": "percent", "citation_id": "deepseek-v32" },
+        { "benchmark": "Humanity's Last Exam", "value": 19.8, "unit": "percent", "citation_id": "deepseek-v32" },
+        { "benchmark": "LiveCodeBench", "value": 74.1, "unit": "percent", "citation_id": "deepseek-v32" },
+        { "benchmark": "AIME 2025", "value": 89.3, "unit": "percent", "citation_id": "deepseek-v32" },
+        { "benchmark": "HMMT 2025", "value": 83.6, "unit": "percent", "citation_id": "deepseek-v32" },
+        { "benchmark": "Codeforces", "value": 2121, "unit": "rating", "citation_id": "deepseek-v32" },
+        { "benchmark": "Aider-Polyglot", "value": 74.5, "unit": "percent", "citation_id": "deepseek-v32" }
+      ]
+    },
+    {
+      "lab": "DeepSeek",
+      "series": "DeepSeek-V3.2-Exp",
+      "model": "DeepSeek-V3.2-Exp",
+      "token_budget": "agent-tools",
+      "results": [
+        { "benchmark": "BrowseComp", "value": 40.1, "unit": "percent", "citation_id": "deepseek-v32" },
+        { "benchmark": "BrowseComp-zh", "value": 47.9, "unit": "percent", "citation_id": "deepseek-v32" },
+        { "benchmark": "SimpleQA", "value": 97.1, "unit": "percent", "citation_id": "deepseek-v32" },
+        { "benchmark": "SWE-bench Verified", "value": 67.8, "unit": "percent", "citation_id": "deepseek-v32" },
+        { "benchmark": "SWE-bench Multilingual", "value": 57.9, "unit": "percent", "citation_id": "deepseek-v32" }
+      ]
+    },
+    {
+      "lab": "DeepSeek",
+      "series": "DeepSeek-V4",
+      "model": "DeepSeek V4 Flash",
+      "token_budget": "non-thinking",
+      "results": [
+        { "benchmark": "MMLU-Pro", "value": 83.0, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "GPQA Diamond", "value": 71.2, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "HLE", "value": 8.1, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "LiveCodeBench", "value": 55.2, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "HMMT Feb 2026", "value": 40.8, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "Apex", "value": 1.0, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "MRCR 1M", "value": 37.5, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "Terminal-Bench 2.0", "value": 49.1, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "SWE-bench Verified", "value": 73.7, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "MCPAtlas", "value": 64.0, "unit": "percent", "citation_id": "deepseek-v4" }
+      ]
+    },
+    {
+      "lab": "DeepSeek",
+      "series": "DeepSeek-V4",
+      "model": "DeepSeek V4 Flash",
+      "token_budget": "high",
+      "results": [
+        { "benchmark": "MMLU-Pro", "value": 86.4, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "GPQA Diamond", "value": 87.4, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "HLE", "value": 29.4, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "LiveCodeBench", "value": 88.4, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "HMMT Feb 2026", "value": 91.9, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "Apex", "value": 19.1, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "MRCR 1M", "value": 76.9, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "Terminal-Bench 2.0", "value": 56.6, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "SWE-bench Verified", "value": 78.6, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "BrowseComp", "value": 53.5, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "HLE with tools", "value": 40.3, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "MCPAtlas", "value": 67.4, "unit": "percent", "citation_id": "deepseek-v4" }
+      ]
+    },
+    {
+      "lab": "DeepSeek",
+      "series": "DeepSeek-V4",
+      "model": "DeepSeek V4 Flash",
+      "token_budget": "max",
+      "results": [
+        { "benchmark": "MMLU-Pro", "value": 86.2, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "GPQA Diamond", "value": 88.1, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "HLE", "value": 34.8, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "LiveCodeBench", "value": 91.6, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "HMMT Feb 2026", "value": 94.8, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "Apex", "value": 33.0, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "MRCR 1M", "value": 78.7, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "Terminal-Bench 2.0", "value": 56.9, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "SWE-bench Verified", "value": 79.0, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "BrowseComp", "value": 73.2, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "HLE with tools", "value": 45.1, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "MCPAtlas", "value": 69.0, "unit": "percent", "citation_id": "deepseek-v4" }
+      ]
+    },
+    {
+      "lab": "DeepSeek",
+      "series": "DeepSeek-V4",
+      "model": "DeepSeek V4 Pro",
+      "token_budget": "non-thinking",
+      "results": [
+        { "benchmark": "MMLU-Pro", "value": 82.9, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "GPQA Diamond", "value": 72.9, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "HLE", "value": 7.7, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "LiveCodeBench", "value": 56.8, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "HMMT Feb 2026", "value": 31.7, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "Apex", "value": 0.4, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "MRCR 1M", "value": 44.7, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "Terminal-Bench 2.0", "value": 59.1, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "SWE-bench Verified", "value": 73.6, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "MCPAtlas", "value": 69.4, "unit": "percent", "citation_id": "deepseek-v4" }
+      ]
+    },
+    {
+      "lab": "DeepSeek",
+      "series": "DeepSeek-V4",
+      "model": "DeepSeek V4 Pro",
+      "token_budget": "high",
+      "results": [
+        { "benchmark": "MMLU-Pro", "value": 87.1, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "GPQA Diamond", "value": 89.1, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "HLE", "value": 34.5, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "LiveCodeBench", "value": 89.8, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "HMMT Feb 2026", "value": 94.0, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "Apex", "value": 27.4, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "MRCR 1M", "value": 83.3, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "Terminal-Bench 2.0", "value": 63.3, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "SWE-bench Verified", "value": 79.4, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "BrowseComp", "value": 80.4, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "HLE with tools", "value": 44.7, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "MCPAtlas", "value": 74.2, "unit": "percent", "citation_id": "deepseek-v4" }
+      ]
+    },
+    {
+      "lab": "DeepSeek",
+      "series": "DeepSeek-V4",
+      "model": "DeepSeek V4 Pro",
+      "token_budget": "max",
+      "results": [
+        { "benchmark": "MMLU-Pro", "value": 87.5, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "GPQA Diamond", "value": 90.1, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "HLE", "value": 37.7, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "LiveCodeBench", "value": 93.5, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "HMMT Feb 2026", "value": 95.2, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "Apex", "value": 38.3, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "MRCR 1M", "value": 83.5, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "Terminal-Bench 2.0", "value": 67.9, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "SWE-bench Verified", "value": 80.6, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "BrowseComp", "value": 83.4, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "HLE with tools", "value": 48.2, "unit": "percent", "citation_id": "deepseek-v4" },
+        { "benchmark": "MCPAtlas", "value": 73.6, "unit": "percent", "citation_id": "deepseek-v4" }
+      ]
+    }
+  ],
+  "model_inventory": [
+    { "lab": "OpenAI", "series": "GPT-5.1", "models": ["GPT-5.1 Thinking"], "citation_id": "openai-gpt51" },
+    { "lab": "OpenAI", "series": "GPT-5.2", "models": ["GPT-5.2 Thinking", "GPT-5.2 Pro"], "citation_id": "openai-gpt52" },
+    { "lab": "OpenAI", "series": "GPT-5.4", "models": ["GPT-5.4 Base", "GPT-5.4 Pro", "GPT-5.4 Mini", "GPT-5.4 Nano"], "citation_id": "openai-gpt54-mini-nano" },
+    { "lab": "OpenAI", "series": "GPT-5.5", "models": ["GPT-5.5", "GPT-5.5 Pro"], "citation_id": "arc-prize-openai" },
+    { "lab": "OpenAI", "series": "GPT-5.6", "models": ["GPT-5.6 Luna", "GPT-5.6 Terra", "GPT-5.6 Sol"], "citation_id": "arc-prize-openai" },
+    { "lab": "OpenAI", "series": "GPT-6", "models": ["GPT-6 Astra"], "citation_id": "openai-gpt6-astra" },
+    { "lab": "Google", "series": "Gemini 3.x", "models": ["Gemini 3.1 Pro", "Gemini 3.1 Deep Think", "Gemini 3.5 Flash", "Gemini 3.5 Flash-Lite", "Gemini 3.6 Flash", "Gemini 3.7 Flash", "Gemini 3.8 Flash"], "citation_id": "google-gemini-38" },
+    { "lab": "Anthropic", "series": "Claude 4.x/5", "models": ["Claude Haiku 4.5", "Claude Sonnet 4.5", "Claude Opus 4.5", "Claude Opus 4.6", "Claude Opus 4.7", "Claude Opus 4.8", "Claude Sonnet 5", "Claude Opus 5"], "citation_id": "anthropic-opus-46" },
+    { "lab": "Alibaba", "series": "Qwen3.5", "models": ["Qwen3.5-0.8B", "Qwen3.5-2B", "Qwen3.5-4B", "Qwen3.5-9B", "Qwen3.5-27B", "Qwen3.5-35B-A3B", "Qwen3.5-122B-A10B", "Qwen3.5-397B-A17B"], "citation_id": "qwen-35-large" },
+    { "lab": "Alibaba", "series": "Qwen3.6", "models": ["Qwen3.6-27B", "Qwen3.6-35B-A3B"], "citation_id": "qwen-35-large" },
+    { "lab": "Alibaba", "series": "Qwen3.8", "models": ["Qwen3.8-27B", "Qwen3.8-2.4T-A95B", "Qwen3.8-Max"], "citation_id": "qwen-35-large" },
+    { "lab": "DeepSeek", "series": "DeepSeek-V3", "models": ["DeepSeek-V3"], "citation_id": "deepseek-v32" },
+    { "lab": "DeepSeek", "series": "DeepSeek-R1", "models": ["DeepSeek-R1", "R1-Distill-Qwen-1.5B", "R1-Distill-Qwen-7B", "R1-Distill-Qwen-14B", "R1-Distill-Qwen-32B", "R1-Distill-Llama-8B", "R1-Distill-Llama-70B"], "citation_id": "deepseek-v32" },
+    { "lab": "DeepSeek", "series": "DeepSeek-V3.2-Exp", "models": ["DeepSeek-V3.2-Exp"], "citation_id": "deepseek-v32" },
+    { "lab": "DeepSeek", "series": "DeepSeek-V4", "models": ["DeepSeek V4 Flash", "DeepSeek V4 Pro"], "citation_id": "deepseek-v4" }
+  ]
+}

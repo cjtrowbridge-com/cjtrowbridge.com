@@ -1,6 +1,8 @@
 ---
 layout: project
 type: project
+status: posted
+published: true
 redirect_from:
   - /projects/current/hacking-weather-satellite-uplink/
   - /projects/future/hacking-weather-satellite-uplink/

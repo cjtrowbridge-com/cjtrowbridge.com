@@ -1,6 +1,8 @@
 ---
 layout: project
 type: project
+status: posted
+published: true
 redirect_from:
   - /projects/current/whisplay-chat-bot-build-list/
   - /projects/future/whisplay-chat-bot-build-list/
