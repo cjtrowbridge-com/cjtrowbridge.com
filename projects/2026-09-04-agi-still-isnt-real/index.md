@@ -36,7 +36,7 @@ Brockman cites a single benchmark score; [ARC-AGI-3](https://arcprize.org/blog/a
 
 Several things immediately jump out to me from these numbers; mainly the things Brockman's screenshot crops out from the report.
 
-<img src="/projects/2026-09-04-agi-still-isnt-real/astra.png" class="photo" alt="ARC-AGI-3 chart for Astra" >
+<img src="/projects/2026-09-04-agi-still-isnt-real/astra-arc-agi-3.PNG" class="photo" alt="ARC-AGI-3 chart for Astra" >
 
 First of all, OpenaI spent  $20-$50 thousand dollars in tokens for each of these results. This benchmark is primarily simple visual puzzle problems. And the humans whose score sets the 100% mark on the chart were paid $115 per 90-minute session. There is no indivation of how long these $50,000 Astra sessions took, but it's difficult to imagine a world where anyone would make the argument that the net present value of $50,000 in tokens is equivalent to $115 for 90 minutes of human labor.
 

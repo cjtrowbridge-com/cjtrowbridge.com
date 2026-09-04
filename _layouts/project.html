@@ -57,12 +57,6 @@
                             {{ page.pubdate | date: "%B %-d, %Y" }}
                         </time>
                     </span>
-                    <span>
-                        Updated
-                        <time datetime="{{ page.lastUpdated | date: '%Y-%m-%d' }}">
-                            {{ page.lastUpdated | date: "%B %-d, %Y" }}
-                        </time>
-                    </span>
                 </p>
                 {% if page.image %}
                     <img
@@ -76,6 +70,15 @@
             <div class="project-article-content">
                 {{ content }}
             </div>
+
+            <p class="project-article-dates mt-4">
+                <span>
+                    Updated
+                    <time datetime="{{ page.lastUpdated | date: '%Y-%m-%d' }}">
+                        {{ page.lastUpdated | date: "%B %-d, %Y" }}
+                    </time>
+                </span>
+            </p>
 
             <hr>
             <p><a href="/projects/">&larr; Back to Projects</a></p>
