@@ -14,8 +14,6 @@ AI, Sustainability, and Resiliency; in the forest, in the desert, and on TV.
   <i class="fa-regular fa-calendar"></i> Book Time With Me
 </a>
 
-{% include latest-projects.html %}
-
 #### I am making tchotchkes now!
 
 <div class="products">
@@ -70,5 +68,9 @@ Check out my [Gear List](https://cjtrowbridge.com/gear) for my recommended equip
   {% endif %}
 {% endfor %}
 </ul>
+
+<hr>
+
+{% include latest-projects.html %}
 
 <hr>
