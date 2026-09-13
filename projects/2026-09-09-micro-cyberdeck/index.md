@@ -19,6 +19,8 @@ lastUpdated: 2026-09-10
 
 The micro cyberdeck is a tiny, portable computer designed for computing in the palm of your hand. It has similar/better specs to a steam deck or steam machine depending on what you're doing with it, but in a much smaller form factor. It has a 1.54" x 1.54" 240x240 screen, a speaker, a headphone jack, a bunch of buttons, and a battery that should theoretically last about 13.9 hours doing normal tasks. It also has usb and hdmi out so it can be plugged into a docking station and used as a full desktop computer with a monitor, keyboard, and mouse. It even has a PCI-E-3 port for adding a desktop GPU or other expansion cards. Most of these specs match or exceed the steam deck/ steam machine. Though steam devices have a better GPU, they don't have an NPU specialized at local AI tasks.
 
+<img src="/projects/2026-09-09-micro-cyberdeck/micro-cyberdeck-orthogonal.jpg" class="photo" alt="Micro Cyberdeck Orthogonal View" >
+
 ## Capabilites
 
 This is a full ARM64 computer. It should technically support most Steam games through Proton, though not all of this is realistically going to work perfectly out of the box because a lot of it is still being implemented in the drivers and software.
@@ -31,7 +33,7 @@ It has a 1.54" x 1.54" 240x240 screen, a speaker, a headphone jack, a bunch of b
 AND, you can plug this into any USB-C docking station and essentially have a full working desktop machine with a normal monitor, keyboard, and mouse. It even supports a full desktop GPU through the PCI-E-3 port.
 
 
-(Photo will be added here)
+<img src="/projects/2026-09-09-micro-cyberdeck/micro-cyberdeck-side.jpg" class="photo" alt="Micro Cyberdeck Side View" >
 
 
 ## Parts List
