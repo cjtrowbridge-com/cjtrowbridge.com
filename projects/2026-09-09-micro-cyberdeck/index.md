@@ -27,7 +27,7 @@ The micro cyberdeck is a full arm64 computer in the palm of your hand. With simi
 
 <img src="/projects/2026-09-09-micro-cyberdeck/kit.jpg" class="full-width-photo" alt="Current travel kit with pwnagotchi, Flipper Zero, new micro-cyberdeck (with quarter for size comparison), HackRF Portapack H4M, and uConsole">
 
-For me, having a powerful AI-capable device as part of my travel kit is going to be immensely helpful. This will be a huge improvement over the uConsole which is enormous and comparatively far less powerful. 
+For me, having a tiny, powerful, AI-capable device as part of my travel kit is going to be immensely helpful. This will be a huge improvement over the uConsole which is enormous and comparatively far less powerful. 
 
 I know what you're thinking, and yes all of these devices talk to each other! Having the AI on the micro-cyberdeck be able to integrate with the other tools and operate them is a big part of the motivation for this project.
 
