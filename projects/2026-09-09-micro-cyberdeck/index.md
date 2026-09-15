@@ -23,7 +23,7 @@ The micro cyberdeck is a full arm64 computer in the palm of your hand. With simi
 
 **IMPORTANT:** this is a brand new board and support is limited. Parts of it are not going to easily work out of the box. It's going to take some work, and some reading, and some terminal use, and probably some vibe coding, but people are already gaming on these. I've got mine up and running to the point that it is working independently with local AI to figure out how to get the rest of the things working that aren't already working.
 
-<img src="/projects/2026-09-09-micro-cyberdeck/micro-cyberdeck-early-draft-case.jpg" class="photo" alt="Early draft case design showing bash terminal on screen and keypads to both sides" >
+<img src="/projects/2026-09-09-micro-cyberdeck/micro-cyberdeck-early-draft-case.jpg" class="photo" alt="Early draft case design showing bash terminal on screen and keypads to both sides" >  
 ***This is an early draft case design with the screen showing a bash terminal window, and the keypads on both sides of the screen. All my case designs are available for free in the link at the bottom.***
 
 ## Capabilities
