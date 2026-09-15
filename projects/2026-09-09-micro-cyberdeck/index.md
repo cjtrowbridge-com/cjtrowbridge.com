@@ -21,7 +21,11 @@ lastUpdated: 2026-09-13
 
 The micro cyberdeck is a full arm64 computer in the palm of your hand. With similar specs to a steamdeck, but significantly more local-AI capabiliy.
 
-## Capabilites
+**IMPORTANT:** this is a brand new board and support is limited. Parts of it are not going to easily work out of the box. It's going to take some work, and some reading, and some terminal use, and probably some vibe coding, but people are already gaming on these. I've got mine running for 
+
+<img src="/projects/2026-09-09-micro-cyberdeck/micro-cyberdeck-early-draft-case.jpg" class="photo" alt="Early draft case design showing bash terminal on screen and keypads to both sides" >
+
+## Capabilities
 
 This is a full arm64 computer. It should technically support most Steam games through Proton, though not all of this is realistically going to work perfectly out of the box because a lot of it is still being implemented in the drivers and software.
 
@@ -74,3 +78,12 @@ It would be awesome to find something like a [CaribouLite](https://www.crowdsupp
 #### Meshtastic
 
 I haven't been able to find a meshtastic hat for the zero form factor, but it would be cool to add one someday.
+
+
+### More Resources
+
+This hat is essentially a clone of [this board](https://spotpear.com/wiki/Raspberry-Pi-Game-1.54inch-LCD-touchscreen-display-ST7789.html) but this is but this clone has been modified with extra features like speakers, aux cord plug, and a battery charge controller which for me makes this clone much better than anything else on the market in this form factor.
+
+A lot of the drivers and details related to the original board are super helpful with getting it set up and running.
+
+Also, here is [a repo](https://github.com/cjtrowbridge/micro-cyberdeck) containing my canonical setup script which includes all the step's I've taken to get it up and running. I will continue to update this as I get more parts of it working, with the goal of eventually geting Cyberpunk 2077 to run on it.
