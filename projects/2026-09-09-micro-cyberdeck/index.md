@@ -21,7 +21,7 @@ lastUpdated: 2026-09-14
 
 The micro cyberdeck is a full arm64 computer in the palm of your hand. With similar specs to a steamdeck, but significantly more local-AI capability.
 
-**IMPORTANT:** this is a brand new board and support is limited. Parts of it are not going to easily work out of the box. It's going to take some work, and some reading, and some terminal use, and probably some vibe coding, but people are already gaming on these. I've got mine up and running to the point that it is working independently with local AI to figure out how to get the rest of the things working that aren't already working.
+**IMPORTANT:** this is a brand new board and support is limited. Parts of it are not going to easily work out of the box. It's going to take some work, and some reading, and some terminal use, and probably some vibe coding, but people are already gaming on these. I've got mine up and running to the point that it is working independently with local AI to figure out how to get the rest of the things working that aren't already working. I am very optimistic about this build and very excited about the specs and the potential, but it’s not going to be the easiest thing you’ve ever done.
 
 ## Why
 
