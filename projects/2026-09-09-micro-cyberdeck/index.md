@@ -24,6 +24,7 @@ The micro cyberdeck is a full arm64 computer in the palm of your hand. With simi
 **IMPORTANT:** this is a brand new board and support is limited. Parts of it are not going to easily work out of the box. It's going to take some work, and some reading, and some terminal use, and probably some vibe coding, but people are already gaming on these. I've got mine running for 
 
 <img src="/projects/2026-09-09-micro-cyberdeck/micro-cyberdeck-early-draft-case.jpg" class="photo" alt="Early draft case design showing bash terminal on screen and keypads to both sides" >
+***This is an early draft case design with the screen showing a bash terminal window, and the keypads on both sides of the screen. All my case designs are available for free in the link at the bottom.***
 
 ## Capabilities
 
@@ -82,8 +83,7 @@ I haven't been able to find a meshtastic hat for the zero form factor, but it wo
 
 ### More Resources
 
-This hat is essentially a clone of [this board](https://spotpear.com/wiki/Raspberry-Pi-Game-1.54inch-LCD-touchscreen-display-ST7789.html) but this is but this clone has been modified with extra features like speakers, aux cord plug, and a battery charge controller which for me makes this clone much better than anything else on the market in this form factor.
-
-A lot of the drivers and details related to the original board are super helpful with getting it set up and running.
-
-Also, here is [a repo](https://github.com/cjtrowbridge/micro-cyberdeck) containing my canonical setup script which includes all the step's I've taken to get it up and running. I will continue to update this as I get more parts of it working, with the goal of eventually geting Cyberpunk 2077 to run on it.
+- This hat is essentially a clone of [this board](https://spotpear.com/wiki/Raspberry-Pi-Game-1.54inch-LCD-touchscreen-display-ST7789.html) but this is but this clone has been modified with extra features like speakers, aux cord plug, and a battery charge controller which for me makes this clone much better than anything else on the market in this form factor.
+- A lot of the drivers and details related to the original board are super helpful with getting it set up and running.
+- Also, here is [a repo](https://github.com/cjtrowbridge/micro-cyberdeck) containing my canonical setup script which includes all the step's I've taken to get it up and running. I will continue to update this as I get more parts of it working, with the goal of eventually geting Cyberpunk 2077 to run on it.
+- Here are all [my case designs](https://github.com/cjtrowbridge/vibe-modeling/tree/main/output/micro_cyberdeck_case) for this micro-cyberdeck.
