@@ -82,7 +82,7 @@ All in the form factor of a Raspberry Pi Zero 😂
 
 <img src="/projects/2026-09-09-micro-cyberdeck/vscode.jpg" class="full-width-image" alt="VSCode is running!" >  
 
-Because it’s now so easy to run models locally, and because this device has a powerful NPU built in, it can take over the work on itself essentially as soon as you flash Armbian and install your preferred agentic harness.
+Because it’s now so easy to run models locally, and because this device has a powerful NPU built in, it can take over the work on itself essentially as soon as you flash Armbian and install something like ollama plus your preferred agentic harness and wire them together. I connected via SSH and gave it [the link](https://spotpear.com/wiki/Raspberry-Pi-Game-1.54inch-LCD-touchscreen-display-ST7789.html) to the list of drivers and configuration details and it took the wheel from there and got the screen working in no time.
 
 I started out by installing a desktop environment which was a little complicated, and then installing vs code so I could have it work on itself [in the public repo](https://github.com/cjtrowbridge/micro-cyberdeck) so you can see what it’s doing. Also because I want to figure out how to get the development environment to use higher resolutions than the screen natively supports on VNC or USB while still having it be somewhat legible on the screen. 
 
