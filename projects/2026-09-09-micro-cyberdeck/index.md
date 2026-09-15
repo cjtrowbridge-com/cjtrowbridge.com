@@ -15,7 +15,7 @@ description: A tiny cyberdeck built for high-power computing in the palm of your
 image: /projects/2026-09-09-micro-cyberdeck/micro-cyberdeck-orthogonal.jpg
 imageAlt: Micro Cyberdeck viewed from above
 pubdate: 2026-09-09
-lastUpdated: 2026-09-13
+lastUpdated: 2026-09-14
 ---
 
 
@@ -25,17 +25,17 @@ The micro cyberdeck is a full arm64 computer in the palm of your hand. With simi
 
 ## Why
 
-<img src="/projects/2026-09-09-micro-cyberdeck/kit.jpg" class="photo" alt="Current travel kit with pwnagotchi, Flipper Zero, new micro-cyberdeck (with quarter for size comparison), HackRF Portapack H4M, and uConsole">
+<img src="/projects/2026-09-09-micro-cyberdeck/kit.jpg" class="full-width-photo" alt="Current travel kit with pwnagotchi, Flipper Zero, new micro-cyberdeck (with quarter for size comparison), HackRF Portapack H4M, and uConsole">
 
 For me, having a powerful AI-capable device as part of my travel kit is going to be immensely helpful. This will be a huge improvement over the uConsole which is enormous and comparatively far less powerful. 
 
 I know what you're thinking, and yes all of these devices talk to each other! Having the AI on the micro-cyberdeck be able to integrate with the other tools and operate them is a big part of the motivation for this project.
 
-<img src="/projects/2026-09-09-micro-cyberdeck/kit.jpg" class="photo" alt="Current travel kit with pwnagotchi, Flipper Zero, HackRF Portapack H4M, and new micro-cyberdeck">
+<img src="/projects/2026-09-09-micro-cyberdeck/kit.jpg" class="full-width-photo" alt="Current travel kit with pwnagotchi, Flipper Zero, HackRF Portapack H4M, and new micro-cyberdeck">
 
 You can see in the second photo what a difference this makes, not just because it's much smaller and easier to pack but also because the micro-cyberdeck is far more powerful than the uConsole.
 
-<img src="/projects/2026-09-09-micro-cyberdeck/micro-cyberdeck-early-draft-case.jpg" class="photo" alt="Early draft case design showing bash terminal on screen and keypads to both sides" >  
+<img src="/projects/2026-09-09-micro-cyberdeck/micro-cyberdeck-early-draft-case.jpg" class="full-width-photo" alt="Early draft case design showing bash terminal on screen and keypads to both sides" ><br>
 ***This is an early draft case design with the screen showing a bash terminal window, and the keypads on both sides of the screen. All my case designs are available for free in the link at the bottom.***
 
 ## The Capabilities
@@ -49,7 +49,7 @@ It has a 1.54" x 1.54" 240x240 screen, a speaker, a headphone jack, a bunch of b
 AND, you can plug this into any USB-C docking station and essentially have a full working desktop machine with a normal monitor, keyboard, and mouse. It even supports a full desktop GPU through the PCI-E-3 port.
 
 
-<img src="/projects/2026-09-09-micro-cyberdeck/micro-cyberdeck-side.jpg" class="photo" alt="Micro Cyberdeck Side View" >
+<img src="/projects/2026-09-09-micro-cyberdeck/micro-cyberdeck-side.jpg" class="full-width-photo" alt="Micro Cyberdeck Side View" >
 
 
 ## Parts List
@@ -68,6 +68,9 @@ AND, you can plug this into any USB-C docking station and essentially have a ful
 - [My favorite SD Card](https://amzn.to/3UFslAQ)
   I've stress tested a lot of SD cards and this one is the best I've found.
 - I recommend running [Armbian](https://armbian.com/boards/orangepizero3w) instead of the sketchy OEM image. This is a brand new board so support is still a work in progress. Don't expect everything to be perfect yet, or ever. But my experience has been good so far.
+
+<img src="/projects/2026-09-09-micro-cyberdeck/vscode.jpg" class="full-width-image" alt="VSCode is running!" >  
+**Here you can see she has vscode open and she is working on herself. Hopefully she will be able to figure out these unresolved issues without much help from me.** 💅
 
 ### Known Unresolved Issues
 - I am still working on getting the built-in speaker and keypads working

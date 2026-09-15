@@ -94,6 +94,12 @@ h4{
     margin-bottom: 2rem;
     max-width: 400px;
 }
+.full-width-photo{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    max-width: 100%;
+}
 
 img{
     max-width: 100%;
