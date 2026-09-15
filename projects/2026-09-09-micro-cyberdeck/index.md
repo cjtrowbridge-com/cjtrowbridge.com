@@ -23,10 +23,22 @@ The micro cyberdeck is a full arm64 computer in the palm of your hand. With simi
 
 **IMPORTANT:** this is a brand new board and support is limited. Parts of it are not going to easily work out of the box. It's going to take some work, and some reading, and some terminal use, and probably some vibe coding, but people are already gaming on these. I've got mine up and running to the point that it is working independently with local AI to figure out how to get the rest of the things working that aren't already working.
 
+## Why
+
+<img src="/projects/2026-09-09-micro-cyberdeck/kit.jpg" class="photo" alt="Current travel kit with pwnagotchi, Flipper Zero, new micro-cyberdeck (with quarter for size comparison), HackRF Portapack H4M, and uConsole">
+
+For me, having a powerful AI-capable device as part of my travel kit is going to be immensely helpful. This will be a huge improvement over the uConsole which is enormous and comparatively far less powerful. 
+
+I know what you're thinking, and yes all of these devices talk to each other! Having the AI on the micro-cyberdeck be able to integrate with the other tools and operate them is a big part of the motivation for this project.
+
+<img src="/projects/2026-09-09-micro-cyberdeck/kit.jpg" class="photo" alt="Current travel kit with pwnagotchi, Flipper Zero, HackRF Portapack H4M, and new micro-cyberdeck">
+
+You can see in the second photo what a difference this makes, not just because it's much smaller and easier to pack but also because the micro-cyberdeck is far more powerful than the uConsole.
+
 <img src="/projects/2026-09-09-micro-cyberdeck/micro-cyberdeck-early-draft-case.jpg" class="photo" alt="Early draft case design showing bash terminal on screen and keypads to both sides" >  
 ***This is an early draft case design with the screen showing a bash terminal window, and the keypads on both sides of the screen. All my case designs are available for free in the link at the bottom.***
 
-## Capabilities
+## The Capabilities
 
 This is a full arm64 computer. It should technically support most Steam games through Proton, though not all of this is realistically going to work perfectly out of the box because a lot of it is still being implemented in the drivers and software.
 
