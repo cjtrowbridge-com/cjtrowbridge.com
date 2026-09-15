@@ -40,14 +40,22 @@ You can see in the second photo what a difference this makes, not just because i
 
 ## The Capabilities
 
-This is a full arm64 computer. It should technically support most Steam games through Proton, though not all of this is realistically going to work perfectly out of the box because a lot of it is still being implemented in the drivers and software.
+This is a full arm64 computer. It should technically support most Steam games through Proton, though not all of this is realistically going to work perfectly out of the box because a lot of it is still being implemented in the drivers and software. Running Cyberpunk 2077 is my stretch goal. 
 
-The arm64 CPU has eight cores, plus a separate RISC-V coprocessor, a GPU, an NPU (3 TOPS @ INT8), and up to 16gb of LPDDR5 RAM.
+- Full arm64 CPU has eight cores
+- A separate RISC-V coprocessor
+- A GPU
+- An NPU (3 TOPS @ INT8) 
+- Up to 16gb of LPDDR5 RAM (Only up to 12gb is actually available at this point)
+- A 1.54” x 1.54” 240x240 screen (but we’re up-scaling that to a more normal resolution)
+- A speaker
+- A headphone jack
+- Abunch of buttons
+- A battery that should theoretically last about 13.9 hours doing normal tasks
+- Two REAL USB-C ports that can do display-port-alt-mode, docking stations with a normal monitor, keyboard, and mouse, etc. 
+- It even supports a full desktop GPU connection through the PCI-E-3 port
 
-It has a 1.54" x 1.54" 240x240 screen, a speaker, a headphone jack, a bunch of buttons, and a battery that should theoretically last about 13.9 hours doing normal tasks.
-
-AND, you can plug this into any USB-C docking station and essentially have a full working desktop machine with a normal monitor, keyboard, and mouse. It even supports a full desktop GPU through the PCI-E-3 port.
-
+All in the form factor of a Raspberry Pi Zero 😂
 
 <img src="/projects/2026-09-09-micro-cyberdeck/micro-cyberdeck-side.jpg" class="full-width-photo" alt="Micro Cyberdeck Side View" >
 
