@@ -57,13 +57,14 @@ AND, you can plug this into any USB-C docking station and essentially have a ful
   I've stress tested a lot of SD cards and this one is the best I've found.
 - I recommend running [Armbian](https://armbian.com/boards/orangepizero3w) instead of the sketchy OEM image. This is a brand new board so support is still a work in progress. Don't expect everything to be perfect yet, or ever. But my experience has been good so far.
 
-### Currently Unresolved Issues
-- I am still working on getting the sound working
-- Testing case designs with better thermal management
+### Known Unresolved Issues
+- I am still working on getting the built-in speaker and keypads working
+- Testing case designs with better thermal management because the little fan struggles to keep up by itself and I want to keep the battery insulated from the SBC's heat
 - Testing [manufacturer's recommended ROMs](https://spotpear.com/wiki/Raspberry-Pi-Game-1.54inch-LCD-touchscreen-display-ST7789.html)
 - Getting steam/proton working
 - Building voice-interactive local agent software
   - Integrating with peripherals like Flipper Zero and pwnagotchi
+- It seems like there is a way to get the SBC to be aware of the battery's charge status but I haven't figured that out yet
 
 ### Future Opportunities
 
