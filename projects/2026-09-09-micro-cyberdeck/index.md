@@ -59,7 +59,7 @@ AND, you can plug this into any USB-C docking station and essentially have a ful
 
 ### Known Unresolved Issues
 - I am still working on getting the built-in speaker and keypads working
-- Testing case designs with better thermal management because the little fan struggles to keep up by itself and I want to keep the battery insulated from the SBC's heat
+- Testing [case designs](https://github.com/cjtrowbridge/vibe-modeling/tree/main/output/micro_cyberdeck_case) with better thermal management because the little fan struggles to keep up by itself and I want to keep the battery insulated from the SBC's heat
 - Testing [manufacturer's recommended ROMs](https://spotpear.com/wiki/Raspberry-Pi-Game-1.54inch-LCD-touchscreen-display-ST7789.html)
 - Getting steam/proton working
 - Building voice-interactive local agent software
