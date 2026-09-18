@@ -137,17 +137,6 @@ Notes from actually running it:
 - Verify it with the server's own metrics: `llamacpp:spec_decode_num_accepted_tokens_total` over `llamacpp:spec_decode_num_draft_tokens_total` is your acceptance rate. The harness measured it as counter deltas across requests, not log-reading. Target: 27B in the high 70s, 35B into the 80s, and accepted-tokens-per-verification above 2.
 - Spot-check the thermal story while you're at it. This matrix ran 120 W, 49–66 °C, no throttling. If your Thor is throttling, you're measuring a different problem than the one above.
 
-### In Ollama
-
-First, what's actually happening under Ollama: it wraps this same llama.cpp, and it serves the same MTP model variants. That means the exact same physics apply to your Ollama boxes — the built-in prediction head is doing the drafting, the main model is doing the verification, and the CUDA path is still the one going sideways. Ollama just exposes less of the control surface, so the mitigation lands in pieces.
-
-1. **Pull an MTP variant of the model.** `ollama pull qwen3.8:27b-mtp-q4_K_M` (or `qwen3.6:35b-a3b-mtp-q4_K_M`). That's what turns on the built-in head — and it's the only part of the mitigation Ollama can express in the first place. Without the MTP variant, `draft-mtp` has nothing to draft with.
-2. **The draft-depth limit is the gap.** Ollama doesn't expose the `--spec-draft-n-max`-style flags. Whatever depth your Ollama build's llama.cpp defaults to is what you get — if that default is more than one, you're paying the draft-depth tax with no knob to turn it down.
-3. **Everything else stays default.** The mitigation has no Ollama-side configuration beyond the model tag. Context stays at the model's full 262k window, sampling stays the model's own parameters, and no other `options` entry is part of this fix — the speed-up doesn't cost context or anything else.
-4. **Decision tree.** Single-stream work (agent loops, one box): the MTP variant already wins handsomely, and that's the whole story you can tell in Ollama today. But you can't verify which draft depth it's actually using, so for a workload where the full mitigation matters, run llama-server directly with the flags above.
-
-It will get better; Ollama's parameter surface is growing. Until "set the draft depth" is a first-class option, llama-server is the honest way to run the full mitigation.
-
 ## What the community is already tracking
 
 This was never a one-off machine quirk, and I'm not the only one seeing it. These are the public receipts that the CUDA-path bug is a known thing — the community has already done its half:
