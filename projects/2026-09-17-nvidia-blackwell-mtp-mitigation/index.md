@@ -135,6 +135,10 @@ Notes from actually running it:
 - Verify it with the server's own metrics: `llamacpp:spec_decode_num_accepted_tokens_total` over `llamacpp:spec_decode_num_draft_tokens_total` is your acceptance rate. The harness measured it as counter deltas across requests, not log-reading. Target: 27B in the high 70s, 35B into the 80s, and accepted-tokens-per-verification above 2.
 - Spot-check the thermal story while you're at it. This matrix ran 120 W, 49–66 °C, no throttling. If your Thor is throttling, you're measuring a different problem than the one above.
 
+## Ollama Mitigation
+
+Ollama uses llama.cpp under the hood, so the mitigation above just needs to be applied inside the ollama container for the models where it applies, defaulting to no mtp for other models. Your agents should be able to handle this.
+
 ## What the community is already tracking
 
 This was never a one-off machine quirk, and I'm not the only one seeing it. These are the public receipts that the CUDA-path bug is a known thing — the community has already done its half:
