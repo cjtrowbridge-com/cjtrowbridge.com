@@ -68,7 +68,11 @@
             </header>
 
             <div class="project-article-content">
-                {{ content }}
+                {% assign rendered_content =
+                    content
+                    | replace: '<table>', '<div class="table-responsive"><table class="table table-hover">'
+                    | replace: '</table>', '</table></div>' %}
+                {{ rendered_content }}
             </div>
 
             <p class="project-article-dates mt-4">
