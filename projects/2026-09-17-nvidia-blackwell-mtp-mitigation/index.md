@@ -12,6 +12,8 @@ redirect_from:
   - /projects/past/2026-09-17-nvidia-blackwell-mtp-mitigation/
 title: NVIDIA Broke All Blackwells But I Have A Temporary Fix
 description: I threw two-hundred-million tokens at this problem and found a patch (50% speed-up) until NVIDIA fixes their broken blackwell drivers.
+image: /projects/2026-09-17-nvidia-blackwell-mtp-mitigation/blackwell-broken.fw.png
+imageAlt: Abstract dark image of shattered black glass
 pubdate: 2026-09-17
 lastUpdated: 2026-09-18
 ---
