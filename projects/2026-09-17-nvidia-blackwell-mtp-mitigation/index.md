@@ -18,9 +18,9 @@ pubdate: 2026-09-17
 lastUpdated: 2026-09-18
 ---
 
-NVIDIA broke a critical feature on all their current-generation Blackwell GPUs, including those on my Jetson Thors. I noticed that despite the fact MTP was enabled, I was seeing surprisingly low inference speeds on models like qwen3.8:27b and qwen3.6:35b-a3b.
-
 NOTE: This is experimental. Don't rely on this in production. Please provide feedback if you have any issues or find a better approach.
+
+NVIDIA broke a critical feature on all their current-generation Blackwell GPUs, including those on my Jetson Thors. I noticed that despite the fact MTP was enabled, I was seeing surprisingly low inference speeds on models like qwen3.8:27b and qwen3.6:35b-a3b. Blackwells are already pretty fast, so it would be easy to mistake broken speculative decoding for normal and expected Blackwell speeds. They should be working much faster than they currently are.
 
 Both of these models include a feature called speculative decoding. The qwen implementation of speculative decoding is called mtp for multi-token prediction. A LLM has to do all of its math for every token it predicts. But sometimes there are times where it's very obvious what the next token or next few tokens are going to be. Speculative decoding pairs the full-size model with a smaller model which creates drafts of what it thinks the model is about to say. The big model can then select from those drafts instead of doing all the work of typing out each of the characters. I was excited to try these models on blackwell because I knew this feature should enable a speed-ups of some hundreds of percent.
 
