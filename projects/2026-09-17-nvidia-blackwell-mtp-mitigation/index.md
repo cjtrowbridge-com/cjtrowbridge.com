@@ -92,9 +92,7 @@ Read that last 27B row again: at depth 6, MTP is **14.28% slower than not runnin
 | Model | Pre-mitigation MTP (default draft depth) | Post-mitigation MTP (draft depth capped at 1) |
 | --- | --- | --- |
 | 27B | **13.14 t/s** · +31% vs non-MTP · **37.85%** acceptance · 1.13 tokens accepted per verification | **15.22 t/s** · **+45.58%** · **71.48%** · **2.404** per pass |
-| 35B | **52.60 t/s** · +4.4% | **66.98 t/s** · **+20.60%** · **89.26%** · **2.124** per pass |
-
-A retained September 11 benchmark window tells the 35B story in absolute terms too: **56.64 t/s → 66.98 t/s (+18.26%)**. That's a different window than the matched-control matrix above, so I keep the two comparisons separate instead of blending the numbers.
+| 35B | **52.60 t/s** | **66.98 t/s** · **+20.60%** · **89.26%** · **2.124** per pass |
 
 How the matrix was run: 16 configurations — two models × MTP depths 1/2/3/4/6, plus a non-MTP control interleaved through each block so drift shows up as drift instead of masquerading as an MTP win. Fixed prompt, temperature 0, seed 1337, 512-token generation limit. Two warmup requests for MTP configs, one for controls, and every number above is the median of five measured requests. After the matrix, the chosen depth and its control were repeated in *reversed order* as a check: the 27B stayed close to the main result; the 35B depth-1 repeat came in at 60.97 t/s against 66.98, and its control repeat was clearly abnormal. The main 35B matrix was internally consistent, and that's what I'm standing on.
 
