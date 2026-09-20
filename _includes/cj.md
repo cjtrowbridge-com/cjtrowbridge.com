@@ -36,7 +36,7 @@ AI, Sustainability, and Resiliency; in the forest, in the desert, and on TV.
   - [2022](https://open.spotify.com/playlist/37i9dQZF1F0sijgNaJdgit?si=azUYm-ktR8-449aC4OPJvA)
 
 ### Recent Longform Interviews:
-  - [Running AI at home on the Vergecast](https://www.youtube.com/watch?v=BORNUd_FdLA&t=3132s)
+  - [Running AI at home on the Vergecast](https://youtu.be/BORNUd_FdLA?t=2945)
   - [Ethical artificial Intelligence with Future Infinitive and The Real Cornpop](https://www.youtube.com/watch?v=RUmM1ymH9fg)
   - [Communal Comms and Land Projects - SAD FRANCISCO](https://www.youtube.com/watch?v=_j0FikDdEn4)
   - [Operational Security (OPSEC) - Artificial Intelligence and the Cyberpony Express Meshtastic Network](https://www.youtube.com/watch?v=z5k--VjGQjA)

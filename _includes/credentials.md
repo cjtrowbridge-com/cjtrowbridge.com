@@ -6,6 +6,7 @@
 
 ### Recent Longform Interviews
 
+- [Running AI at home on the Vergecast](https://youtu.be/BORNUd_FdLA?t=2945)
 - [Dean Preson's PUML is Punching Up](https://sf.gazetteer.co/dean-prestons-puml-is-punching-up)
 - [Intelligent Machines with Leo Laporte](https://www.youtube.com/watch?v=Bct0S0-6nrE)
 - [The Verge: Chipwrecked by Elizabeth Lopatto](https://www.theverge.com/ai-artificial-intelligence/848988/nvidia-chip-loans-coreweave-gpu-debt-ai-neocloud)
