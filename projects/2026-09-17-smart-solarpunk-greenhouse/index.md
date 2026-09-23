@@ -58,6 +58,8 @@ Reputable TPU is the essential filament to use for 3d printing safe equipment th
 
 For the [Indigenous Solidarity Garden Project](https://www.gofundme.com/f/indigenous-solidarity-gardens-endangered-species), I use [these planters](https://link.amazon/B07jFRVhQ) which are good at keeping the seeds humid while they get established, and then I can sticker them and give them to the Indigenous spiritual leaders.
 
+<img src="/projects/2026-09-17-smart-solarpunk-greenhouse/intelligence-prototype.jpg" class="full-width-photo" alt="Greenhouse Intelligence System">
+
 ### Intelligence
 
 - [My Intelligence Backplane 3D Model](https://github.com/cjtrowbridge/vibe-modeling/tree/main/output/solarpunk_intelligence_hub)
