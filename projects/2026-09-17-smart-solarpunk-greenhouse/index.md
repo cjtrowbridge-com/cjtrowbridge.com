@@ -13,11 +13,9 @@ redirect_from:
 title: Smart Solarpunk Greenhouse
 description: A back-yard greenhouse with hydroponics, aquaponics, and solar-powered intelligence.
 image: /projects/2026-09-17-smart-solarpunk-greenhouse/greenhouse.jpg
-pubdate: 2026-09-17
-lastUpdated: 2026-09-17
+pubdate: 2026-09-23
+lastUpdated: 2026-09-23
 ---
-
-<img src="/projects/2026-09-17-smart-solarpunk-greenhouse/greenhouse.jpg" class="full-width-photo" alt="Smart Solarpunk Greenhouse">
 
 The idea is a greenhouse that runs mostly on its own: solar in, food out, with a local model doing the slow decisions and a cheap microcontroller doing the fast ones. No cloud round-trips, no subscription, no phone required to keep the beggies alive. 
 
