@@ -1,8 +1,8 @@
 ---
-layout: project
+layout: projectNoImage
 type: project
-status: draft
-published: false
+status: posted
+published: true
 redirect_from:
   - /projects/current/the-frontier/
   - /projects/future/the-frontier/
@@ -12,6 +12,7 @@ redirect_from:
   - /projects/past/2026-09-29-the-frontier/
 title: The Frontier
 description: What actually is the frontier?
+image: /projects/2026-09-29-the-frontier/frontier.png
 pubdate: 2026-09-29
 lastUpdated: 2026-09-29
 ---
@@ -22,7 +23,7 @@ lastUpdated: 2026-09-29
 </a>
 
 The underlying data:
-[the taxonomy — every lab, model, benchmark score, and its sources](llm-pareto-frontier/taxonomy/index.md)
+[the taxonomy — every lab, model, benchmark score, and its sources](https://github.com/cjtrowbridge/llm-pareto-frontier/tree/main/taxonomy)
 
 People have this idea that "the frontier" means whatever is most expensive at any given moment. The reality is that a frontier is a boundary taht stretches across a range of possiblities. (Click the linear frontier button to see the difference)
 
