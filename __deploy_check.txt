@@ -1,0 +1,4 @@
+len=25294
+responsive_wraps=3
+bootstrap_table_class=3
+bare_tables=0
