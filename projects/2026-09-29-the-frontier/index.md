@@ -16,11 +16,10 @@ image: /projects/2026-09-29-the-frontier/frontier.png
 pubdate: 2026-09-29
 lastUpdated: 2026-09-29
 ---
-<a href="/projects/2026-09-29-the-frontier/capability-cost.svg">
-    <img src="/projects/2026-09-29-the-frontier/capability-cost.svg"
-         alt="Capability vs cost for 52 frontier models, with the Pareto frontier envelope"
-         class="full-width-photo">
-</a>
+<object type="image/svg+xml"
+        data="/projects/2026-09-29-the-frontier/capability-cost.svg"
+        aria-label="Capability vs cost for 52 frontier models, with the Pareto frontier envelope"
+        style="width: 100%; max-width: 100%; margin-top: 2rem; margin-bottom: 2rem; border: 0"></object>
 
 The underlying data:
 [the taxonomy — every lab, model, benchmark score, and its sources](https://github.com/cjtrowbridge/llm-pareto-frontier/tree/main/taxonomy)
